@@ -1,0 +1,487 @@
+import TriggerEditor as TE;
+var BossSpellHP = 0;
+function RaidBoss(){
+            //RaidBoss
+            //RaidBossAim
+            if(
+                Deaths((7), (10), 7, (153))
+            ){
+                var Random2;
+                SetDeaths((7), (7), 0, (184));
+                for(var i = 0 ; i < 6 ; i++){
+                    if(
+                        Deaths((i), (10), 7, (92))
+                    ){
+                        SetDeaths((7), (8), 1, (184));
+                    }
+                }
+                if(
+                    Deaths((7), (0), 1, (184))
+                ){
+                    Random2 = dwrand() % (dwread_epd(EPD(0x58A364 + 48 * 184 + 4 * 7))-1 + 1);
+                    SetDeaths((7), (7), Random2, (153));
+                    for(var i = 0 ; i < 5 ; i++){
+                        if(
+                            !Deaths((i), (10), 7, (92)) && 
+                            Deaths((7), (0), i, (153))
+                        ){
+                            SetDeaths((7), (8), 1, (153));
+                        }
+                    }
+                    SetDeaths((7), (8), 1, (153));
+                }
+                else{
+                    SetDeaths((7), (7), 8, (153));
+                }
+            }
+            //RaidBossAim
+            //RaidBossStarcraport
+            if(
+                Deaths((6), (10), 27, (212)) && 
+                Memory(0x6283F0, (1), 1698)
+            ){
+                TE.NumPlyr = TE.GetNumPlyr();
+                if(
+                    TE.NumPlyr >= 3
+                ){
+                    dwwrite(0x65FD00 + 9808 + 114 * 4, dwread(0x65FD00 + 9808 + 114 * 4) + 332800 * (TE.NumPlyr-2));
+                    wwrite(0x65FD00 + 4352 + 114 * 2, wread(0x65FD00 + 4352 + 114 * 2) + 500 * (TE.NumPlyr-2));
+                }
+                TE.Boss = epdread_epd(EPD(0x628438));
+                BossSpellHP = 332800 * TE.NumPlyr;
+                if(
+                    Switch((38), (2))
+                ){
+                    BossSpellHP *= 2;
+                }
+                SetDeaths((6), (7), 0, (212));
+                CreateUnit(1, (114), (152), (7));
+            }
+            if(
+                Command((7), (0), 1, (114)) && 
+                TE.Boss != 0
+            ){
+                TE.HealUnit(TE.Boss,106);
+                if(
+                    MemoryEPD(TE.Boss + 0x008 / 4, AtMost, BossSpellHP) && 
+                    MemoryEPD(TE.Boss + 0x060 / 4, AtMost, 128) && 
+                    Deaths((7), (10), 0, (165))
+                ){
+                    SetDeaths((7), (7), 1, (165));
+                }
+                if(
+                    Deaths((6), (0), 60, (165)) && 
+                    Deaths((8), (10), 3, (165)) && 
+                    Deaths((9), (10), 0, (165)) && 
+                    Memory(0x6283F0, (1), 1699)
+                ){
+                    SetDeaths((9), (7), 4, (165));
+                    MoveLocation((97), (114), (7), (203));
+                    var Angle = 0;
+                    Angle = dwrand() % (23 + 1);
+                    Angle *= 15;
+                    TE.PolarLocation(96,512,Angle);
+                    Angle += 90;
+                    Angle = Angle * 256 / 360;
+                    var NewBullet;
+                    NewBullet = epdread_epd(EPD(0x628438));
+                    CreateUnit(1, (98), (10), (7));
+                    MoveUnit(0, (98), (7), (10), (204));
+                    SetMemoryEPD(NewBullet + 0x034 / 4, SetTo, 2707);
+                    bwrite_epd(NewBullet + 0x021 / 4,  0x021 % 4, Angle);
+                    bwrite_epd(NewBullet + 0x023 / 4,  0x023 % 4, Angle);
+                    TE.COrderLocEPD(NewBullet,6,96);
+                    RemoveUnitAt(0, (98), (10), (9));
+                }
+                if(
+                    Deaths((7), (0), 36, (165)) && 
+                    Deaths((8), (10), 4, (165))
+                ){
+                    MoveLocation((97), (11), (6), (203));
+                    if(
+                        dwread_epd(EPD(0x58A364 + 48 * 165 + 4 * 7)) % 6 == 0
+                    ){
+                        GiveUnits(1, (13), (6), (114), (8));
+                        CreateUnit(1, (19), (10), (7));
+                        GiveUnits(1, (19), (7), (10), (8));
+                        MoveUnit(1, (13), (8), (114), (97));
+                        MoveUnit(1, (19), (8), (10), (97));
+                        KillUnitAt(0, (19), (203), (8));
+                    }
+                    if(
+                        Deaths((9), (0), 60, (165)) && 
+                        dwread_epd(EPD(0x58A364 + 48 * 165 + 4 * 7)) % 3 == 0 && 
+                        Memory(0x6283F0, (1), 1694)
+                    ){
+                        var AddAngle = 0;
+                        if(
+                            Deaths((9), (0), 75, (165))
+                        ){
+                            if(
+                                Switch((38), (3))
+                            ){
+                                SetDeaths((9), (7), 0, (165));
+                                KillUnitAt(0, (13), (203), (7));
+                            }
+                            else{
+                                AddAngle = 30;
+                            }
+                        }
+                        if(
+                            Deaths((9), (0), 90, (165))
+                        ){
+                            SetDeaths((9), (7), 0, (165));
+                            KillUnitAt(0, (13), (203), (7));
+                        }
+                        for(var i = 0 ; i < 6 ; i++){
+                            MoveLocation((97), (11), (6), (203));
+                            MoveUnit(0, (11), (6), (9), (23));
+                            TE.CreateBullet(7,i*60 + 30 - AddAngle,2707);
+                        }
+                    }
+                }
+                if(
+                    Deaths((7), (0), 36, (165)) && 
+                    Deaths((8), (10), 5, (165))
+                ){
+                    if(
+                        Deaths((7), (10), 37, (165))
+                    ){
+                        GiveUnits(0, (100), (6), (203), (10));
+                        foreach(ptr, epd : EUDLoopPlayerUnit(10) ) {
+                            if(
+                                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 100
+                            ){
+                                bwrite_epd(epd + 0x117 / 4,  0x117 % 4, 255);
+                            }
+                        }
+                        GiveUnits(0, (100), (10), (203), (6));
+                    }
+                    if(
+                        Deaths((9), (10), 30, (165)) && 
+                        Memory(0x6283F0, (1), 1699)
+                    ){
+                        var Battlecruiser;
+                        var TargetPlayer = 6;
+                        if(
+                            Deaths((7), (0), 1, (153)) && 
+                            Deaths((7), (1), 6, (153))
+                        ){
+                            TargetPlayer = dwread_epd(EPD(0x58A364 + 48 * 153 + 4 * 7)) -1;
+                        }
+                        Battlecruiser = epdread_epd(EPD(0x628438));
+                        var Zealot = 0;
+                        MoveUnit(1, (114), (7), (203), (152));
+                        CreateUnit(1, (29), (10), (7));
+                        ModifyUnitEnergy(0, (29), (7), (10), 100);
+                        SetInvincibility((4), (29), (7), (10));
+                        MoveUnit(1, (29), (7), (10), (83));
+                        MoveUnit(1, (114), (7), (152), (203));
+                        GiveUnits(0, (100), (6), (203), (10));
+                        foreach(ptr, epd : EUDLoopPlayerUnit(10) ) {
+                            if(
+                                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 100 && 
+                                TE.CBringEPD(epd,133)
+                            ){
+                                Zealot = ptr;
+                                break;
+                            }
+                        }
+                        GiveUnits(0, (100), (10), (203), (6));
+                        bwrite_epd(Battlecruiser + 0x04D / 4,  0x04D % 4, 113);
+                        if(
+                            Zealot == 0
+                        ){
+                            bwrite(0x58D2B0 + 0x207C * ((55) / 46) + (7) * (46 - 31 * ((55) / 46)) + ((55) % 46), 1);
+                            if(
+                                TargetPlayer <= 5 && 
+                                Deaths((TargetPlayer), (10), 7, (92))
+                            ){
+                                SetMemoryEPD(Battlecruiser + 0x05C / 4, SetTo, (4*TE.Heroes[TargetPlayer])+0x58A364);
+                                if(
+                                    Bring((TargetPlayer), (0), 1, (78), (203)) && 
+                                    Bring((TargetPlayer), (10), 0, (78), (98))
+                                ){
+                                    SetMemoryEPD(Battlecruiser + 0x05C / 4, SetTo, (4*TE.SubUnit[TargetPlayer])+0x58A364);
+                                }
+                            }
+                            else{
+                                KillUnitAt(0, (29), (9), (7));
+                            }
+                        }
+                        else{
+                            bwrite(0x58D2B0 + 0x207C * ((55) / 46) + (7) * (46 - 31 * ((55) / 46)) + ((55) % 46), 0);
+                            SetMemoryEPD(Battlecruiser + 0x05C / 4, SetTo, Zealot);
+                        }
+                    }
+                }
+            }
+            //RaidBossStarcraport
+            //RaidBossSuperlair
+            if(
+                Deaths((6), (10), 28, (212)) && 
+                Memory(0x6283F0, (1), 1698)
+            ){
+                TE.NumPlyr = TE.GetNumPlyr();
+                if(
+                    TE.NumPlyr >= 3
+                ){
+                    dwwrite(0x65FD00 + 9808 + 132 * 4, dwread(0x65FD00 + 9808 + 132 * 4) + 384000 * (TE.NumPlyr-2));
+                    wwrite(0x65FD00 + 4352 + 132 * 2, wread(0x65FD00 + 4352 + 132 * 2) + 500 * (TE.NumPlyr-2));
+                    dwwrite(0x65FD00 + 9808 + 35 * 4, dwread(0x65FD00 + 9808 + 35 * 4) + 12800 * (TE.NumPlyr-2));
+                }
+                BossSpellHP = 64000 * TE.NumPlyr;
+                if(
+                    Switch((38), (2))
+                ){
+                    BossSpellHP *= 2;
+                }
+                TE.Boss = epdread_epd(EPD(0x628438));
+                SetDeaths((6), (7), 0, (212));
+                CreateUnit(1, (132), (152), (7));
+                TE.QskillCooldownPvE[7] = 15;
+                TE.WskillCooldownPvE[7] = 5;
+                TE.EskillCooldownPvE[7] = 20;
+            }
+            if(
+                Command((7), (0), 1, (132)) && 
+                Switch((37), (2)) && 
+                TE.Boss != 0
+            ){
+                if(
+                    Switch((38), (2)) && 
+                    MemoryEPD(TE.Boss + 0x008 / 4, AtMost, BossSpellHP) && 
+                    MemoryEPD(TE.Boss + 0x060 / 4, AtMost, 128) && 
+                    Deaths((7), (10), 0, (165))
+                ){
+                    SetDeaths((7), (7), 1, (165));
+                }
+                if(
+                    Command((7), (0), 1, (35)) && 
+                    Deaths((7), (10), 0, (207))
+                ){
+                    var RedLarva = 0;
+                    var BlueLarva = 0;
+                    var YellowLarva = 0;
+                    var GreenLarva = 0;
+                    var RainbowLarva = 0;
+                    var MaxHP = 0;
+                    var CurrentPhase = 0;
+                    MaxHP = dwread(0x65FD00 + 9808 + 132 * 4);
+                    MaxHP /= 4;
+                    CurrentPhase = dwread_epd(TE.Boss + 0x008 / 4);
+                    CurrentPhase = 4-(CurrentPhase/MaxHP);
+                    foreach(ptr, epd : EUDLoopPlayerUnit(7) ) {
+                        if(
+                            wread_epd(epd + 0x064 / 4,  0x064 % 4) == 35
+                        ){
+                            var LarvaColor;
+                            LarvaColor = dwread_epd(epd + 0x00C / 4);
+                            LarvaColor = bread(LarvaColor + 0x0A);
+                            if(
+                                LarvaColor != 7 && 
+                                Deaths((7), (0), 1, (165))
+                            ){
+                                continue;
+                            }
+                            switch(LarvaColor) {
+                                case 7:
+                                    if(
+                                        Switch((1), (3)) && 
+                                        Switch((2), (3))
+                                    ){
+                                        TE.SetUnitColor(ptr,0);
+                                    }
+                                    if(
+                                        Switch((1), (2)) && 
+                                        Switch((2), (3))
+                                    ){
+                                        TE.SetUnitColor(ptr,3);
+                                    }
+                                    if(
+                                        Switch((1), (3)) && 
+                                        Switch((2), (2))
+                                    ){
+                                        TE.SetUnitColor(ptr,4);
+                                    }
+                                    if(
+                                        Switch((1), (2)) && 
+                                        Switch((2), (2))
+                                    ){
+                                        TE.SetUnitColor(ptr,10);
+                                    }
+                                    if(
+                                        CurrentPhase >= 2 && 
+                                        Command((7), (1), CurrentPhase-1, (35))
+                                    ){
+                                        TE.SetUnitColor(ptr,8);
+                                    }
+                                break;
+                                case 0:
+                                    RedLarva += 1;
+                                    if(
+                                        TE.QskillCooldownPvE[7] >= 1
+                                    ){
+                                        TE.QskillCooldownPvE[7] -= 1;
+                                    }
+                                break;
+                                case 3:
+                                    BlueLarva += 1;
+                                    if(
+                                        TE.WskillCooldownPvE[7] >= 1
+                                    ){
+                                        TE.WskillCooldownPvE[7] -= 1;
+                                    }
+                                break;
+                                case 4:
+                                    YellowLarva += 1;
+                                    if(
+                                        TE.EskillCooldownPvE[7] >= 1
+                                    ){
+                                        TE.EskillCooldownPvE[7] -= 1;
+                                    }
+                                break;
+                                case 10:
+                                    GreenLarva += 1;
+                                    TE.HealUnit(TE.Boss,512);
+                                break;
+                                case 8:
+                                    RedLarva += 1;
+                                    BlueLarva += 1;
+                                    YellowLarva += 1;
+                                    GreenLarva += 1;
+                                    RainbowLarva += 1;
+                                    if(
+                                        TE.QskillCooldownPvE[7] >= 1
+                                    ){
+                                        TE.QskillCooldownPvE[7] -= 1;
+                                    }
+                                    if(
+                                        TE.WskillCooldownPvE[7] >= 1
+                                    ){
+                                        TE.WskillCooldownPvE[7] -= 1;
+                                    }
+                                    if(
+                                        TE.EskillCooldownPvE[7] >= 1
+                                    ){
+                                        TE.EskillCooldownPvE[7] -= 1;
+                                    }
+                                    TE.HealUnit(TE.Boss,512);
+                                break;
+                            }
+                        }
+                    }
+                    if(
+                        Bring((14), (0), 1, (230), (98))
+                    ){
+                        if(
+                            RedLarva >= 1
+                        ){
+                            if(
+                                TE.QskillCooldownPvE[7] == 0 && 
+                                Bring((9), (10), 0, (47), (203))
+                            ){
+                                TE.QskillCooldownPvE[7] = 20;
+                                SetDeaths((7), (7), 7, (153));
+                                CreateUnit(1, (47), (10), (7));
+                                GiveUnits(0, (47), (7), (10), (9));
+                                SetInvincibility((4), (47), (9), (10));
+                                MoveUnit(0, (47), (9), (10), (203));
+                            }
+                        }
+                        else{
+                            TE.QskillCooldownPvE[7] = 15;
+                        }
+                        if(
+                            BlueLarva >= 1
+                        ){
+                            if(
+                                TE.WskillCooldownPvE[7] == 0 && 
+                                Bring((14), (0), 1, (47), (204))
+                            ){
+                                TE.WskillCooldownPvE[7] = 30;
+                                MoveLocation((107), (132), (7), (9));
+                                KillUnitAt(0, (47), (107), (14));
+                                CreateUnit(1, (82), (107), (7));
+                                KillUnitAt(0, (82), (9), (7));
+                            }
+                        }
+                        else{
+                            TE.WskillCooldownPvE[7] = 5;
+                        }
+                        if(
+                            YellowLarva >= 1
+                        ){
+                            if(
+                                Bring((7), (1), 3, (37), (204))
+                            ){
+                                if(
+                                    TE.EskillCooldownPvE[7] == 0
+                                ){
+                                    TE.EskillCooldownPvE[7] = 45;
+                                    CreateUnit(3, (37), (10), (7));
+                                    CreateUnit(3, (43), (10), (7));
+                                    GiveUnits(0, (43), (7), (10), (9));
+                                    for(var i = 0 ; i < 3 ; i++){
+                                        var Loc = 208+i*2+TE.Random % 2;
+                                        MoveUnit(1, (37), (7), (10), (Loc));
+                                        MoveUnit(1, (43), (9), (10), (Loc));
+                                    }
+                                    KillUnit((43), (9));
+                                    MoveLocation((97), (230), (14), (98));
+                                    Order((37), (7), (203), (2), (97));
+                                }
+                            }
+                            else{
+                                TE.EskillCooldownPvE[7] = 20;
+                            }
+                        }
+                        else{
+                            TE.EskillCooldownPvE[7] = 25;
+                        }
+                        if(
+                            Command((7), (10), 3, (35)) && 
+                            CurrentPhase >= 2 && 
+                            RainbowLarva == 0
+                        ){
+                            KillUnitAt(1, (35), (9), (13));
+                        }
+                        if(
+                            BlueLarva+GreenLarva-RainbowLarva*2 >= 3 && 
+                            Deaths((6), (10), 0, (165)) && 
+                            Deaths((7), (10), 0, (165)) && 
+                            Deaths((8), (10), 0, (165))
+                        ){
+                            KillUnitAt(1, (35), (9), (7));
+                            SetDeaths((8), (7), 1, (165));
+                        }
+                    }
+                }
+                if(
+                    Deaths((8), (10), 1, (165)) && 
+                    Deaths((6), (1), 228, (165)) && 
+                    Deaths((6), (0), 61, (165)) && 
+                    dwread_epd(EPD(0x58A364 + 48 * 165 + 4 * 6)) % 3 == 0
+                ){
+                    for(var i = 0 ; i < 2 ; i++){
+                        MoveLocation((97), (132), (7), (83));
+                        TE.CreateBullet(7,dwread_epd(EPD(0x58A364 + 48 * 165 + 4 * 6)) * 3 + 36 + i * 180,1707);
+                    }
+                }
+                if(
+                    Deaths((8), (10), 2, (165)) && 
+                    Deaths((7), (0), 36, (165)) && 
+                    Deaths((7), (1), 215, (165)) && 
+                    dwread_epd(EPD(0x58A364 + 48 * 165 + 4 * 7)) % 9 == 0 && 
+                    Memory(0x6283F0, (1), 1695)
+                ){
+                    bwrite_epd(TE.Boss + 0x0CA / 4,  0x0CA % 4, 10);
+                    for(var i = 0 ; i < 5 ; i++){
+                        MoveLocation((97), (132), (7), (83));
+                        TE.CreateBullet(9,i*72 + 36 * (dwread_epd(EPD(0x58A364 + 48 * 165 + 4 * 7)) % 2),2707);
+                    }
+                }
+            }
+            //RaidBossSuperlair
+            //RaidBoss
+}

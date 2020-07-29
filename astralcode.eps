@@ -1,0 +1,188 @@
+import TriggerEditor as TE;
+function Color(){
+    switch(dwread_epd(EPD(0x58A364 + 48 * 213 + 4 * 6))) {
+        case 0:
+            TE.SetPColor(8,111,0);
+        break;
+        case 2:
+            TE.SetPColor(8,156,0);
+        break;
+        case 4:
+            TE.SetPColor(8,135,0);
+        break;
+        case 6:
+            TE.SetPColor(8,117,0);
+        break;
+        case 8:
+            TE.SetPColor(8,185,0);
+        break;
+        case 10:
+            TE.SetPColor(8,128,0);
+        break;
+        case 12:
+            TE.SetPColor(8,51,0);
+        break;
+        case 14:
+            TE.SetPColor(8,53,0);
+        break;
+        case 16:
+            TE.SetPColor(8,164,0);
+        break;
+        case 18:
+            TE.SetPColor(8,8,0);
+        break;
+        case 20:
+            TE.SetPColor(8,111,0);
+            SetDeaths((6), (7), 0, (213));
+        break;
+    }
+    SetDeaths((6), (8), 1, (213));
+    if(
+        Switch((19), (2))
+    ){
+        foreach(ptr, epd : EUDLoopPlayerUnit(11) ) {
+            SetSwitch((19), (5));
+            TE.SetUnitColor(ptr,11);
+            if(
+                Switch((26), (2)) && 
+                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 198
+            ){
+                TE.SetUnitColor(ptr,8);
+            }
+        }
+        foreach(ptr, epd : EUDLoopPlayerUnit(9) ) {
+            if(
+                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 87
+            ){
+                TE.SetUnitColor(ptr,8);
+            }
+        }
+    }
+    if(
+        Deaths((6), (10), 0, (207))
+    ){
+        if(
+            Switch((17), (2)) || 
+            Switch((18), (2))
+        ){
+            foreach(ptr, epd : EUDLoopPlayerUnit(11) ) {
+                if(
+                    wread_epd(epd + 0x064 / 4,  0x064 % 4) == 195 || 
+                    wread_epd(epd + 0x064 / 4,  0x064 % 4) == 111 || 
+                    wread_epd(epd + 0x064 / 4,  0x064 % 4) == 113
+                ){
+                    TE.SetUnitColor(ptr,11);
+                }
+            }
+        }
+        foreach(ptr, epd : EUDLoopPlayerUnit(9) ) {
+            if(
+                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 19 || 
+                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 79 || 
+                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 76 || 
+                wread_epd(epd + 0x064 / 4,  0x064 % 4) == 115
+            ){
+                TE.SetUnitColor(ptr,9);
+            }
+        }
+    }
+}
+function Potential(){
+    //Potential
+    if(
+        Deaths((6), (10), 9, (212))
+    ){
+        SetDeaths((6), (7), 0, (212));
+        bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (6) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (6) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (6) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (6) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (7) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (7) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (7) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (7) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (9) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (9) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (9) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
+        bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (9) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
+    }
+    if(
+        Deaths((6), (10), 12, (212))
+    ){
+        SetDeaths((6), (7), 0, (212));
+        bwrite(0x65FD00 + 16592 + 87 * 1, 18);
+    }
+    if(
+        Deaths((6), (10), 19, (212))
+    ){
+        SetDeaths((6), (7), 0, (212));
+        SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) / 46) + (6) * (46 - 31 * ((32) / 46)) + ((32) % 46)), (8), bitlshift(1, 8 * (((6) * (46 - 31 * ((32) / 46)) + ((32) % 46)) % 4)));
+        SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) / 46) + (7) * (46 - 31 * ((32) / 46)) + ((32) % 46)), (8), bitlshift(1, 8 * (((7) * (46 - 31 * ((32) / 46)) + ((32) % 46)) % 4)));
+        dwwrite(0x65FD00 + 9808 + 76 * 4, dwread(0x65FD00 + 9808 + 76 * 4) + 51200);
+        wwrite(0x65FD00 + 4352 + 76 * 2, wread(0x65FD00 + 4352 + 76 * 2) + 500);
+        bwrite(0x65FD00 + 456 + 76 * 1, bread(0x65FD00 + 456 + 76 * 1) + 2);
+        bwrite(0x65FD00 + 16592 + 76 * 1, bread(0x65FD00 + 16592 + 76 * 1) + 1);
+        wwrite(0x6564E0 + 2512 + 71 * 2, wread(0x6564E0 + 2512 + 71 * 2) + 10);
+        wwrite(0x6564E0 + 4504 + 71 * 2, wread(0x6564E0 + 4504 + 71 * 2) + 1);
+        bwrite(0x6564E0 + 2776 + 52 * 1, bread(0x6564E0 + 2776 + 52 * 1) + -15);
+        ModifyUnitHitPoints(0, (76), (9), (9), 100);
+        wwrite(0x65FD00 + 4352 + 115 * 2, wread(0x65FD00 + 4352 + 115 * 2) + -100);
+        dwwrite(0x65FD00 + 9808 + 3 * 4, dwread(0x65FD00 + 9808 + 3 * 4) + 25600);
+    }
+    if(
+        Deaths((6), (10), 20, (212))
+    ){
+        SetDeaths((6), (7), 0, (212));
+        bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (0) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (1) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (2) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (3) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (4) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (5) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+    }
+    if(
+        Deaths((6), (10), 21, (212))
+    ){
+        SetDeaths((6), (7), 0, (212));
+        bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (0) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (1) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (2) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (3) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (4) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (5) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+    }
+    //Potential
+}
+function Carrier(){
+    //Carrier
+    if(
+        Command((6), (0), 1, (72)) || 
+        Command((7), (0), 1, (72))
+    ){
+        if(
+            Deaths((6), (10), 0, (210))
+        ){
+            foreach(ptr, epd : EUDLoopPlayerUnit(6) ) {
+                if(
+                    wread_epd(epd + 0x064 / 4,  0x064 % 4) == 72 && 
+                    MemoryEPD(epd + 0x060 / 4, AtMost, 255) && 
+                    MemoryEPD(epd + 0x008 / 4, AtLeast, 2560) && 
+                    bread_epd(epd + 0x04D / 4,  0x04D % 4) != 0
+                ){
+                    TE.COrderLocEPD(epd,158,10);
+                }
+            }
+            foreach(ptr, epd : EUDLoopPlayerUnit(7) ) {
+                if(
+                    wread_epd(epd + 0x064 / 4,  0x064 % 4) == 72 && 
+                    MemoryEPD(epd + 0x060 / 4, AtMost, 255) && 
+                    MemoryEPD(epd + 0x008 / 4, AtLeast, 2560) && 
+                    bread_epd(epd + 0x04D / 4,  0x04D % 4) != 0
+                ){
+                    TE.COrderLocEPD(epd,158,11);
+                }
+            }
+        }
+    }
+    //Carrier
+}

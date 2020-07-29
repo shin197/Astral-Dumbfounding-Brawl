@@ -1,0 +1,6275 @@
+S_ProjectSET
+Version : 0.17.8.2
+InputMap : C:\Program Files (x86)\StarCraft\Maps\아스트랄 병맛대전원본.scx
+OutputMap : C:\Program Files (x86)\StarCraft\Maps\아스트랄 병맛대전TEST.scx
+euddraftuse : True
+loadfromCHK : True
+UsedSetting0 : True
+UsedSetting1 : True
+UsedSetting2 : False
+UsedSetting3 : False
+UsedSetting4 : False
+UsedSetting5 : False
+UsedSetting6 : True
+UsedSetting7 : True
+UsedSetting8 : True
+EUDEditorDebug : False
+epTraceDebug : False
+triggerSetTouse : True
+triggerPlayer : 7
+E_ProjectSET
+S_DatEditSET
+0,0,80,37
+0,4,70,140
+0,4,80,243
+0,6,124,1
+0,11,0,-1
+0,11,1,15
+0,11,2,-5
+0,11,3,-6
+0,11,5,-7
+0,11,8,-9
+0,11,9,-9
+0,11,10,8
+0,11,12,-14
+0,11,20,3
+0,11,23,-19
+0,11,30,-7
+0,11,32,-3
+0,11,37,-5
+0,11,38,-9
+0,11,43,-9
+0,11,44,-10
+0,11,45,-11
+0,11,53,5
+0,11,54,5
+0,11,60,-7
+0,11,61,7
+0,11,62,-11
+0,11,63,-6
+0,11,64,20
+0,11,65,-3
+0,11,66,-4
+0,11,67,-4
+0,11,68,-9
+0,11,69,11
+0,11,71,7
+0,11,72,-7
+0,11,74,7
+0,11,75,-14
+0,11,77,7
+0,11,78,6
+0,11,84,-1
+0,11,97,-1
+0,11,103,10
+0,11,220,4
+0,17,46,-80
+0,17,67,-62
+0,17,70,2
+0,17,88,-36
+0,17,124,-101
+0,18,67,1
+0,18,124,1
+0,19,70,1
+0,19,80,-1
+0,19,88,-37
+0,22,1,16448
+0,22,10,16384
+0,22,13,16384
+0,22,16,49088
+0,22,20,16384
+0,22,32,128
+0,22,34,16384
+0,22,40,16384
+0,22,46,-2080768
+0,22,47,2048
+0,22,50,32768
+0,22,52,2048
+0,22,53,16384
+0,22,54,16384
+0,22,55,18368
+0,22,60,-1073741824
+0,22,61,64
+0,22,63,16384
+0,22,64,64
+0,22,69,128
+0,22,71,-1073741824
+0,22,74,16448
+0,22,75,1073741760
+0,22,76,16384
+0,22,77,16384
+0,22,78,16384
+0,22,80,-64
+0,22,81,2048
+0,22,84,-1073758208
+0,22,88,-64
+0,22,99,16384
+0,22,103,16448
+0,22,124,128
+0,22,142,32768
+0,22,155,-524288
+0,22,160,-524288
+0,22,162,-524288
+0,22,177,32768
+0,23,44,1
+0,23,46,3
+0,23,64,2
+0,23,88,4
+0,24,10,1
+0,24,16,-3
+0,24,20,1
+0,24,34,-1
+0,24,40,-1
+0,24,47,-2
+0,24,52,-9
+0,24,54,3
+0,24,55,-4
+0,24,61,1
+0,24,70,-3
+0,24,74,4
+0,24,77,1
+0,24,80,-5
+0,24,95,1
+0,25,0,1
+0,25,1,6
+0,25,7,1
+0,25,8,-1
+0,25,9,-1
+0,25,10,6
+0,25,12,-1
+0,25,16,6
+0,25,19,1
+0,25,20,6
+0,25,32,1
+0,25,34,6
+0,25,38,3
+0,25,43,-3
+0,25,44,-3
+0,25,45,-3
+0,25,46,3
+0,25,47,-3
+0,25,53,3
+0,25,54,3
+0,25,55,2
+0,25,59,-2
+0,25,60,-5
+0,25,61,1
+0,25,62,-3
+0,25,64,1
+0,25,67,-4
+0,25,71,-5
+0,25,74,1
+0,25,75,-4
+0,25,76,-3
+0,25,77,1
+0,25,78,1
+0,25,79,-3
+0,25,81,1
+0,25,84,-5
+0,25,95,-54
+0,25,103,3
+0,28,46,-1
+0,28,55,5
+0,29,67,-55
+0,36,111,-32
+0,36,113,-32
+0,36,156,-63
+0,37,111,-32
+0,37,113,-32
+0,37,156,-63
+0,40,88,4
+0,40,111,8
+0,41,88,6
+0,42,88,4
+0,43,88,6
+0,43,111,8
+0,49,19,-2
+0,49,34,-2
+0,49,37,1
+0,49,38,1
+0,49,43,1
+0,49,44,1
+0,49,45,1
+0,49,53,1
+0,49,54,1
+0,49,60,-2
+0,49,61,-2
+0,49,62,1
+0,49,63,-2
+0,49,65,-2
+0,49,66,-2
+0,49,67,-2
+0,49,68,-2
+0,49,71,-2
+0,49,72,-2
+0,49,74,-2
+0,49,75,-2
+0,49,77,-2
+0,49,78,-2
+0,49,84,-2
+0,49,95,-128
+0,49,103,129
+0,49,124,4
+0,49,220,2
+0,51,37,-1
+0,51,38,-2
+0,51,46,-4
+0,51,65,-4
+0,51,66,-4
+0,51,67,-4
+0,51,68,-8
+0,51,70,-6
+0,51,71,-8
+0,51,72,-12
+0,51,103,-4
+0,58,68,8
+0,58,95,9
+0,58,202,320
+1,0,117,48
+1,1,3,6
+1,1,55,-22
+1,1,117,8
+1,3,29,2
+1,3,52,2
+1,3,55,1
+1,3,75,1
+1,3,105,32
+1,3,117,-1
+1,5,25,32
+1,5,46,32
+1,5,50,-32
+1,5,55,13
+1,5,78,160
+1,5,117,-120
+1,6,0,1
+1,6,1,7
+1,6,2,7
+1,6,3,7
+1,6,5,1
+1,6,6,-46
+1,6,12,2
+1,6,13,-52
+1,6,15,-1
+1,6,16,-1
+1,6,17,5
+1,6,18,5
+1,6,19,-1
+1,6,20,-1
+1,6,25,1
+1,6,26,7
+1,6,30,-52
+1,6,34,-52
+1,6,36,4
+1,6,38,3
+1,6,39,3
+1,6,46,-4
+1,6,48,-4
+1,6,49,2
+1,6,50,3
+1,6,62,-46
+1,6,64,1
+1,6,65,1
+1,6,66,-5
+1,6,67,1
+1,6,68,-5
+1,6,69,-4
+1,6,71,-4
+1,6,77,-6
+1,6,79,-1
+1,6,82,-21
+1,6,84,-52
+1,6,85,-5
+1,6,86,1
+1,6,99,1
+1,6,100,-6
+1,6,104,-4
+1,6,109,3
+1,6,111,1
+1,6,117,1
+1,7,3,1
+1,7,25,-1
+1,7,50,1
+1,7,55,-2
+1,7,78,2
+1,7,117,-2
+1,8,3,-2
+1,8,117,4
+1,10,29,2
+1,10,50,-1
+1,10,54,1
+1,10,55,2
+1,10,117,1
+1,11,25,9
+1,11,29,5
+1,11,50,-10
+1,11,55,20
+1,11,117,20
+1,12,25,12
+1,12,29,15
+1,12,50,-20
+1,12,55,40
+1,12,117,40
+1,13,25,39
+1,13,29,30
+1,13,50,-30
+1,13,55,60
+1,13,117,60
+1,14,50,15
+1,14,68,3
+1,14,117,94
+1,15,30,26
+1,15,34,25
+1,15,50,1
+1,15,117,9
+1,16,50,-10
+1,16,78,-23
+1,16,117,-14
+1,17,75,1
+1,18,49,16
+1,18,75,112
+1,18,78,112
+1,18,82,112
+1,18,105,112
+1,18,117,112
+1,22,105,1
+1,23,25,45
+1,23,117,26
+2,1,0,427
+2,2,0,27
+2,2,199,198
+2,3,0,-6808
+5,7,4,86
+5,7,6,-12
+5,7,12,-258
+5,7,37,-35
+7,1,182,1
+7,8,98,1
+7,8,113,1
+7,8,114,1
+7,8,116,1
+7,8,120,1
+7,8,122,1
+7,8,132,1
+7,8,141,1
+7,8,142,1
+7,8,143,1
+7,8,146,1
+7,8,181,1
+E_DatEditSET
+S_FireGraftSET
+E_FireGraftSET
+S_BtnSET
+BtnUse0 : True
+BtnData0 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
+BtnUse1 : True
+BtnData1 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,10,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,10,0,668,0,6,252,4363232,4339504,10,10,344,355,6,253,4363120,4338288,10,0,345,0,7,47,4361824,4338864,70,70,583,735,8,310,4361824,4338864,72,72,376,736,9,16,4361824,4338864,71,71,642,737,
+BtnUse10 : True
+BtnData10 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,6,237,4363488,4338896,0,0,334,346,7,47,4361824,4338864,70,70,583,735,8,310,4361824,4338864,72,72,376,736,9,13,4361824,4338864,71,71,639,737,
+BtnUse16 : True
+BtnData16 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,6,252,4363232,4339504,10,10,344,355,6,253,4363120,4338288,10,0,345,0,7,233,4361824,4338864,71,71,651,736,9,232,4361824,4338864,80,86,648,736,
+BtnUse20 : True
+BtnData20 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,6,237,4363488,4338896,0,0,334,346,7,47,4361824,4338864,70,70,583,735,8,310,4361824,4338864,72,72,376,736,9,34,4361824,4338864,71,71,636,737,
+BtnUse22 : True
+BtnData22 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,283,4361824,4338864,71,71,651,736,9,236,4361824,4338864,86,86,652,736,
+BtnUse32 : True
+BtnData32 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
+BtnUse34 : True
+BtnData34 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,365,4363488,4340192,34,34,1247,0,8,367,4363488,4341616,24,24,1248,1250,9,373,4363488,4341616,30,30,1249,1251,
+BtnUse37 : True
+BtnData37 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,
+BtnUse38 : True
+BtnData38 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,
+BtnUse42 : True
+BtnData42 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,8,309,4362224,4340544,0,0,683,0,9,312,4361888,4340480,0,0,684,0,
+BtnUse46 : True
+BtnData46 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,9,260,4362352,4338320,11,0,373,0,
+BtnUse47 : True
+BtnData47 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,
+BtnUse52 : True
+BtnData52 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,9,259,4362480,4338352,11,11,372,382,9,260,4362352,4338320,11,0,373,0,
+BtnUse53 : True
+BtnData53 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,6,259,4362480,4338352,11,11,372,382,9,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,38,4361824,4338864,71,71,637,737,
+BtnUse54 : True
+BtnData54 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,6,259,4362480,4338352,11,11,372,382,9,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,294,4361824,4338864,71,71,640,737,
+BtnUse60 : True
+BtnData60 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
+BtnUse61 : True
+BtnData61 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,382,736,9,332,4361824,4338864,71,71,646,737,
+BtnUse63 : True
+BtnData63 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,8,371,4363488,4341616,27,27,1266,1270,9,381,4363488,4341616,31,31,1268,1274,
+BtnUse64 : True
+BtnData64 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,156,4361824,4341200,71,156,631,737,6,236,4361824,4338864,80,86,653,737,
+BtnUse67 : True
+BtnData67 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,275,4363488,4341616,19,19,400,405,8,372,4363488,4341616,29,29,1267,1273,
+BtnUse69 : True
+BtnData69 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,6,232,4361824,4338864,80,86,648,736,7,85,4361824,4338864,71,71,641,736,8,309,4362224,4340544,0,0,683,0,9,312,4361888,4340480,0,0,684,0,
+BtnUse71 : True
+BtnData71 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,280,4363488,4341616,21,21,402,407,9,369,4363488,4341616,25,25,1265,1269,8,278,4363488,4341616,22,22,403,408,
+BtnUse74 : True
+BtnData74 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,8,310,4361824,4338864,72,72,382,736,
+BtnUse77 : True
+BtnData77 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,277,4361824,4338864,71,71,638,737,
+BtnUse78 : True
+BtnData78 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,69,4361824,4338864,71,71,641,737,
+BtnUse95 : True
+BtnData95 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,
+BtnUse103 : True
+BtnData103 : 1,228,4359104,4342848,0,0,664,0,2,229,4359008,4338672,0,0,665,0,3,230,4362352,4342656,11,0,666,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,5,255,4362352,4338544,11,0,649,0,6,259,4362480,4338352,11,11,372,382,6,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,737,9,46,4361824,4338864,71,71,643,737,9,348,4361824,4338640,69,32,650,737,
+BtnUse141 : True
+BtnData141 : 1,301,4363344,4338448,12,12,468,528,2,298,4363344,4338448,4,4,460,531,7,137,4361824,4339808,137,137,626,751,9,236,4360448,4338416,0,0,691,0,
+BtnUse154 : True
+BtnData154 : 1,64,4361824,4338864,64,64,599,0,6,286,4363552,4342944,0,0,672,0,9,236,4359472,4338832,0,254,693,0,
+BtnUse155 : True
+BtnData155 : 1,37,4361824,4338864,37,37,575,736,2,38,4361824,4338864,38,38,576,736,3,65,4361824,4338864,65,65,600,736,4,66,4361824,4338864,66,66,601,736,5,68,4361824,4338864,67,67,404,736,9,236,4359472,4338832,0,254,693,0,
+BtnUse156 : True
+BtnData156 : 1,365,4361824,4338640,86,86,532,737,2,264,4361824,4338640,86,86,530,737,3,64,4361824,4338640,86,86,534,737,4,310,4361824,4338640,86,86,533,736,9,236,4361824,4338864,80,86,653,737,
+BtnUse162 : True
+BtnData162 : 2,229,4361936,4338672,0,0,665,0,3,230,4361936,4342464,0,0,666,0,
+BtnUse164 : True
+BtnData164 : 1,306,4363344,4338448,14,14,470,538,2,292,4363344,4338448,6,6,462,544,3,281,4363344,4338448,37,37,493,529,4,289,4363344,4338448,8,8,464,507,5,293,4363344,4338448,1,1,457,510,7,43,4363344,4338448,12,12,468,528,8,384,4363344,4338448,4,4,460,531,9,236,4360448,4338416,0,0,691,0,
+BtnUse167 : True
+BtnData167 : 4,60,4361824,4338864,60,60,1292,0,6,286,4363552,4342944,0,0,672,0,9,236,4359472,4338832,0,254,693,0,
+BtnUse171 : True
+BtnData171 : 1,314,4363344,4338448,35,35,491,0,2,315,4363344,4338448,36,36,492,0,3,316,4363344,4338448,37,37,493,0,9,236,4360448,4338416,0,0,691,0,
+BtnUse172 : True
+BtnData172 : 1,308,4359232,4340384,0,0,673,0,
+BtnUse239 : True
+BtnData239 : 1,106,4361824,4341424,106,106,646,0,2,109,4361824,4341424,109,109,647,0,3,110,4361824,4341424,110,110,648,0,4,111,4361824,4341424,111,111,649,710,5,122,4361824,4341424,122,122,650,715,6,124,4361824,4341424,124,124,651,717,7,112,4361824,4341424,112,112,652,711,8,125,4361824,4341424,125,125,653,718,9,236,4358864,4561648,0,228,688,0,
+BtnUse240 : True
+BtnData240 : 2,156,4361824,4341200,156,156,631,0,6,124,4361824,4341424,156,124,651,717,9,236,4358864,4561648,0,228,688,0,
+E_BtnSET
+S_ReqSET
+ReqUse0,0 : 2
+ReqPos0,0 : 2
+ReqCount0,0 : 0
+ReqUse0,1 : 2
+ReqPos0,1 : 4
+ReqCount0,1 : 0
+ReqUse0,2 : 2
+ReqPos0,2 : 6
+ReqCount0,2 : 0
+ReqUse0,3 : 2
+ReqPos0,3 : 8
+ReqCount0,3 : 0
+ReqUse0,5 : 2
+ReqPos0,5 : 10
+ReqCount0,5 : 0
+ReqUse0,7 : 2
+ReqPos0,7 : 12
+ReqCount0,7 : 0
+ReqUse0,8 : 2
+ReqPos0,8 : 14
+ReqCount0,8 : 0
+ReqUse0,9 : 2
+ReqPos0,9 : 16
+ReqCount0,9 : 0
+ReqUse0,37 : 3
+ReqPos0,37 : 56
+ReqCount0,37 : 2
+ReqData0,37,0 : 65282
+ReqData0,37,1 : 155
+ReqUse0,38 : 3
+ReqPos0,38 : 60
+ReqCount0,38 : 2
+ReqData0,38,0 : 65282
+ReqData0,38,1 : 155
+ReqUse0,44 : 3
+ReqPos0,44 : 85
+ReqCount0,44 : 2
+ReqData0,44,0 : 65282
+ReqData0,44,1 : 43
+ReqUse0,46 : 2
+ReqPos0,46 : 94
+ReqCount0,46 : 0
+ReqUse0,62 : 3
+ReqPos0,62 : 130
+ReqCount0,62 : 3
+ReqData0,62,0 : 65316
+ReqData0,62,1 : 65282
+ReqData0,62,2 : 43
+ReqUse0,65 : 3
+ReqPos0,65 : 140
+ReqCount0,65 : 2
+ReqData0,65,0 : 65282
+ReqData0,65,1 : 155
+ReqUse0,66 : 3
+ReqPos0,66 : 144
+ReqCount0,66 : 2
+ReqData0,66,0 : 65282
+ReqData0,66,1 : 155
+ReqUse0,67 : 3
+ReqPos0,67 : 148
+ReqCount0,67 : 2
+ReqData0,67,0 : 65282
+ReqData0,67,1 : 155
+ReqUse0,68 : 3
+ReqPos0,68 : 152
+ReqCount0,68 : 2
+ReqData0,68,0 : 65282
+ReqData0,68,1 : 155
+ReqUse0,69 : 3
+ReqPos0,69 : 156
+ReqCount0,69 : 2
+ReqData0,69,0 : 65283
+ReqData0,69,1 : 170
+ReqUse0,70 : 3
+ReqPos0,70 : 160
+ReqCount0,70 : 3
+ReqData0,70,0 : 65297
+ReqData0,70,1 : 65283
+ReqData0,70,2 : 167
+ReqUse0,71 : 3
+ReqPos0,71 : 165
+ReqCount0,71 : 4
+ReqData0,71,0 : 65297
+ReqData0,71,1 : 65283
+ReqData0,71,2 : 167
+ReqData0,71,3 : 170
+ReqUse0,72 : 3
+ReqPos0,72 : 171
+ReqCount0,72 : 4
+ReqData0,72,0 : 65297
+ReqData0,72,1 : 65283
+ReqData0,72,2 : 167
+ReqData0,72,3 : 169
+ReqUse0,80 : 3
+ReqPos0,80 : 185
+ReqCount0,80 : 2
+ReqData0,80,0 : 65283
+ReqData0,80,1 : 137
+ReqUse0,82 : 3
+ReqPos0,82 : 189
+ReqCount0,82 : 5
+ReqData0,82,0 : 65297
+ReqData0,82,1 : 65283
+ReqData0,82,2 : 167
+ReqData0,82,3 : 169
+ReqData0,82,4 : 163
+ReqUse0,86 : 2
+ReqPos0,86 : 214
+ReqCount0,86 : 0
+ReqUse0,88 : 3
+ReqPos0,88 : 216
+ReqCount0,88 : 4
+ReqData0,88,0 : 65297
+ReqData0,88,1 : 65283
+ReqData0,88,2 : 167
+ReqData0,88,3 : 163
+ReqUse0,156 : 2
+ReqPos0,156 : 453
+ReqCount0,156 : 0
+ReqUse1,1 : 3
+ReqPos1,1 : 15
+ReqCount1,1 : 3
+ReqData1,1,0 : 65282
+ReqData1,1,1 : 164
+ReqData1,1,2 : 65287
+ReqUse1,4 : 3
+ReqPos1,4 : 48
+ReqCount1,4 : 11
+ReqData1,4,0 : 65282
+ReqData1,4,1 : 164
+ReqData1,4,2 : 65287
+ReqData1,4,3 : 65311
+ReqData1,4,4 : 171
+ReqData1,4,5 : 65535
+ReqData1,4,6 : 65312
+ReqData1,4,7 : 171
+ReqData1,4,8 : 65535
+ReqData1,4,9 : 65313
+ReqData1,4,10 : 171
+ReqUse1,6 : 3
+ReqPos1,6 : 73
+ReqCount1,6 : 3
+ReqData1,6,0 : 65282
+ReqData1,6,1 : 164
+ReqData1,6,2 : 65287
+ReqUse1,8 : 3
+ReqPos1,8 : 91
+ReqCount1,8 : 3
+ReqData1,8,0 : 65282
+ReqData1,8,1 : 164
+ReqData1,8,2 : 65287
+ReqUse1,12 : 3
+ReqPos1,12 : 139
+ReqCount1,12 : 11
+ReqData1,12,0 : 65282
+ReqData1,12,1 : 164
+ReqData1,12,2 : 65287
+ReqData1,12,3 : 65311
+ReqData1,12,4 : 159
+ReqData1,12,5 : 65535
+ReqData1,12,6 : 65312
+ReqData1,12,7 : 159
+ReqData1,12,8 : 65535
+ReqData1,12,9 : 65313
+ReqData1,12,10 : 159
+ReqUse1,14 : 3
+ReqPos1,14 : 164
+ReqCount1,14 : 3
+ReqData1,14,0 : 65282
+ReqData1,14,1 : 164
+ReqData1,14,2 : 65287
+ReqUse1,37 : 3
+ReqPos1,37 : 298
+ReqCount1,37 : 5
+ReqData1,37,0 : 65282
+ReqData1,37,1 : 165
+ReqData1,37,2 : 65287
+ReqData1,37,3 : 65283
+ReqData1,37,4 : 163
+ReqUse3,0 : 2
+ReqPos3,0 : 2
+ReqCount3,0 : 0
+ReqUse3,10 : 3
+ReqPos3,10 : 107
+ReqCount3,10 : 17
+ReqData3,10,0 : 65282
+ReqData3,10,1 : 1
+ReqData3,10,2 : 65281
+ReqData3,10,3 : 65282
+ReqData3,10,4 : 99
+ReqData3,10,5 : 65281
+ReqData3,10,6 : 65282
+ReqData3,10,7 : 104
+ReqData3,10,8 : 65281
+ReqData3,10,9 : 65282
+ReqData3,10,10 : 100
+ReqData3,10,11 : 65281
+ReqData3,10,12 : 65282
+ReqData3,10,13 : 16
+ReqData3,10,14 : 65281
+ReqData3,10,15 : 65282
+ReqData3,10,16 : 51
+ReqUse3,23 : 2
+ReqPos3,23 : 274
+ReqCount3,23 : 0
+ReqUse3,25 : 2
+ReqPos3,25 : 281
+ReqCount3,25 : 0
+ReqUse3,29 : 2
+ReqPos3,29 : 293
+ReqCount3,29 : 0
+E_ReqSET
+S_BinEditSET
+projectsceneDataCount : 1
+projectsceneData 0binDataCount : 26
+E_BinEditSET
+S_SoundPlayerSET
+Soundinterval : 1
+E_SoundPlayerSET
+S_GRPEditorSET
+GRPEditorDATCount : 0
+GRPEditorUsingDATCount : 0
+GRPEditorUsingindexDATCount : 0
+E_GRPEditorSET
+S_TileSET
+ProjectTileUseFile : False
+ProjectTileSetFileName : 
+ProjectTIleMSetCount : 24209
+ProjectTIleMSetArray : 
+ProjectTileSetDataCount : 0
+ProjectMTXMDATACount : 9216
+ProjectMTXMDATAArray : 
+E_TileSET
+S_SCDBSet
+SCDBDeath : 0
+SCDBLoc : 0
+SCDBVariable : 0
+SCDBLocLoad : 0
+SCDBUse : False
+SCDBSerial : 0
+SCDBMaker : 0
+SCDBMapName : 0
+SCDBDataSize : 4
+E_SCDBSet
+S_FileManagerSET
+statlang : 0
+stattextdicCount : 182
+stattextdickey0 : 411
+stattextdicvalue0 : 유닛 방어력
+stattextdickey1 : 416
+stattextdicvalue1 : 영웅 방어력
+stattextdickey2 : 418
+stattextdicvalue2 : 유닛 공격력
+stattextdickey3 : 424
+stattextdicvalue3 : 영웅 공격력
+stattextdickey4 : 252
+stattextdicvalue4 : 돌격병 청소기<6>(폭발형)<2>
+stattextdickey5 : 463
+stattextdicvalue5 : e<2>유닛 공격력 업그레이드 [<3>E<2>]
+stattextdickey6 : 456
+stattextdicvalue6 : s<2>유닛 방어력 업그레이드 [<3>S<2>]
+stattextdickey7 : 469
+stattextdicvalue7 : w<2>영웅 공격력 업그레이드 [<3>W<2>]
+stattextdickey8 : 461
+stattextdicvalue8 : a<2>영웅 방어력 업그레이드 [<3>A<2>]
+stattextdickey9 : 581
+stattextdicvalue9 : q<1>미사일 스킬 [<3>Q<2>] <10> 스커지가 날아가 공격합니다.<10> <7>영혼(다크)을 잡을 수 있습니다.<2><10> 쿨다운 5초.
+stattextdickey10 : 375
+stattextdicvalue10 : w<0>미사일 방어 [<3>W<2>] <10> 적의 Q를 막습니다.<10> 쿨다운 15초.
+stattextdickey11 : 603
+stattextdicvalue11 : q<1>영웅 Q 사용 [<3>Q<2>]
+stattextdickey12 : 605
+stattextdicvalue12 : e<1>영웅 W 사용 [<3>W<2>]
+stattextdickey13 : 604
+stattextdicvalue13 : w<1>영웅 E 사용 [<3>E<2>]
+stattextdickey14 : 425
+stattextdicvalue14 : 프로토스 쉴드
+stattextdickey15 : 649
+stattextdicvalue15 : e<0>관통똥침(패시브)<10> 다음에 공격한 영웅은 2초동안 움직이지 못합니다.<10> 쿨다운 8초.
+stattextdickey16 : 637
+stattextdicvalue16 : e<0>분신돌격 [<3>E<2>]<10> 9초동안 주변의 적 영웅들이 느려지고 몸빵용 질럿이 생깁니다.<10> 쿨다운 18초.
+stattextdickey17 : 638
+stattextdicvalue17 : e<1>폭파광 [<3>E<2>]<10> 5초동안 무적이 되면서 지뢰를 깝니다.<10> 쿨다운 30초.
+stattextdickey18 : 636
+stattextdicvalue18 : e<0>히드라 웨이브 [<3>E<2>]<10> 히드라 7기를 소환합니다.<10> 쿨다운: 총 84초/ 1기당 12초.
+stattextdickey19 : 635
+stattextdicvalue19 : e<0>메딕 소환 [<3>E<2>]<10> 체력을 조금 회복하고 메딕을 잠깐 소환합니다.<10> 쿨다운 12.5초.
+stattextdickey20 : 639
+stattextdicvalue20 : e<0>모방 [<3>E<2>]<10> 가장 최근에 사용한 스킬을 다시 사용합니다.<10> 쿨다운 10초.
+stattextdickey21 : 640
+stattextdicvalue21 : e<0>셔틀 소환/장전 [<3>E<2>]<10>스캐럽을 쏘는 셔틀을 소환합니다.<10> 쿨다운: 소환 120초/ 장전 30초.
+stattextdickey22 : 641
+stattextdicvalue22 : e<0>여자친구 소환 [<3>E<2>]<10> 서로 위치를 바꿀수 있는 고스트를 부릅니다.<10> 쿨다운: 소환 90초/ 위치수정 25초.
+stattextdickey23 : 642
+stattextdicvalue23 : e<0>분충 생성 [<3>E<2>]<10> 10초동안 지속되는 분충 2기를 생성합니다.<10> 쿨다운 25초.
+stattextdickey24 : 643
+stattextdicvalue24 : e<0>매너 파일런 [<3>E<2>]<10> 전투에 도움을 주는 파일런을 소환합니다.<10> 쿨다운 40초.
+stattextdickey25 : 381
+stattextdicvalue25 : w<0><8>무<3>지<7>개<14>반<16>사<2> [<3>W<2>] <10> 적의 Q를 반사합니다.<10> 쿨다운 15초.
+stattextdickey26 : 229
+stattextdicvalue26 : 딱총
+stattextdickey27 : 228
+stattextdicvalue27 : 비비탄
+stattextdickey28 : 232
+stattextdicvalue28 : 깡통
+stattextdickey29 : 233
+stattextdicvalue29 : 술병
+stattextdickey30 : 234
+stattextdicvalue30 : 따따블 기관총
+stattextdickey31 : 235
+stattextdicvalue31 : 비명횡사 미사일
+stattextdickey32 : 238
+stattextdicvalue32 : 퉁퉁포
+stattextdickey33 : 254
+stattextdicvalue33 : 쾅쾅포
+stattextdickey34 : 272
+stattextdicvalue34 : 3단 쿠션
+stattextdickey35 : 282
+stattextdicvalue35 : 칼빵
+stattextdickey36 : 281
+stattextdicvalue36 : 사이오닉 검
+stattextdickey37 : 286
+stattextdicvalue37 : 물풍선
+stattextdickey38 : 285
+stattextdicvalue38 : 입자 분열기
+stattextdickey39 : 289
+stattextdicvalue39 : 찰진 공격
+stattextdickey40 : 290
+stattextdicvalue40 : 죽빵
+stattextdickey41 : 299
+stattextdicvalue41 : 플라워 캐논
+stattextdickey42 : 300
+stattextdicvalue42 : 플라워 캐논
+stattextdickey43 : 259
+stattextdicvalue43 : 간지럽히기
+stattextdickey44 : 260
+stattextdicvalue44 : 아드레날린 발톱
+stattextdickey45 : 253
+stattextdicvalue45 : 퐈이아
+stattextdickey46 : 263
+stattextdicvalue46 : 가래침
+stattextdickey47 : 262
+stattextdicvalue47 : 침뱉기
+stattextdickey48 : 288
+stattextdicvalue48 : 엿먹이기
+stattextdickey49 : 241
+stattextdicvalue49 : 지지기
+stattextdickey50 : 240
+stattextdicvalue50 : 지지기
+stattextdickey51 : 246
+stattextdicvalue51 : 아래에 쏘기
+stattextdickey52 : 247
+stattextdicvalue52 : 앞에 쏘기
+stattextdickey53 : 580
+stattextdicvalue53 : g<5>찍어먹기 [<3>G<2>]
+stattextdickey54 : 1287
+stattextdicvalue54 : d<1>부어먹기 [<3>D<2>]
+stattextdickey55 : 663
+stattextdicvalue55 : m<0>엠신공[<3>M<2>]
+stattextdickey56 : 664
+stattextdicvalue56 : s<0>스탑[<3>S<2>]
+stattextdickey57 : 665
+stattextdicvalue57 : a<0>어택땅[<3>A<2>]
+stattextdickey58 : 666
+stattextdicvalue58 : p<0>패트롤[<3>P<2>]
+stattextdickey59 : 667
+stattextdicvalue59 : h<0>홀드찍기[<3>H<2>]
+stattextdickey60 : 415
+stattextdicvalue60 : 몸빵
+stattextdickey61 : 413
+stattextdicvalue61 : 몸빵
+stattextdickey62 : 270
+stattextdicvalue62 : 바삭한 탕수육
+stattextdickey63 : 294
+stattextdicvalue63 : 다다다다 (<3>영웅공업<2>, 공격횟수 <3>2<2>)
+stattextdickey64 : 295
+stattextdicvalue64 : 띠로로롱 (<3>영웅공업<2>, 공격횟수 <3>2<2>)
+stattextdickey65 : 284
+stattextdicvalue65 : 써거덩
+stattextdickey66 : 283
+stattextdicvalue66 : 영혼이 담긴 공격
+stattextdickey67 : 315
+stattextdicvalue67 : 지뢰
+stattextdickey68 : 734
+stattextdicvalue68 : 게임시작 1분 이후에 쓸 수 있습니다.
+stattextdickey69 : 1239
+stattextdicvalue69 : 찍찍찍찍
+stattextdickey70 : 1266
+stattextdicvalue70 : f<3>피드백이 있다? [<3>F<2>]
+stattextdickey71 : 1265
+stattextdicvalue71 : c<3>지르기[<3>C<2>]
+stattextdickey72 : 339
+stattextdicvalue72 : d<3>디펜시브[<3>D<2>]
+stattextdickey73 : 340
+stattextdicvalue73 : e<3>EMP 충격파[<3>E<2>]
+stattextdickey74 : 341
+stattextdicvalue74 : i<3>방구뀌기[<3>I<2>]<10>공격력 250.
+stattextdickey75 : 342
+stattextdicvalue75 : y<3>야마토 포[<3>Y<2>]<10>공격력 260, 업글당 26 증가.
+stattextdickey76 : 337
+stattextdicvalue76 : o<0>시즈모드[<3>O<2>]
+stattextdickey77 : 338
+stattextdicvalue77 : o<0>탱크모드[<3>O<2>]
+stattextdickey78 : 333
+stattextdicvalue78 : t<0>스팀팩[<3>T<2>]
+stattextdickey79 : 335
+stattextdicvalue79 : i<0>지뢰 심기[<3>I<2>]
+stattextdickey80 : 371
+stattextdicvalue80 : u<0>버로우 타기[<3>U<2>]
+stattextdickey81 : 372
+stattextdicvalue81 : u<0>버로우 해제[<3>U<2>]
+stattextdickey82 : 376
+stattextdicvalue82 : r<3>시야 따놓기[<3>R<2>]
+stattextdickey83 : 380
+stattextdicvalue83 : e<3>껌묻히기[<3>E<2>]
+stattextdickey84 : 399
+stattextdicvalue84 : t<3>스톰 지지기[<3>T<2>]<10>공격력 112, 업글당 8 증가.
+stattextdickey85 : 736
+stattextdicvalue85 : 게임시작 4분 이후에 쓸 수 있습니다.
+stattextdickey86 : 1237
+stattextdicvalue86 : 탕수육 소스
+stattextdickey87 : 735
+stattextdicvalue87 : 아직 쓸 수 없습니다.
+stattextdickey88 : 765
+stattextdicvalue88 : 업글중
+stattextdickey89 : 766
+stattextdicvalue89 : 업글중
+stattextdickey90 : 794
+stattextdicvalue90 : 다음 단계:
+stattextdickey91 : 813
+stattextdicvalue91 : 메뉴 (<3>F10<1>)
+stattextdickey92 : 763
+stattextdicvalue92 : 병신력:
+stattextdickey93 : 279
+stattextdicvalue93 : 펑
+stattextdickey94 : 266
+stattextdicvalue94 : 동전이 공격을?
+stattextdickey95 : 849
+stattextdicvalue95 : 미네랄이 없댄다..
+stattextdickey96 : 850
+stattextdicvalue96 : 가스가 없댄다...
+stattextdickey97 : 276
+stattextdicvalue97 : 펑
+stattextdickey98 : 644
+stattextdicvalue98 : e<0>재장전 [<3>E<2>]<10>스캐럽을 다시 채웁니다.<10> 쿨다운 30초.
+stattextdickey99 : 298
+stattextdicvalue99 : 똥파리공격
+stattextdickey100 : 776
+stattextdicvalue100 : 공격력:
+stattextdickey101 : 777
+stattextdicvalue101 : 방어력:
+stattextdickey102 : 778
+stattextdicvalue102 : 쉴드:
+stattextdickey103 : 790
+stattextdicvalue103 : 똥파리
+stattextdickey104 : 804
+stattextdicvalue104 : 업글 취소하기
+stattextdickey105 : 242
+stattextdicvalue105 : 후웅 펑
+stattextdickey106 : 243
+stattextdicvalue106 : 뿅
+stattextdickey107 : 244
+stattextdicvalue107 : 후웅 펑
+stattextdickey108 : 245
+stattextdicvalue108 : 뿅
+stattextdickey109 : 831
+stattextdicvalue109 : <4>나 사실 가짜임 ㅎ
+stattextdickey110 : 830
+stattextdicvalue110 : <3>디텍터
+stattextdickey111 : 1299
+stattextdicvalue111 : <16>탕수육 소스
+stattextdickey112 : 826
+stattextdicvalue112 : <7>감시당하는중
+stattextdickey113 : 343
+stattextdicvalue113 : c<3>클로킹 [<3>C<2>]
+stattextdickey114 : 344
+stattextdicvalue114 : c<3>클로킹 풀기 [<3>C<2>]
+stattextdickey115 : 567
+stattextdicvalue115 : 죽으면 <07>점수 <03>헌납<02>ㅋㅋ
+stattextdickey116 : 1320
+stattextdicvalue116 : <6>죽으면 <3>점수헌납
+stattextdickey117 : 829
+stattextdicvalue117 : <6>배터리 부족
+stattextdickey118 : 1301
+stattextdicvalue118 : 돌격병
+stattextdickey119 : 1321
+stattextdicvalue119 : 영웅
+stattextdickey120 : 582
+stattextdicvalue120 : q<1>미사일 스킬 [<3>Q<2>] <10> 스커지가 날아가 공격합니다.<10> <7>영혼(다크)을 잡을 수 있습니다.<2><10> 쿨다운 3.5초.
+stattextdickey121 : 1238
+stattextdicvalue121 : 똥침
+stattextdickey122 : 630
+stattextdicvalue122 : e<1>매너 파일런[<3>E<2>] 전투를 도와주는 파일런을 소환합니다. 쿨다운 30초.
+stattextdickey123 : 280
+stattextdicvalue123 : 귀요미 빔 ><
+stattextdickey124 : 1247
+stattextdicvalue124 : r<3>깨ㅡ끗[<3>R<2>]
+stattextdickey125 : 1246
+stattextdicvalue125 : a<3>힐[<3>A<2>]
+stattextdickey126 : 568
+stattextdicvalue126 : 영웅
+stattextdickey127 : 287
+stattextdicvalue127 : 내가 고자라니
+stattextdickey128 : 645
+stattextdicvalue128 : e<0>원혼참[<3>E<2>]<10> 주변의 영웅들을 공격합니다. 데미지 80, 공업당 8 증가.<10> 쿨다운 10초.
+stattextdickey129 : 382
+stattextdicvalue129 : w<0><8>무<3>지<7>개<14>반<16>사<2> [<3>W<2>] <10> 적의 Q를 반사합니다. <10> 쿨다운 10초.
+stattextdickey130 : 401
+stattextdicvalue130 : r<3>리콜[<3>R<2>]
+stattextdickey131 : 402
+stattextdicvalue131 : t<3>얼리기[<3>T<2>]
+stattextdickey132 : 1264
+stattextdicvalue132 : d<3>웹 뿌리기[<3>D<2>]
+stattextdickey133 : 1318
+stattextdicvalue133 : 완전체
+stattextdickey134 : 296
+stattextdicvalue134 : <23>금<3>수<25>저<2>파워
+stattextdickey135 : 419
+stattextdicvalue135 : 중립유닛 공격력
+stattextdickey136 : 412
+stattextdicvalue136 : 중립유닛 방어력
+stattextdickey137 : 273
+stattextdicvalue137 : 입냄새
+stattextdickey138 : 467
+stattextdicvalue138 : z<2>닭둘기 키우기 [<3>Z<2>]
+stattextdickey139 : 527
+stattextdicvalue139 : 닭둘기 키우기<10> 영웅 공3업 필요
+stattextdickey140 : 530
+stattextdicvalue140 : 주문흡혈 배우기<10> 영웅 방3업 필요
+stattextdickey141 : 459
+stattextdicvalue141 : x<2>주문 흡혈 업그레이드 [<3>X<2>]
+stattextdickey142 : 414
+stattextdicvalue142 : 주문흡혈
+stattextdickey143 : 422
+stattextdicvalue143 : 닭둘기
+stattextdickey144 : 1304
+stattextdicvalue144 : 마인드컨트롤로 구입
+stattextdickey145 : 1302
+stattextdicvalue145 : 일반유닛
+stattextdickey146 : 1303
+stattextdicvalue146 : 일반유닛
+stattextdickey147 : 492
+stattextdicvalue147 : b<2><14>병맛<15>특이점<23>초월 <2>[<3>B<2>]
+stattextdickey148 : 528
+stattextdicvalue148 : 병맛특이점초월<10><8>영웅 풀업 필요
+stattextdickey149 : 447
+stattextdicvalue149 : 병맛특이점초월
+stattextdickey150 : 611
+stattextdicvalue150 : h<0><2>스탑럴커[<3>H<2>]
+stattextdickey151 : 274
+stattextdicvalue151 : 레후
+stattextdickey152 : 648
+stattextdicvalue152 : h<0>스탑러커[<3>H<2>]
+stattextdickey153 : 230
+stattextdicvalue153 : 패줌 스나
+stattextdickey154 : 650
+stattextdicvalue154 : e<0>위치 수정[<3>E<2>]<10> 영웅과 위치를 바꿉니다. <10> 쿨다운 25초.
+stattextdickey155 : 651
+stattextdicvalue155 : <27><0><1>취소[<3>ESC<2>]
+stattextdickey156 : 652
+stattextdicvalue156 : <27><1>파일런 회수하기[<3>ESC<2>]
+stattextdickey157 : 231
+stattextdicvalue157 : 레이저총 <3>(일반형)<2>
+stattextdickey158 : 647
+stattextdicvalue158 : r<1>유닛 재소환[<3>R<2>]<10> 이 유닛을 다시 소환합니다.
+stattextdickey159 : 297
+stattextdicvalue159 : 광자 과충전
+stattextdickey160 : 529
+stattextdicvalue160 : a<0>공속 버프<10>주변 <15>원거리 영웅<2>의 공격속도가 빨라집니다.
+stattextdickey161 : 531
+stattextdicvalue161 : a<0>회복 버프<10>주변의 <3>근거리,스플래시 영웅<2>을 회복시켜줍니다.
+stattextdickey162 : 532
+stattextdicvalue162 : a<0>미사일 방패 (패시브)<10>자동으로 적의 미사일 스킬을 막아줍니다.<10>쿨다운 20초.
+stattextdickey163 : 574
+stattextdicvalue163 : a<1>잡몹 편성[<3>A<2>]
+stattextdickey164 : 575
+stattextdicvalue164 : h<1>급식충 편성[<3>H<2>]
+stattextdickey165 : 599
+stattextdicvalue165 : z<1>버틸수가 없다 편성[<3>Z<2>]
+stattextdickey166 : 600
+stattextdicvalue166 : d<1>니조랄 편성[<3>D<2>]
+stattextdickey167 : 403
+stattextdicvalue167 : r<1>붕탁맨 편성[<3>R<2>]
+stattextdickey168 : 1305
+stattextdicvalue168 : 자동 실드 회복
+stattextdickey169 : 686
+stattextdicvalue169 : <27><0>취소[<3>ESC<2>]
+stattextdickey170 : 687
+stattextdicvalue170 : <27><0>취소[<3>ESC<2>]
+stattextdickey171 : 690
+stattextdicvalue171 : <27><0>업글 취소하기[<3>ESC<2>]
+stattextdickey172 : 694
+stattextdicvalue172 : <27><0>변신 취소[<3>ESC<2>]
+stattextdickey173 : 689
+stattextdicvalue173 : <27><0>편성 취소[<3>ESC<2>]
+stattextdickey174 : 770
+stattextdicvalue174 : 변신중
+stattextdickey175 : 771
+stattextdicvalue175 : 편성중
+stattextdickey176 : 774
+stattextdicvalue176 : 편성중
+stattextdickey177 : 775
+stattextdicvalue177 : 편성중
+stattextdickey178 : 533
+stattextdicvalue178 : a<0>프로브 버프<10><28>프로브<2>는 두 버프 전부 받습니다. (회복, 공속)
+stattextdickey179 : 1267
+stattextdicvalue179 : e<3>멜스트롬[<3>E<2>]
+stattextdickey180 : 1273
+stattextdicvalue180 : 쓸 수 없다 ㅠ
+stattextdickey181 : 239
+stattextdicvalue181 : 뚝배기포
+wireuse : True
+E_FileManagerSET
+S_TriggerEditorSET
+&AddText&
+Type:23,False,False,False
+
+ElementsCount:0
+END
+
+&functions&
+Type:15,False,False,False
+ElementsCount:10
+Type:16,False,True,False
+HealBeaconஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroTypeஐ3
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Variable
+HeroTypeஐ74ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+HeroTypeஐ61ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ198
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:4
+Type:8,False,False,False
+act:ModifyUnitHitPoints
+0ஐHeroTypeஐ13ஐ9ஐ100
+ElementsCount:0
+END
+Type:8,False,False,False
+act:ModifyUnitShields
+0ஐHeroTypeஐ13ஐ9ஐ100
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ41ஐ198
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ6ஐ204
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ108ஐ204
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ198
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:KillUnitAt
+0ஐHeroTypeஐ64ஐ13
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ7ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ10ஐ204
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ109ஐ204
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:16,False,True,False
+LocationDistanceஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:CreateVariableWithNoini
+loc1ஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+loc2ஐ6
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:2
+Type:21,False,False,False
+/*ToolTipஐ*/ஐTrue
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:21,False,False,False
+KoreanஐKoreanஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:4
+Type:8,False,False,False
+act:CreateVariableWithNoini
+loc1ஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+과
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+loc2ஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+간의 거리를 반환합니다.
+ElementsCount:0
+END
+END
+END
+Type:21,False,False,False
+EnglishஐEnglishஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:0
+END
+END
+END
+END
+Type:8,False,False,False
+act:RawCode
+const locTable = EPD(0x58DC60);
+const x1 = dwread_epd(locTable + loc1 * 5) + dwread_epd(locTable + loc1 * 5 + 2);
+const y1 = dwread_epd(locTable + loc1 * 5 + 1) + dwread_epd(locTable + loc1 * 5 + 3);
+const x2 = dwread_epd(locTable + loc2 * 5) + dwread_epd(locTable + loc2 * 5 + 2);
+const y2 = dwread_epd(locTable + loc2 * 5 + 1) + dwread_epd(locTable + loc2 * 5 + 3);
+return sqrt((x1 - x2)*(x1 - x2)+(y1-y2)*(y1-y2)) / 2;
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+SetUnitColorஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Colorஐ1
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:CreateVariableWithNoini
+spritePTR
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+UnitPTRஐ3ஐspritePTRஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+bwrite(spritePTR + 0x0A, Color)
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+SetPColorஐFalse
+ElementsCount:2
+Type:17,False,True,False
+ElementsCount:3
+Type:8,False,False,False
+act:CreateVariableWithNoini
+pnumஐ19
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+colorஐ1
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+mஐ40
+ElementsCount:0
+END
+END
+Type:18,False,True,False
+ElementsCount:2
+Type:21,False,False,False
+/*ToolTipஐ*/ஐTrue
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:21,False,False,False
+KoreanஐKoreanஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:6
+Type:8,False,False,False
+act:CreateVariableWithNoini
+pnumஐ19
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+의 색상을
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+colorஐ1
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+로 바꿉니다.
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+mஐ1
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+미니맵적용
+ElementsCount:0
+END
+END
+END
+Type:21,False,False,False
+EnglishஐEnglishஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:0
+END
+END
+END
+END
+Type:8,False,False,False
+act:RawCode
+const pcolor_dst = 0x581D76 + 8 * pnum;
+const mcolor_dst = 0x581DD6 + pnum;
+bwrite(pcolor_dst, color);
+if(m)
+bwrite(mcolor_dst, color);
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+COrderLocஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+orderஐ15
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+locஐ6
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:4
+Type:8,False,False,False
+act:RawCode
+const locTable = EPD(0x58DC60);
+const x = dwread_epd(locTable + loc * 5) + dwread_epd(locTable + loc * 5 + 2);
+const y = dwread_epd(locTable + loc * 5 + 1) + dwread_epd(locTable + loc * 5 + 3);
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+UnitPTRஐ31ஐorder
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+UnitPTRஐ40ஐx / 2
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+UnitPTRஐ41ஐy / 2
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+BuildResetஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:CreateVariableWithNoini
+unitPTRஐ35
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:6
+Type:8,False,False,False
+act:SetCUnitData
+unitPTRஐ70ஐ228
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+unitPTRஐ71ஐ228
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+unitPTRஐ72ஐ228
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+unitPTRஐ73ஐ228
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+unitPTRஐ74ஐ228
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+unitPTRஐ78ஐ2
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+BuildCheckஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:CreateVariableWithNoini
+unitPTRஐ33
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Unitஐ3
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:2
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:5
+Type:7,False,False,False
+con:CUnitData
+unitPTRஐ70ஐ0ஐUnit
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+unitPTRஐ71ஐ0ஐUnit
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+unitPTRஐ72ஐ0ஐUnit
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+unitPTRஐ73ஐ0ஐUnit
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+unitPTRஐ74ஐ0ஐUnit
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:RawCode
+return True
+ElementsCount:0
+END
+END
+END
+Type:8,False,False,False
+act:RawCode
+return False
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+SetLocationToUnitSafeஐFalse
+ElementsCount:2
+Type:17,False,True,False
+ElementsCount:3
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Locationஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+posXஐ60
+ElementsCount:0
+END
+END
+Type:18,False,True,False
+ElementsCount:3
+Type:21,False,False,False
+/*ToolTipஐ*/ஐTrue
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:21,False,False,False
+KoreanஐKoreanஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:7
+Type:8,False,False,False
+act:RawCode
+[safe] 구조오프셋Ptr
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+의
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+posXஐ60
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+로
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Locationஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+을 이동합니다.
+ElementsCount:0
+END
+END
+END
+Type:21,False,False,False
+EnglishஐEnglishஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:0
+END
+END
+END
+END
+Type:8,False,False,False
+act:RawCode
+var xloc, yloc = dwbreak(dwread_epd_safe(EPD(UnitPTR + posX)))[[0, 1]];
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+SetMemory(0x58DC60 + Location * 20 + 4 * 0, SetTo, xloc);
+SetMemory(0x58DC60 + Location * 20 + 4 * 2, SetTo, xloc);
+SetMemory(0x58DC60 + Location * 20 + 4 * 1, SetTo, yloc);
+SetMemory(0x58DC60 + Location * 20 + 4 * 3, SetTo, yloc);
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+SetLocationToUnitஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:4
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Locationஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Xஐ60
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Yஐ60
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:2
+Type:21,False,False,False
+/*ToolTipஐ*/ஐTrue
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:21,False,False,False
+KoreanஐKoreanஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:9
+Type:8,False,False,False
+act:RawCode
+구조오프셋Ptr
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+의
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Xஐ60
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+,
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Yஐ60
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+로
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Locationஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+을 이동합니다.
+ElementsCount:0
+END
+END
+END
+Type:21,False,False,False
+EnglishஐEnglishஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:0
+END
+END
+END
+END
+Type:8,False,False,False
+act:RawCode
+SetMemory(0x58DC60 + Location * 20 + 4 * 0, SetTo, wread(UnitPTR + X));
+SetMemory(0x58DC60 + Location * 20 + 4 * 2, SetTo, wread(UnitPTR + X));
+SetMemory(0x58DC60 + Location * 20 + 4 * 1, SetTo, wread(UnitPTR + Y));
+SetMemory(0x58DC60 + Location * 20 + 4 * 3, SetTo, wread(UnitPTR + Y));
+ElementsCount:0
+END
+END
+END
+Type:16,False,True,False
+CheckTargetSkillஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:5
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Rangeஐ1
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitLocஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+TargetLocஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+SkillOrderஐ15
+ElementsCount:0
+END
+END
+Type:18,False,True,False
+ElementsCount:4
+Type:21,False,False,False
+/*ToolTipஐ*/ஐTrue
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:21,False,False,False
+KoreanஐKoreanஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:11
+Type:8,False,False,False
+act:RawCode
+[타겟팅] 구조오프셋Ptr
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitPTRஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+이
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+SkillOrderஐ15
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+을
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Rangeஐ1
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+의 범위 안에서 시전하는 걸 체크합니다.
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+유닛부착 :
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+UnitLocஐ6
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+타겟부착 :
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+TargetLocஐ6
+ElementsCount:0
+END
+END
+END
+Type:21,False,False,False
+EnglishஐEnglishஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:0
+END
+END
+END
+END
+Type:21,False,False,False
+/*ஐ*/ஐTrue
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+LocationDistanceஐஐ
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+UnitPTRஐ31ஐ0ஐSkillOrder
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:19,False,False,False
+SetLocationToUnitSafeஐTargetLocஐUnitPTRஐ40
+ElementsCount:0
+END
+Type:19,False,False,False
+SetLocationToUnitSafeஐUnitLocஐUnitPTRஐ18
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Variable
+RangeஐLocationDistance(UnitLoc,TargetLoc)ஐ4
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:5
+Type:8,False,False,False
+act:MoveLocation
+TargetLoc + 1ஐ227ஐ17ஐTargetLoc + 1
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+UnitPTRஐ31ஐ1
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+UnitPTRஐ4ஐwread(UnitPTR + 0x028)
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+UnitPTRஐ5ஐwread(UnitPTR + 0x02A)
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+return True
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:8,False,False,False
+act:RawCode
+return False
+ElementsCount:0
+END
+END
+END
+END
+
+&GlobalVar&
+Type:0,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:CreatePlayerVariable
+Heroesஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreatePlayerVariable
+SubUnitஐ0
+ElementsCount:0
+END
+END
+
+&RawTriggers&
+Type:25,False,False,False
+ElementsCount:1
+Type:24,False,False,False
+63
+ElementsCount:2
+Type:26,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Switch
+0ஐ0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+Heroes[getcurpl()]ஐ0ஐ1
+ElementsCount:0
+END
+END
+Type:27,False,False,False
+ElementsCount:14
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroNumber
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroType
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Hitbox
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Range
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Place
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+Target
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+LockOnStatus
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDeaths
+HeroNumberஐ0ஐ13ஐ121ஐNumber
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ44ஐHeroTypeஐ0
+ElementsCount:0
+END
+Type:28,False,False,False
+getcurpl()
+ElementsCount:6
+Type:29,False,False,False
+0ஐTrue
+ElementsCount:4
+Type:8,False,False,False
+act:SetVariable
+Hitboxஐ49ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Rangeஐ55ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Placeஐ48ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Targetஐ84ஐ0
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+1ஐTrue
+ElementsCount:4
+Type:8,False,False,False
+act:SetVariable
+Hitboxஐ50ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Rangeஐ56ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Placeஐ109ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Targetஐ85ஐ0
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+2ஐTrue
+ElementsCount:4
+Type:8,False,False,False
+act:SetVariable
+Hitboxஐ51ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Rangeஐ57ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Placeஐ110ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Targetஐ86ஐ0
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+3ஐTrue
+ElementsCount:4
+Type:8,False,False,False
+act:SetVariable
+Hitboxஐ52ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Rangeஐ58ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Placeஐ111ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Targetஐ87ஐ0
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+4ஐTrue
+ElementsCount:4
+Type:8,False,False,False
+act:SetVariable
+Hitboxஐ53ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Rangeஐ59ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Placeஐ112ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Targetஐ88ஐ0
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+5ஐTrue
+ElementsCount:4
+Type:8,False,False,False
+act:SetVariable
+Hitboxஐ54ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Rangeஐ60ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Placeஐ113ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+Targetஐ89ஐ0
+ElementsCount:0
+END
+END
+END
+Type:21,False,False,False
+//LocSettingsஐ//LocSettingsஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐ9
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:5
+Type:8,False,False,False
+act:MoveLocation
+HitboxஐHeroTypeஐ13ஐ9
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveLocation
+RangeஐHeroTypeஐ13ஐ9
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveLocation
+91ஐHeroTypeஐ13ஐ9
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveLocation
+128ஐHeroTypeஐ13ஐ9
+ElementsCount:0
+END
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ174
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐHeroTypeஐPlace
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:MoveLocation
+PlaceஐHeroTypeஐ13ஐ9
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ174
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ2ஐ1ஐ174
+ElementsCount:0
+END
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐPlace
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:Order
+HeroTypeஐ13ஐ9ஐ0ஐPlace
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:MoveUnit
+1ஐHeroTypeஐ13ஐ9ஐPlace
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐ94ஐ9
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:4
+Type:8,False,False,False
+act:MoveLocation
+Hitboxஐ94ஐ13ஐ9
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveLocation
+Rangeஐ94ஐ13ஐ9
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveLocation
+91ஐ94ஐ13ஐ9
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveLocation
+128ஐ94ஐ13ஐ9
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:21,False,False,False
+//Subattackஐ//SubattackஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐ55ஐ9
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+6ஐ2ஐ0ஐ207
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:Order
+55ஐ13ஐ9ஐ0ஐHitbox
+ElementsCount:0
+END
+Type:8,False,False,False
+act:Order
+55ஐ13ஐ128ஐ2ஐTarget
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:21,False,False,False
+//OnSomethingஐ//OnSomethingஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:7
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐ21
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ92
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ1ஐ92
+ElementsCount:0
+END
+Type:19,False,False,False
+HealBeaconஐHeroType
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:2
+Type:7,False,False,False
+con:RawCode
+(getcurpl()%2) == 0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Switch
+26ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+HealBeaconஐHeroType
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐ22
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ92
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ2ஐ92
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:2
+Type:7,False,False,False
+con:RawCode
+(getcurpl()%2) != 0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Switch
+26ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+HealBeaconஐHeroType
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐ137
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ92
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ3ஐ92
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Switch
+26ஐ0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Switch
+17ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+HealBeaconஐHeroType
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐ138
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ92
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ4ஐ92
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Switch
+26ஐ0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Switch
+18ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+HealBeaconஐHeroType
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐ122
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ92
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ5ஐ92
+ElementsCount:0
+END
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:4
+Type:7,False,False,False
+con:RawCode
+(getcurpl()%2) == 0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ198
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+HeroTypeஐ74ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+HeroTypeஐ61ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:KillUnitAt
+0ஐHeroTypeஐ64ஐ13
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ76ஐ204
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ7ஐ212
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ110ஐ204
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐHeroTypeஐ123
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ92
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ6ஐ92
+ElementsCount:0
+END
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:4
+Type:7,False,False,False
+con:RawCode
+(getcurpl()%2) != 0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ198
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+HeroTypeஐ74ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+HeroTypeஐ61ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:KillUnitAt
+0ஐHeroTypeஐ64ஐ13
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ76ஐ204
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ7ஐ212
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ110ஐ204
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:6
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐHeroTypeஐ21
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐHeroTypeஐ22
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐHeroTypeஐ137
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐHeroTypeஐ138
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐHeroTypeஐ122
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐHeroTypeஐ123
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ92
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:8,False,False,False
+act:PreserveTrigger
+None
+ElementsCount:0
+END
+END
+END
+END
+
+&onPluginStart&
+Type:0,False,True,False
+ElementsCount:8
+Type:19,False,False,False
+SetPColorஐ2ஐ156ஐ1
+ElementsCount:0
+END
+Type:19,False,False,False
+SetPColorஐ4ஐ135ஐ1
+ElementsCount:0
+END
+Type:19,False,False,False
+SetPColorஐ1ஐ128ஐ1
+ElementsCount:0
+END
+Type:19,False,False,False
+SetPColorஐ3ஐ165ஐ1
+ElementsCount:0
+END
+Type:19,False,False,False
+SetPColorஐ5ஐ164ஐ1
+ElementsCount:0
+END
+Type:19,False,False,False
+SetPColorஐ7ஐ0ஐ1
+ElementsCount:0
+END
+Type:19,False,False,False
+SetPColorஐ9ஐ125ஐ1
+ElementsCount:0
+END
+Type:19,False,False,False
+SetPColorஐ11ஐ125ஐ1
+ElementsCount:0
+END
+END
+
+&beforeTriggerExec&
+Type:0,False,False,False
+ElementsCount:4
+Type:10,False,False,False
+PlayerLoopஐ0,0,0,0,0,0,0,0,1,1,0,0ஐ10
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:8
+Type:21,True,True,False
+//Debugஐ//DebugஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:9
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ6ஐ0ஐ3ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ37ஐ0ஐ1ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ14ஐ0ஐ3ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ12ஐ0ஐ3ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+19ஐ4ஐ0ஐ1ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ14ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ6ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ12ஐ0ஐ3ஐ0
+ElementsCount:0
+END
+Type:8,True,False,False
+act:SetUpgrade
+13ஐ4ஐ0ஐ3ஐ0
+ElementsCount:0
+END
+END
+END
+Type:21,False,True,False
+//HeroGenஐ//HeroGenஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:12
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ20ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ2ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ53ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ3ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ77ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ4ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ10ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ5ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ54ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ6ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ78ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ7ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ61ஐ125ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ8ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ1ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ9ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ103ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ10ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ64ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ11ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ95ஐ10ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ2ஐ212
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+Heroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ74ஐ125ஐ13
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//SubUnitGenஐ//SubUnitGenஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:3
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ3ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ6ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+SubUnit[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ69ஐ118ஐ6
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ3ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ8ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:9
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetNextUnitPtr
+SubUnit[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ16ஐ10ஐ13
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveUnit
+0ஐ16ஐ0ஐ10ஐ48
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveUnit
+0ஐ16ஐ1ஐ10ஐ109
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveUnit
+0ஐ16ஐ2ஐ10ஐ110
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveUnit
+0ஐ16ஐ3ஐ10ஐ111
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveUnit
+0ஐ16ஐ4ஐ10ஐ112
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MoveUnit
+0ஐ16ஐ5ஐ10ஐ113
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ3ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ10ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:10,False,False,False
+AllUnitஐ0ஐ10
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ156
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ19ஐ2ஐ832
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetVariable
+SubUnit[getcurpl()]ஐptrஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+SubUnit[getcurpl()]ஐ75ஐ51200
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//SkillUseஐ//SkillUseஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:6
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ192
+ElementsCount:0
+END
+Type:19,False,False,False
+BuildCheckஐHeroes[getcurpl()]ஐ70
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐHeroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ70ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ192
+ElementsCount:0
+END
+Type:19,False,False,False
+BuildCheckஐHeroes[getcurpl()]ஐ72
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐHeroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ72ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Command
+13ஐ0ஐ1ஐ74
+ElementsCount:0
+END
+Type:19,False,False,False
+BuildCheckஐHeroes[getcurpl()]ஐ72
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐHeroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ72ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ192
+ElementsCount:0
+END
+Type:19,False,False,False
+BuildCheckஐHeroes[getcurpl()]ஐ71
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐHeroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ71ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ192
+ElementsCount:0
+END
+Type:19,False,False,False
+BuildCheckஐHeroes[getcurpl()]ஐ86
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐHeroes[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ86ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Variable
+SubUnit[getcurpl()]ஐ0ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Command
+13ஐ0ஐ1ஐ69
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:19,False,False,False
+BuildCheckஐSubUnit[getcurpl()]ஐ71
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐSubUnit[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ71ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:19,False,False,False
+BuildCheckஐSubUnit[getcurpl()]ஐ86
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐSubUnit[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ86ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Command
+13ஐ0ஐ1ஐ16
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:19,False,False,False
+BuildCheckஐSubUnit[getcurpl()]ஐ71
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐSubUnit[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ71ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:19,False,False,False
+BuildCheckஐSubUnit[getcurpl()]ஐ86
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐSubUnit[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ86ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+SubUnit[getcurpl()]ஐ75ஐ4ஐ12800
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+SubUnit[getcurpl()]ஐ75ஐ12800
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ2ஐ156ஐ9
+ElementsCount:0
+END
+Type:19,False,False,False
+BuildCheckஐSubUnit[getcurpl()]ஐ86
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:19,False,False,False
+BuildResetஐSubUnit[getcurpl()]
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ86ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//Special,Passiveஐ//Special,PassiveஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ192
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:7
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ6ஐ212
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:7
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+MarineHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐ20ஐ8ஐMarineHPஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+MarineHP /= 10 - bread(0x58D2B0 + 0x207C * ((37) / 46) + (getcurpl()) * (46 - 31 * ((37) / 46)) + ((37) % 46)) * 2;
+ElementsCount:0
+END
+Type:8,False,False,False
+act:AddCUnitData
+Heroes[getcurpl()]ஐ2ஐMarineHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐ20ஐ8ஐMarineHPஐ0
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ2ஐMarineHP
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ2ஐMarineHP
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ31ஐ0ஐ116
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ3ஐ138
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:RawCode
+dwread(Heroes[getcurpl()] + 0x0DC) & 16
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:6
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroType
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ44ஐHeroTypeஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐHeroTypeஐ8ஐHeroHPஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:AddCUnitData
+Heroes[getcurpl()]ஐ2ஐ128
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:8,False,False,False
+act:AddCUnitData
+Heroes[getcurpl()]ஐ43ஐ96
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ8ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ75ஐ4ஐ12800
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ75ஐ12800
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:7
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ9ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ44ஐ0ஐ103
+ElementsCount:0
+END
+Type:7,False,False,False
+con:RawCode
+dwread(Heroes[getcurpl()] + 0x0DC) & 16
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ37ஐ2ஐ20
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ31ஐ0ஐ11
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ200
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐ170ஐ35
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:4
+Type:8,False,False,False
+act:CreateVariableWithNoini
+TargetPlayer
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+TargetUnit
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariable
+IsHeroஐ0
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:19,False,False,False
+CheckTargetSkillஐHeroes[getcurpl()]ஐ192ஐ0ஐ132ஐ11
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ42ஐ1ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:5
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ42ஐTargetUnitஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+TargetUnit = dwread(Heroes[getcurpl()] + 0x05C)
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+TargetPlayer = bread(TargetUnit + 0x04C)
+ElementsCount:0
+END
+Type:10,False,False,False
+Countingஐiஐ6
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:RawCode
+Heroes[i] == TargetUnit
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+IsHeroஐ0ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetVariable
+IsHeroஐ1ஐ0
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Variable
+TargetPlayerஐ5ஐ3
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+IsHeroஐ1ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+TargetPlayerஐ0ஐ24ஐ174
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateUnit
+1ஐ86ஐ61ஐ13
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ2ஐ137
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:8
+Type:8,False,False,False
+act:SetDeaths
+13ஐ2ஐ2ஐ137
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroType
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ44ஐHeroTypeஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐHeroTypeஐ8ஐHeroHPஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:AddCUnitData
+Heroes[getcurpl()]ஐ2ஐ128
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:5
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ3ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ4ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ5ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ9ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ10ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:5
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ2ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ6ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ8ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ10ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ37ஐ2ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:4
+Type:8,False,False,False
+act:CreateVariableWithNoini
+AttackCoolDown
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ37ஐAttackCoolDownஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+AttackCoolDownஐ1ஐ2
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ37ஐAttackCoolDown
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//Upgradeஐ//UpgradeஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:7
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Upgrade
+13ஐ14ஐ0ஐ3ஐ2
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Command
+13ஐ2ஐ0ஐ159
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:GiveUnits
+1ஐ159ஐ6ஐ35ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:3
+Type:7,False,False,False
+con:Deaths
+13ஐ1ஐ0ஐ91
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ55
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ212
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Upgrade
+13ஐ12ஐ0ஐ1ஐ0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Command
+13ஐ1ஐ0ஐ55
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ10ஐ212
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Upgrade
+13ஐ12ஐ0ஐ2ஐ0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Command
+13ஐ1ஐ1ஐ55
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ10ஐ212
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Upgrade
+13ஐ12ஐ0ஐ3ஐ0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Command
+13ஐ1ஐ2ஐ55
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ10ஐ212
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Upgrade
+13ஐ6ஐ0ஐ3ஐ2
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Command
+13ஐ2ஐ0ஐ171
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:GiveUnits
+1ஐ171ஐ6ஐ35ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:3
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ80
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ192
+ElementsCount:0
+END
+Type:7,False,False,True
+con:Deaths
+13ஐ2ஐ7ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:7
+Type:8,False,False,False
+act:SetDeaths
+13ஐ2ஐ1ஐ80
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroType
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ44ஐHeroTypeஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐHeroTypeஐ8ஐHeroHPஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+dwwrite(Heroes[getcurpl()] + 0x008, dwread(Heroes[getcurpl()] + 0x008) + bread(0x58D2B0 + 4 + getcurpl() * (46 - 31 * (4 / 46)) + 0x207C * (4 / 46)) * 1066);
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:5
+Type:7,False,False,False
+con:Upgrade
+13ஐ14ஐ0ஐ5ஐ2
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Upgrade
+13ஐ6ஐ0ஐ5ஐ2
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Upgrade
+13ஐ12ஐ0ஐ3ஐ2
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Upgrade
+13ஐ4ஐ0ஐ3ஐ2
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Command
+13ஐ2ஐ0ஐ163
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:GiveUnits
+1ஐ163ஐ6ஐ35ஐ13
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Upgrade
+13ஐ37ஐ0ஐ1ஐ2
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ0ஐ163
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ0ஐ1ஐ163
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ163
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ0ஐ1ஐ192
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:4
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐ34ஐ9
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ161ஐ0ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Never
+None
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:6
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroType
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ44ஐHeroTypeஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐHeroTypeஐ8ஐHeroHPஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:AddCUnitData
+Heroes[getcurpl()]ஐ2ஐ377
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ2ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:MoveLocation
+131ஐ53ஐ13ஐ9
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ0ஐ1ஐ38ஐ131
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ5ஐ38400
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:7
+Type:8,False,False,False
+act:KillUnitAt
+1ஐ38ஐ9ஐ13
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroType
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ44ஐHeroTypeஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐHeroTypeஐ8ஐHeroHPஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:AddCUnitData
+Heroes[getcurpl()]ஐ2ஐ17920
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ7ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:6
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroType
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroHP
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ44ஐHeroTypeஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDatFile
+0ஐHeroTypeஐ8ஐHeroHPஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:AddCUnitData
+Heroes[getcurpl()]ஐ2ஐ128
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+Heroes[getcurpl()]ஐ2ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitData
+Heroes[getcurpl()]ஐ2ஐHeroHP
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//HanGangMCஐ//HanGangMCஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ7ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ0ஐ61ஐ9
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HanGangMan
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableCUnitData
+Heroes[getcurpl()]ஐ30ஐHanGangManஐ0
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:RawCode
+HanGangMan != getcurpl()
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:GiveUnits
+0ஐ61ஐHanGangManஐ9ஐ13
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:21,False,False,False
+//Infoஐ//InfoஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:KeyDetect
+123
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:16
+Type:8,False,False,False
+act:PlayWAV
+"staredit\wav\ComBeep0.ogg"
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+InfoText
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MakeCText
+InfoText
+ElementsCount:0
+END
+Type:8,False,False,False
+act:MakeCText
+"\x04스킬 목록 - "
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+HeroNum
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariableDeaths
+HeroNumஐ0ஐ13ஐ121ஐNumber
+ElementsCount:0
+END
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+Or
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ1ஐ74ஐ9
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ1ஐ94ஐ9
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04영혼\n\n\x08[!]\x02 기지로 돌아가서 부활하세요! \x08[!]\n\n"
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:2
+Type:28,False,False,False
+HeroNum
+ElementsCount:11
+Type:29,False,False,False
+1ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04딱총 마린\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+2ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04가래침 히드라\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+3ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04칼빵 찔럿\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+4ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04쉐프 파이어뱃\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+5ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04케첩 초글링\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+6ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04드라군맛 아이스크림\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+7ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04한강 물귀신\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+8ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04스나 고스트\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+9ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04똥침 럴커\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+10ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04매너 프로브\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+11ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x04결정장애 라그나사우르\n"
+ElementsCount:0
+END
+END
+END
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+Or
+ElementsCount:3
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ1ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ4ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ8ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x08공격스킬 \x03[Q]\x02: 스커지가 날아가 적 유닛에 닿으면 데미지를 준다. 쿨다운 4초.\n"
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x08공격스킬 \x03[Q]\x02: 스커지가 날아가 적 유닛에 닿으면 데미지를 준다. 쿨다운 5초.\n"
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+Or
+ElementsCount:3
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ7ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ1ஐ74ஐ9
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ1ஐ94ஐ9
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0E방어스킬 \x03[W]\x02: 적의 스커지를 반사한다. 쿨다운 15초.\n"
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0E방어스킬 \x03[W]\x02: 적의 스커지를 방어한다. 쿨다운 15초.\n"
+ElementsCount:0
+END
+END
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+ChickenLv
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+ChickenLvஐbread(0x58D2B0 + 12 + 46 * getcurpl())ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+SpellHealLv
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetVariable
+SpellHealLvஐbread(0x58D2B0 + 4 + 46 * getcurpl())ஐ0
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,True
+con:Bring
+13ஐ2ஐ1ஐ74ஐ9
+ElementsCount:0
+END
+Type:7,False,False,True
+con:Bring
+13ஐ2ஐ1ஐ94ஐ9
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:3
+Type:28,False,False,False
+HeroNum
+ElementsCount:10
+Type:29,False,False,False
+1ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F메딕 소환 \x03[E]\x02: 체력을 조금 회복하고 메딕을 잠깐 소환합니다. 쿨다운 12.5초.\n\x11스팀팩 \x03[T]\x02: 체력을 10 소모하고 잠시동안 이동속도와 공격속도가 빨라집니다.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+2ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F히드라 웨이브 \x03[E]\x02: 히드라 7기를 소환합니다. 쿨다운: 총 84초 / 1기당 12초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+3ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F분신돌격 \x03[E]\x02: 9초동안 주변의 적 영웅들이 느려지고 몸빵용 질럿이 생깁니다. 쿨다운 18초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+4ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F폭파광 \x03[E]\x02: 5초동안 무적이 되면서 지뢰를 깝니다. 쿨다운 30초.\n\x11스팀팩 \x03[T]\x02: 체력을 10 소모하고 잠시동안 이동속도와 공격속도가 빨라집니다.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+5ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F모방 \x03[E]\x02: 가장 최근에 사용한 스킬을 다시 사용합니다. 쿨다운 10초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+6ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F셔틀 소환 \x03[E]\x02: 스캐럽을 쏘는 셔틀을 소환합니다. 쿨다운: 120초.\n\x0F스캐럽 장전 \x04(셔틀이 있을때) \x03[E]\x02: 셔틀의 스캐럽을 장전합니다. 쿨다운 30초."
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+7ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F원혼참 \x03[E]\x02: 주변의 영웅들을 공격합니다. 데미지 80, 공업당 8 증가. 쿨다운 10초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+8ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F여자친구 소환 \x03[E]\x02: 서로 위치를 바꿀수 있는 고스트를 부릅니다. 쿨다운 90초.\n\x0F위치수정 \x04(여자친구가 있을때) \x03[E]\x02: 여자친구와 위치를 바꿉니다. 쿨다운 25초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+9ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F분충 생성 \x03[E]\x02: 10초동안 지속되는 분충 2기를 생성합니다. 쿨다운 25초.\n\x0F관통똥침 \x03(패시브E)\x02: E의 쿨다운중이 아닐때 공격한 영웅은 2초동안 움직이지 못합니다. 쿨다운 8초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+10ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0F매너 파일런 \x03[E]\x02: 전투를 도와주는 파일런을 소환합니다. 쿨다운 30초.\n\x1E파일런 회수하기 \x03[ESC]\x02: 파일런을 회수합니다.\n"
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:3
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ2ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ5ஐ121
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ9ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x15버로우 \x03[U]\x02: 잠깐 무적이 되며 체력을 서서히 회복합니다.\n"
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ8ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x1E클로킹 \x03[C]\x02: 은신상태가 됩니다. 도중에 스킬을 쓰면 해제됩니다.\n"
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:28,False,False,False
+ChickenLv
+ElementsCount:3
+Type:29,False,False,False
+1ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x11닭둘기 Lv1 \x03(패시브)\x02: 영웅을 따라다니는 뮤탈이 나와서 같이 싸워줍니다. 1기 제한, 쿨다운 20초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+2ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x11닭둘기 Lv2 \x03(패시브)\x02: 영웅을 따라다니는 뮤탈이 나와서 같이 싸워줍니다. 2기 제한, 쿨다운 20초.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+3ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x11닭둘기 Lv3 \x03(패시브)\x02: 영웅을 따라다니는 뮤탈이 나와서 같이 싸워줍니다. 3기 제한, 쿨다운 20초.\n"
+ElementsCount:0
+END
+END
+END
+Type:28,False,False,False
+SpellHealLv
+ElementsCount:3
+Type:29,False,False,False
+1ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x1D주문흡혈 Lv1 \x03(패시브)\x02: Q가 착탄했을때 영웅의 체력을 25 회복합니다.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+2ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x1D주문흡혈 Lv2 \x03(패시브)\x02: Q가 착탄했을때 영웅의 체력을 50 회복합니다.\n"
+ElementsCount:0
+END
+END
+Type:29,False,False,False
+3ஐTrue
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x1D주문흡혈 Lv3 \x03(패시브)\x02: Q가 착탄했을때 영웅의 체력을 75 회복합니다.\n"
+ElementsCount:0
+END
+END
+END
+Type:8,False,False,False
+act:DisplaySavedCText
+1
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//Colorஐ//ColorஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:5
+Type:28,False,True,False
+dwread_epd(EPD(0x58A364 + 48 * 213 + 4 * 6))
+ElementsCount:11
+Type:29,False,False,False
+0ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ111ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ111ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+2ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ156ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ156ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+4ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ135ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ135ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+6ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ117ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ117ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+8ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ185ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ185ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+10ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ128ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ128ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+12ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ51ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ51ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+14ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ53ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ53ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+16ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ164ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ164ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+18ஐTrue
+ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ8ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ8ஐ0
+ElementsCount:0
+END
+END
+END
+END
+Type:29,False,False,False
+20ஐTrue
+ElementsCount:2
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+20ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+Countingஐiஐ12
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐiஐ111ஐ1
+ElementsCount:0
+END
+END
+END
+END
+Type:6,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetPColorஐ8ஐ111ஐ0
+ElementsCount:0
+END
+END
+END
+Type:8,False,False,False
+act:SetDeaths
+6ஐ0ஐ0ஐ213
+ElementsCount:0
+END
+END
+END
+Type:8,False,False,False
+act:SetDeaths
+6ஐ1ஐ1ஐ213
+ElementsCount:0
+END
+Type:1,False,True,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:2
+Type:7,False,False,False
+con:Switch
+17ஐ0
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Switch
+18ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+AllUnitஐ12ஐ10
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:3
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ195
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ111
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ113
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetUnitColorஐptrஐ11
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:1,False,True,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+26ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:10,False,False,False
+AllUnitஐ12ஐ10
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ198
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetUnitColorஐptrஐ8
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:10,False,True,False
+AllUnitஐ10ஐ10
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:3
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:3
+Type:7,False,False,False
+con:Bring
+9ஐ0ஐ1ஐ76ஐ98
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ76
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ43ஐ5ஐ192000
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCUnitData
+ptrஐ43ஐ384
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:3
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ19
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ79
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ76
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetUnitColorஐptrஐ9
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ71
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+SetUnitColorஐptrஐ8
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//Potentialஐ//PotentialஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+6ஐ2ஐ9ஐ212
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:7
+Type:8,False,False,False
+act:SetDeaths
+6ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetUpgrade
+6ஐ9ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetUpgrade
+6ஐ2ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetUpgrade
+7ஐ9ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetUpgrade
+7ஐ2ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetUpgrade
+9ஐ9ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetUpgrade
+9ஐ2ஐ0ஐ5ஐ0
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+6ஐ2ஐ12ஐ212
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+6ஐ0ஐ0ஐ212
+ElementsCount:0
+END
+Type:8,False,False,False
+act:SetDatfile
+0ஐ7ஐ17ஐ117
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:21,False,True,False
+//Carrierஐ//CarrierஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:2
+Type:7,False,False,False
+con:Command
+6ஐ0ஐ1ஐ72
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Command
+7ஐ0ஐ1ஐ72
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:10,False,False,False
+AllUnitஐ7ஐ10
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:3
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ72
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ43ஐ3ஐ255
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ2ஐ2ஐ2560
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+COrderLocஐptrஐ158ஐ11
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:10,False,False,False
+AllUnitஐ8ஐ10
+ElementsCount:1
+Type:14,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:3
+Type:7,False,False,False
+con:CUnitData
+ptrஐ44ஐ0ஐ72
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ43ஐ3ஐ255
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitData
+ptrஐ2ஐ2ஐ2560
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:19,False,False,False
+COrderLocஐptrஐ158ஐ12
+ElementsCount:0
+END
+END
+END
+END
+END
+END
+END
+END
+END
+END
+
+&afterTriggerExec&
+Type:0,False,False,False
+ElementsCount:0
+END
+
+
+E_TriggerEditorSET
+S_PluginSET
+soundstopper : False
+scmloader : False
+noAirColsion : False
+unlimiter : False
+keepSTR : False
+eudTurbo : False
+iscriptPatcher : 
+iscriptPatcheruse : False
+unpatcher : 
+unpatcheruse : False
+nqcuse : False
+nqcunit : 58
+nqclocs : 
+nqccommands : 
+grpinjectoruse : False
+grpinjector_arrow : 
+grpinjector_drag : 
+grpinjector_illegal : 
+dataDumperuse : False
+dataDumper_user : 
+dataDumper_grpwire : 
+dataDumper_tranwire : 
+dataDumper_wirefram : 
+dataDumper_cmdicons : 
+dataDumper_stat_txt : 
+dataDumper_AIscript : 
+dataDumper_iscript : 
+dataDumper_grpwire_f : 0
+dataDumper_tranwire_f : 0
+dataDumper_wirefram_f : 0
+dataDumper_cmdicons_f : 0
+dataDumper_stat_txt_f : 0
+dataDumper_AIscript_f : 0
+dataDumper_iscript_f : 0
+extraedssetting : [authorCheck]
+username: SkywinDragoon
+E_PluginSET
