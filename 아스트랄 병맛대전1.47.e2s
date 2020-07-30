@@ -1,7 +1,7 @@
 S_ProjectSET
 Version : 0.17.9.7
-InputMap : C:\Users\하늘바라군\Desktop\만능폴더\게임\Scmdraft 2\EUD Editor2 0.17.9.7\Astral_Dumbfounding_Brawl\아스트랄 병맛대전원본.scx
-OutputMap : C:\Users\하늘바라군\Desktop\만능폴더\게임\Scmdraft 2\EUD Editor2 0.17.9.7\Astral_Dumbfounding_Brawl\아스트랄 병맛대전1.47-.scx
+InputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전원본.scx
+OutputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전1.47.scx
 euddraftuse : True
 loadfromCHK : True
 UsedSetting0 : True
@@ -23531,6 +23531,6 @@ dataDumper_cmdicons_f : 0
 dataDumper_stat_txt_f : 0
 dataDumper_AIscript_f : 0
 dataDumper_iscript_f : 0
-extraedssetting : [C:\Users\하늘바라군\Desktop\만능폴더\게임\Scmdraft 2\EUD Editor2 0.17.9.7\Astral_Dumbfounding_Brawl\astralcode.eps]
-[C:\Users\하늘바라군\Desktop\만능폴더\게임\Scmdraft 2\EUD Editor2 0.17.9.7\Astral_Dumbfounding_Brawl\astralraidboss.eps]
+extraedssetting : [C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\astralcode.eps]
+[C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\astralraidboss.eps]
 E_PluginSET
