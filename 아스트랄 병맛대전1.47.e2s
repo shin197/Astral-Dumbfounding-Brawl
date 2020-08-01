@@ -1031,28 +1031,28 @@ BtnData172 : 1,308,4359232,4340384,0,0,673,0,
 E_BtnSET
 S_ReqSET
 ReqUse0,0 : 2
-ReqPos0,0 : 2
+ReqPos0,0 : 0
 ReqCount0,0 : 0
 ReqUse0,1 : 2
-ReqPos0,1 : 4
+ReqPos0,1 : 0
 ReqCount0,1 : 0
 ReqUse0,2 : 2
-ReqPos0,2 : 6
+ReqPos0,2 : 0
 ReqCount0,2 : 0
 ReqUse0,3 : 2
-ReqPos0,3 : 8
+ReqPos0,3 : 0
 ReqCount0,3 : 0
 ReqUse0,5 : 2
-ReqPos0,5 : 10
+ReqPos0,5 : 0
 ReqCount0,5 : 0
 ReqUse0,7 : 2
-ReqPos0,7 : 12
+ReqPos0,7 : 0
 ReqCount0,7 : 0
 ReqUse0,8 : 2
-ReqPos0,8 : 14
+ReqPos0,8 : 0
 ReqCount0,8 : 0
 ReqUse0,9 : 2
-ReqPos0,9 : 16
+ReqPos0,9 : 0
 ReqCount0,9 : 0
 ReqUse0,22 : 3
 ReqPos0,22 : 41
@@ -1086,7 +1086,7 @@ ReqCount0,44 : 2
 ReqData0,44,0 : 65282
 ReqData0,44,1 : 43
 ReqUse0,46 : 2
-ReqPos0,46 : 94
+ReqPos0,46 : 0
 ReqCount0,46 : 0
 ReqUse0,62 : 3
 ReqPos0,62 : 130
@@ -1138,7 +1138,7 @@ ReqData0,74,2 : 170
 ReqData0,74,3 : 65317
 ReqData0,74,4 : 16
 ReqUse0,80 : 2
-ReqPos0,80 : 189
+ReqPos0,80 : 0
 ReqCount0,80 : 0
 ReqUse0,81 : 3
 ReqPos0,81 : 191
@@ -1175,10 +1175,10 @@ ReqCount0,104 : 2
 ReqData0,104,0 : 65282
 ReqData0,104,1 : 155
 ReqUse0,124 : 2
-ReqPos0,124 : 340
+ReqPos0,124 : 0
 ReqCount0,124 : 0
 ReqUse0,156 : 2
-ReqPos0,156 : 465
+ReqPos0,156 : 0
 ReqCount0,156 : 0
 ReqUse1,1 : 3
 ReqPos1,1 : 15
@@ -1282,7 +1282,7 @@ ReqData1,47,1 : 165
 ReqData1,47,2 : 65287
 ReqData1,47,3 : 167
 ReqUse3,0 : 2
-ReqPos3,0 : 2
+ReqPos3,0 : 0
 ReqCount3,0 : 0
 ReqUse3,1 : 3
 ReqPos3,1 : 4
@@ -1338,7 +1338,7 @@ ReqData3,21,5 : 65281
 ReqData3,21,6 : 65282
 ReqData3,21,7 : 71
 ReqUse3,23 : 2
-ReqPos3,23 : 245
+ReqPos3,23 : 0
 ReqCount3,23 : 0
 ReqUse3,24 : 3
 ReqPos3,24 : 247
@@ -1373,16 +1373,16 @@ ReqData3,32,0 : 65316
 ReqData3,32,1 : 65282
 ReqData3,32,2 : 37
 ReqUse4,18 : 2
-ReqPos4,18 : 68
+ReqPos4,18 : 0
 ReqCount4,18 : 0
 ReqUse4,19 : 2
-ReqPos4,19 : 70
+ReqPos4,19 : 0
 ReqCount4,19 : 0
 ReqUse4,42 : 2
-ReqPos4,42 : 155
+ReqPos4,42 : 0
 ReqCount4,42 : 0
 ReqUse4,126 : 2
-ReqPos4,126 : 425
+ReqPos4,126 : 0
 ReqCount4,126 : 0
 ReqUse4,155 : 1
 ReqPos4,155 : 0
@@ -7254,7 +7254,7 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:12
+ElementsCount:11
 Type:28,False,True,False
 CP
 ElementsCount:6
@@ -9157,7 +9157,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //Wskillஐ//WskillஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -9178,588 +9178,6 @@ ElementsCount:8
 Type:8,False,False,False
 act:SetDeaths
 13ஐ0ஐ0ஐ82
-ElementsCount:0
-END
-Type:8,False,False,False
-act:CreateVariable
-SuperchargedWஐ0
-ElementsCount:0
-END
-Type:8,False,False,False
-act:CreateVariable
-SilenceRangeஐ112
-ElementsCount:0
-END
-Type:8,False,False,False
-act:CreateVariable
-SilenceTimerஐ18
-ElementsCount:0
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-Or
-ElementsCount:3
-Type:7,False,False,False
-con:Bring
-13ஐ2ஐ1ஐ74ஐ9
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Bring
-13ஐ2ஐ1ஐ61ஐ9
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Command
-13ஐ0ஐ1ஐ78
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:8,False,False,False
-act:SetVariable
-SilenceTimerஐ18ஐ1
-ElementsCount:0
-END
-END
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Command
-13ஐ0ஐ1ஐ78
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:8,False,False,False
-act:SetVariable
-SilenceRangeஐ64ஐ1
-ElementsCount:0
-END
-END
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:2
-Type:7,False,False,False
-con:Deaths
-13ஐ2ஐ15ஐ121
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Deaths
-13ஐ2ஐ1ஐ119
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:3
-Type:8,False,False,False
-act:SetDeaths
-13ஐ0ஐ0ஐ119
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetVariable
-SuperchargedWஐ1ஐ0
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetVariable
-SilenceTimerஐ96ஐ0
-ElementsCount:0
-END
-END
-END
-Type:2,False,False,False
-ElementsCount:3
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Switch
-37ஐ1
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:10,False,False,False
-Countingஐiஐ4
-ElementsCount:1
-Type:14,False,False,False
-ElementsCount:3
-Type:8,False,False,False
-act:CreateVariable
-EnemyPlayerஐi * 2 +(1 - ForceNum)
-ElementsCount:0
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Command
-13ஐ0ஐ1ஐ64
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:19,False,False,False
-DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐEnemyPlayerஐ3ஐ12800 + 1280 * Upgrade.cast(Upgrades[CP]).atk
-ElementsCount:0
-END
-END
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:3
-Type:7,False,False,False
-con:Variable
-EnemyPlayerஐ5ஐ3
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Variable
-Heroes[EnemyPlayer]ஐ0ஐ1
-ElementsCount:0
-END
-Type:7,False,False,False
-con:RawCode
-FastDistanceUnit(Hero,Heroes[EnemyPlayer]) < SilenceRange
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:2
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:2
-Type:7,False,False,False
-con:Variable
-SuperchargedWஐ1ஐ2
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Deaths
-EnemyPlayerஐ2ஐ1ஐ192
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:4
-Type:8,False,False,False
-act:CreateVariableWithNoini
-HeroType
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetVariableCUnitDataEPD
-Heroes[EnemyPlayer]ஐ44ஐHeroTypeஐ0
-ElementsCount:0
-END
-Type:8,False,False,False
-act:MoveUnit
-0ஐHeroTypeஐEnemyPlayerஐ9ஐ23
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetCUnitDataEPD
-Heroes[EnemyPlayer]ஐ173ஐ9
-ElementsCount:0
-END
-END
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Deaths
-EnemyPlayerஐ1ஐSilenceTimerஐ191
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:8,False,False,False
-act:SetDeaths
-EnemyPlayerஐ0ஐSilenceTimerஐ191
-ElementsCount:0
-END
-END
-END
-END
-END
-END
-END
-END
-Type:6,False,False,False
-ElementsCount:2
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Command
-13ஐ0ஐ1ஐ64
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:19,False,False,False
-DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐ7ஐ3ஐ12800 + 1280 * Upgrade.cast(Upgrades[CP]).atk
-ElementsCount:0
-END
-END
-END
-Type:10,False,False,False
-Countingஐiஐ6
-ElementsCount:1
-Type:14,False,False,False
-ElementsCount:1
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:4
-Type:7,False,False,False
-con:Variable
-HeroPvE[i]ஐ0ஐ1
-ElementsCount:0
-END
-Type:7,False,False,False
-con:CUnitDataEPD
-HeroPvE[i]ஐ31ஐ1ஐ0
-ElementsCount:0
-END
-Type:7,False,False,False
-con:CUnitDataEPD
-HeroPvE[i]ஐ3ஐ1ஐ0
-ElementsCount:0
-END
-Type:7,False,False,False
-con:RawCode
-FastDistanceUnit(Heroes[getcurpl()],HeroPvE[i]) < SilenceRange
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:4
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Variable
-SuperchargedWஐ1ஐ2
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:4
-Type:8,False,False,False
-act:CreateVariableWithNoini
-HeroType
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetVariableCUnitDataEPD
-HeroPvE[i]ஐ44ஐHeroTypeஐ0
-ElementsCount:0
-END
-Type:8,False,False,False
-act:MoveUnit
-0ஐHeroTypeஐ7ஐ9ஐ23
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetCUnitDataEPD
-HeroPvE[i]ஐ173ஐ9
-ElementsCount:0
-END
-END
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Variable
-QskillCooldownPvE[i]ஐSilenceTimerஐ3
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:8,False,False,False
-act:SetVariable
-QskillCooldownPvE[i]ஐSilenceTimerஐ0
-ElementsCount:0
-END
-END
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Variable
-WskillCooldownPvE[i]ஐSilenceTimerஐ3
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:8,False,False,False
-act:SetVariable
-WskillCooldownPvE[i]ஐSilenceTimerஐ0
-ElementsCount:0
-END
-END
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:2
-Type:7,False,False,False
-con:Variable
-SuperchargedWஐ0ஐ0
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Variable
-EskillCooldownPvE[i]ஐSilenceTimerஐ3
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:8,False,False,False
-act:SetVariable
-EskillCooldownPvE[i]ஐSilenceTimerஐ0
-ElementsCount:0
-END
-END
-END
-END
-END
-END
-END
-END
-END
-END
-END
-END
-END
-Type:21,True,True,False
-//Wskillஐ//WskillஐFalse
-ElementsCount:1
-Type:22,False,False,False
-ElementsCount:1
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Bring
-13ஐ0ஐ1ஐ82ஐ9
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:12
-Type:8,False,False,False
-act:MoveLocation
-107ஐ82ஐ13ஐ9
-ElementsCount:0
-END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-Or
-ElementsCount:2
-Type:7,False,False,False
-con:Bring
-13ஐ2ஐ1ஐ74ஐ9
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Bring
-13ஐ2ஐ1ஐ61ஐ9
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:2
-Type:7,False,False,False
-con:Bring
-13ஐ2ஐ0ஐ47ஐ9
-ElementsCount:0
-END
-Type:7,False,False,False
-con:Bring
-13ஐ2ஐ0ஐ98ஐ9
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:2
-Type:2,False,False,False
-ElementsCount:3
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Switch
-37ஐ1
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:1
-Type:10,False,False,False
-Customஐvar EnemyPlayer = 1-ForceNum; EnemyPlayer < 6; EnemyPlayer += 2ஐ10
-ElementsCount:1
-Type:14,False,False,False
-ElementsCount:1
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Bring
-EnemyPlayerஐ0ஐ1ஐ47ஐ107
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:3
-Type:8,False,False,False
-act:GiveUnits
-1ஐ47ஐEnemyPlayerஐ107ஐ13
-ElementsCount:0
-END
-Type:19,False,False,False
-QskillInitஐQskill.cast(Qskills[EnemyPlayer]).type
-ElementsCount:0
-END
-Type:8,False,False,False
-act:RawCode
-break;
-ElementsCount:0
-END
-END
-END
-END
-END
-END
-Type:6,False,False,False
-ElementsCount:1
-Type:2,False,False,False
-ElementsCount:3
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Bring
-7ஐ0ஐ1ஐ47ஐ107
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:2
-Type:8,False,False,False
-act:GiveUnits
-1ஐ47ஐ7ஐ107ஐ13
-ElementsCount:0
-END
-Type:19,False,False,False
-QskillInitஐ6
-ElementsCount:0
-END
-END
-Type:6,False,False,False
-ElementsCount:1
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Bring
-9ஐ0ஐ1ஐ47ஐ107
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:2
-Type:8,False,False,False
-act:GiveUnits
-1ஐ47ஐ9ஐ107ஐ13
-ElementsCount:0
-END
-Type:19,False,False,False
-QskillInitஐ6
-ElementsCount:0
-END
-END
-END
-END
-END
-END
-END
-Type:8,False,False,False
-act:SetDeaths
-13ஐ0ஐ6ஐ153
-ElementsCount:0
-END
-END
-END
-END
-END
-Type:8,False,False,False
-act:KillUnitAt
-0ஐ47ஐ107ஐ14
-ElementsCount:0
-END
-Type:8,False,False,False
-act:KillUnitAt
-0ஐ47ஐ107ஐ9
-ElementsCount:0
-END
-Type:8,False,False,False
-act:KillUnit
-82ஐ13
 ElementsCount:0
 END
 Type:8,False,False,False
@@ -10598,7 +10016,7 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:4
+ElementsCount:3
 Type:8,False,False,False
 act:SetDeaths
 13ஐ0ஐ13ஐ138
@@ -10629,31 +10047,6 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
-ElementsCount:2
-Type:3,False,False,False
-And
-ElementsCount:1
-Type:7,False,False,False
-con:Deaths
-13ஐ2ஐ9ஐ121
-ElementsCount:0
-END
-END
-Type:5,False,False,False
-ElementsCount:2
-Type:8,False,False,False
-act:SetDeaths
-13ஐ0ஐ1ஐ119
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetDeaths
-13ஐ1ஐ12ஐ138
-ElementsCount:0
-END
-END
-END
 END
 END
 Type:1,False,False,False
@@ -10668,7 +10061,12 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:1
+ElementsCount:2
+Type:8,False,False,False
+act:SetDeaths
+13ஐ1ஐ1ஐ35
+ElementsCount:0
+END
 Type:2,False,False,False
 ElementsCount:3
 Type:3,False,False,False
@@ -11007,7 +10405,7 @@ Type:5,False,False,False
 ElementsCount:6
 Type:8,False,False,False
 act:CreateVariable
-CounterஐCounterShield[getcurpl()]
+CounterஐCounterShield[CP]
 ElementsCount:0
 END
 Type:1,False,False,False
@@ -15518,7 +14916,7 @@ ElementsCount:0
 END
 END
 END
-Type:10,False,False,False
+Type:10,False,True,False
 PlayerLoopஐ0,0,0,0,0,0,0,1,0,0,0,0ஐ10
 ElementsCount:1
 Type:14,False,False,False
@@ -17002,7 +16400,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //Eskillஐ//EskillஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -22667,7 +22065,7 @@ END
 &afterTriggerExec&
 Type:0,False,False,False
 ElementsCount:1
-Type:10,False,False,False
+Type:10,False,True,False
 PlayerLoopஐ1,1,1,1,1,1,0,0,0,0,0,0ஐ10
 ElementsCount:1
 Type:14,False,False,False
