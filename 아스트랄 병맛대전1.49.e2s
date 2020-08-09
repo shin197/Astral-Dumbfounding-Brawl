@@ -1,7 +1,7 @@
 S_ProjectSET
 Version : 0.17.9.7
 InputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전원본.scx
-OutputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전1.48.scx
+OutputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전1.49.scx
 euddraftuse : True
 loadfromCHK : True
 UsedSetting0 : True
@@ -253,13 +253,14 @@ S_DatEditSET
 0,24,22,-2
 0,24,25,-6
 0,24,26,-6
+0,24,27,-7
 0,24,32,4
 0,24,34,-1
 0,24,37,1
 0,24,39,1
 0,24,40,-1
 0,24,43,-1
-0,24,47,-2
+0,24,47,-4
 0,24,52,-9
 0,24,54,3
 0,24,55,-4
@@ -274,6 +275,7 @@ S_DatEditSET
 0,24,80,-5
 0,24,87,4
 0,24,95,1
+0,24,98,-6
 0,24,100,-9
 0,24,104,-6
 0,25,0,1
@@ -668,6 +670,7 @@ S_DatEditSET
 1,5,122,-32
 1,6,1,7
 1,6,2,7
+1,6,4,6
 1,6,5,1
 1,6,6,-46
 1,6,7,24
@@ -718,7 +721,6 @@ S_DatEditSET
 1,6,99,1
 1,6,100,-4
 1,6,104,-4
-1,6,107,-46
 1,6,109,3
 1,6,111,1
 1,6,113,7
@@ -735,7 +737,6 @@ S_DatEditSET
 1,7,55,-2
 1,7,76,2
 1,7,78,2
-1,7,107,1
 1,7,113,-1
 1,7,117,-2
 1,7,121,-1
@@ -744,7 +745,6 @@ S_DatEditSET
 1,8,32,-1
 1,8,51,1
 1,8,76,-1
-1,8,107,-1
 1,8,117,4
 1,8,118,3
 1,8,121,-2
@@ -762,7 +762,6 @@ S_DatEditSET
 1,10,68,2
 1,10,76,2
 1,10,84,1
-1,10,107,-19
 1,10,117,1
 1,10,120,2
 1,11,23,40
@@ -774,7 +773,6 @@ S_DatEditSET
 1,11,55,20
 1,11,68,15
 1,11,76,50
-1,11,107,20
 1,11,117,128
 1,11,120,3
 1,12,23,40
@@ -786,7 +784,6 @@ S_DatEditSET
 1,12,55,40
 1,12,68,30
 1,12,76,75
-1,12,107,40
 1,12,117,192
 1,12,120,15
 1,13,23,40
@@ -798,14 +795,12 @@ S_DatEditSET
 1,13,55,60
 1,13,68,45
 1,13,76,100
-1,13,107,60
 1,13,117,256
 1,13,120,30
 1,14,32,100
 1,14,50,15
 1,14,51,5
 1,14,68,65
-1,14,107,52
 1,14,117,2994
 1,14,118,4
 1,14,120,18
@@ -817,7 +812,6 @@ S_DatEditSET
 1,15,50,1
 1,15,51,14
 1,15,68,6
-1,15,107,5
 1,15,117,-1
 1,15,121,1
 1,15,122,4
@@ -850,6 +844,7 @@ S_DatEditSET
 1,18,47,112
 1,18,49,16
 1,18,51,112
+1,18,62,48
 1,18,75,112
 1,18,76,96
 1,18,78,112
@@ -941,7 +936,7 @@ BtnData23 : 1,228,4360288,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,23
 BtnUse32 : True
 BtnData32 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
 BtnUse34 : True
-BtnData34 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,365,4363488,4340192,34,34,1247,0,8,367,4363488,4341616,24,24,1248,1250,
+BtnData34 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,365,4363488,4340192,34,34,1247,0,8,367,4363488,4341616,24,24,1248,1250,9,373,4363488,4341616,30,30,1249,1251,
 BtnUse37 : True
 BtnData37 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,254,4359104,4342080,0,0,667,0,5,255,4359104,4338544,0,0,668,0,
 BtnUse38 : True
@@ -1422,7 +1417,7 @@ SCDBDataSize : 4
 E_SCDBSet
 S_FileManagerSET
 statlang : 0
-stattextdicCount : 279
+stattextdicCount : 280
 stattextdickey0 : 411
 stattextdicvalue0 : 유닛 방어력
 stattextdickey1 : 416
@@ -1952,7 +1947,7 @@ stattextdicvalue262 : 잡으면 <7>5점
 stattextdickey263 : 655
 stattextdicvalue263 : e<1>초대박강화 [<3>E<2>]<10> 다음에 쓰는 스킬이 강화됩니다.<10> 쿨다운 15초.
 stattextdickey264 : 1248
-stattextdicvalue264 : f<3>전술 수류탄[<3>F<2>]
+stattextdicvalue264 : f<3>눈뽕[<3>F<2>]
 stattextdickey265 : 449
 stattextdicvalue265 : 스캔 부스터
 stattextdickey266 : 442
@@ -1981,6 +1976,8 @@ stattextdickey277 : 1323
 stattextdicvalue277 : 테란 드랍쉽
 stattextdickey278 : 336
 stattextdicvalue278 : s<3>방플하기[<3>S<2>]
+stattextdickey279 : 1298
+stattextdicvalue279 : <4>으앜 내눈!!!
 wireuse : True
 wireframData22 : 69
 grpwireData22 : 69
@@ -2038,7 +2035,7 @@ ElementsCount:0
 END
 
 &functions&
-Type:15,False,False,False
+Type:15,False,True,False
 ElementsCount:38
 Type:16,False,True,False
 COrderLocEPDஐFalse
@@ -5790,7 +5787,7 @@ END
 
 &GlobalVar&
 Type:0,False,False,False
-ElementsCount:24
+ElementsCount:26
 Type:8,False,False,False
 act:CreatePlayerVariable
 Heroesஐ0
@@ -5911,10 +5908,20 @@ act:CreatePlayerVariable
 Scannerஐ0
 ElementsCount:0
 END
+Type:8,False,False,False
+act:CreatePlayerVariable
+BlindTimerஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreatePlayerVariable
+BlindTimerPvEஐ0
+ElementsCount:0
+END
 END
 
 &RawTriggers&
-Type:25,False,False,False
+Type:25,False,True,False
 ElementsCount:5
 Type:24,False,True,False
 63
@@ -6277,7 +6284,7 @@ END
 
 &onPluginStart&
 Type:0,False,False,False
-ElementsCount:13
+ElementsCount:14
 Type:8,False,False,False
 act:SetMemory
 0x515BB8ஐ192ஐ0
@@ -6286,6 +6293,11 @@ END
 Type:8,False,False,False
 act:SetMemory
 0x515BBCஐ128ஐ0
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+randomize();
 ElementsCount:0
 END
 Type:10,False,True,False
@@ -7227,7 +7239,7 @@ END
 END
 END
 END
-Type:21,False,True,False
+Type:21,False,False,False
 //HeroSettingஐ//HeroSettingஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -7543,7 +7555,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //MissileGenஐ//MissileGenஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -7627,7 +7639,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //MissileAimஐ//MissileAimஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -9327,7 +9339,7 @@ END
 Type:5,False,False,False
 ElementsCount:1
 Type:19,False,False,False
-DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐEnemyPlayerஐ3ஐ12800 + 1280 * Upgrade.cast(Upgrades[CP]).atk
+DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐEnemyPlayerஐ3ஐ25600 + 2560 * Upgrade.cast(Upgrades[CP]).atk
 ElementsCount:0
 END
 END
@@ -9390,7 +9402,7 @@ ElementsCount:0
 END
 Type:8,False,False,False
 act:SetCUnitDataEPD
-Heroes[EnemyPlayer]ஐ173ஐ9
+Heroes[EnemyPlayer]ஐ181ஐ9
 ElementsCount:0
 END
 END
@@ -9436,7 +9448,7 @@ END
 Type:5,False,False,False
 ElementsCount:1
 Type:19,False,False,False
-DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐ7ஐ3ஐ12800 + 1280 * Upgrade.cast(Upgrades[CP]).atk
+DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐ7ஐ3ஐ25600 + 2560 * Upgrade.cast(Upgrades[CP]).atk
 ElementsCount:0
 END
 END
@@ -9468,7 +9480,7 @@ ElementsCount:0
 END
 Type:7,False,False,False
 con:RawCode
-FastDistanceUnit(Heroes[getcurpl()],HeroPvE[i]) < SilenceRange
+FastDistanceUnit(Heroes[CP],HeroPvE[i]) < SilenceRange
 ElementsCount:0
 END
 END
@@ -9504,7 +9516,7 @@ ElementsCount:0
 END
 Type:8,False,False,False
 act:SetCUnitDataEPD
-HeroPvE[i]ஐ173ஐ9
+HeroPvE[i]ஐ181ஐ9
 ElementsCount:0
 END
 END
@@ -9628,7 +9640,7 @@ END
 Type:6,False,False,False
 ElementsCount:1
 Type:19,False,False,False
-DamageUnitEPDஐ7ஐHeroஐ3ஐ25600
+DamageUnitEPDஐ7ஐHeroஐ3ஐ19200
 ElementsCount:0
 END
 END
@@ -9675,7 +9687,7 @@ END
 Type:6,False,False,False
 ElementsCount:1
 Type:19,False,False,False
-DamageUnitEPDஐ7ஐHeroஐ3ஐ25600
+DamageUnitEPDஐ7ஐHeroஐ3ஐ19200
 ElementsCount:0
 END
 END
@@ -9703,52 +9715,102 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:16
-Type:1,False,False,False
+ElementsCount:18
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
 ElementsCount:2
 Type:7,False,False,False
 con:Deaths
-13ஐ2ஐ6ஐ212
+13ஐ2ஐ1ஐ121
 ElementsCount:0
 END
 Type:7,False,False,False
 con:Deaths
-13ஐ2ஐ1ஐ121
+13ஐ2ஐ150ஐ200
 ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:5
-Type:8,False,False,False
-act:SetDeaths
-13ஐ0ஐ0ஐ212
-ElementsCount:0
-END
-Type:8,False,False,False
-act:CreateVariableWithNoini
-MarineHP
-ElementsCount:0
-END
-Type:8,False,False,False
-act:SetVariableDatFile
-0ஐ20ஐ8ஐMarineHPஐ0
-ElementsCount:0
-END
-Type:8,False,False,False
-act:RawCode
-MarineHP /= 10
-ElementsCount:0
-END
+ElementsCount:1
 Type:19,False,False,False
-HealUnitஐHeroஐMarineHP
+HealUnitஐHeroஐ12800 + 1280 * Upgrade.cast(Upgrades[CP]).dfn
 ElementsCount:0
 END
 END
+END
+Type:1,False,True,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:CUnitDataEPD
+Heroஐ180ஐ0ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+BlindTimer[CP]ஐ0ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetVariable
+BlindTimer[CP]ஐ120ஐ0
+ElementsCount:0
+END
+END
+END
+Type:1,False,True,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:CUnitDataEPD
+Heroஐ180ஐ0ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+BlindTimer[CP]ஐ1ஐ2
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetVariable
+BlindTimer[CP]ஐ1ஐ2
+ElementsCount:0
 END
 Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Variable
+BlindTimer[CP]ஐ0ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitDataEPD
+Heroஐ180ஐ0
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -9793,7 +9855,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -9985,7 +10047,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10009,16 +10071,24 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
-ElementsCount:2
+ElementsCount:1
 Type:7,False,False,False
 con:CUnitDataEPD
 Heroஐ31ஐ0ஐ116
 ElementsCount:0
 END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
 Type:7,False,False,False
 con:Deaths
 13ஐ2ஐ0ஐ35
@@ -10026,7 +10096,7 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:4
+ElementsCount:3
 Type:8,False,False,False
 act:SetDeaths
 13ஐ0ஐ13ஐ138
@@ -10057,6 +10127,8 @@ ElementsCount:0
 END
 END
 END
+END
+END
 Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
@@ -10079,7 +10151,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10125,7 +10197,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10166,7 +10238,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10224,7 +10296,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10249,7 +10321,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 Or
@@ -10337,7 +10409,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10372,7 +10444,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10520,7 +10592,7 @@ END
 END
 END
 END
-Type:2,False,False,False
+Type:2,False,True,False
 ElementsCount:3
 Type:3,False,False,False
 And
@@ -10558,7 +10630,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10754,7 +10826,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12281,7 +12353,7 @@ Type:5,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x04영혼\n\n\x08[!]\x02 기지로 돌아가서 부활하세요! \x08[!]\n\n"
+"\x04영혼\n\n\x08[!]\x02 기지로 돌아가서 부활하세요! \x08[!]\n\n이미 죽은 몸 \x02(패시브): 체력 회복 효과를 받을 수 없습니다. 침묵에 면역입니다."
 ElementsCount:0
 END
 END
@@ -12349,7 +12421,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x04한강 물귀신\n이미 죽은 몸 \x02(패시브): 체력 회복 효과를 받을 수 없습니다.\n"
+"\x04한강 물귀신\n이미 죽은 몸 \x02(패시브): 체력 회복 효과를 받을 수 없습니다. 침묵에 면역입니다.\n"
 ElementsCount:0
 END
 END
@@ -12948,7 +13020,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //Minionஐ//MinionஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -13171,7 +13243,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Variable
-MinonWave.cast(MinionWaves[CP]).mob1ஐ1ஐ2
+MinionWave.cast(MinionWaves[CP]).mob1ஐ1ஐ2
 ElementsCount:0
 END
 END
@@ -13221,7 +13293,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Variable
-MinonWave.cast(MinionWaves[CP]).mob2ஐ1ஐ2
+MinionWave.cast(MinionWaves[CP]).mob2ஐ1ஐ2
 ElementsCount:0
 END
 END
@@ -13229,7 +13301,7 @@ Type:5,False,False,False
 ElementsCount:2
 Type:8,False,False,False
 act:SetVariable
-MinionWave.cast(MinionWaves[CP).mob2ஐ1ஐ2
+MinionWave.cast(MinionWaves[CP]).mob2ஐ1ஐ2
 ElementsCount:0
 END
 Type:8,False,False,False
@@ -13271,7 +13343,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Variable
-MinonWave.cast(MinionWaves[CP]).mob3ஐ1ஐ2
+MinionWave.cast(MinionWaves[CP]).mob3ஐ1ஐ2
 ElementsCount:0
 END
 END
@@ -13321,7 +13393,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Variable
-MinonWave.cast(MinionWaves[CP]).mob4ஐ1ஐ2
+MinionWave.cast(MinionWaves[CP]).mob4ஐ1ஐ2
 ElementsCount:0
 END
 END
@@ -13329,7 +13401,7 @@ Type:5,False,False,False
 ElementsCount:2
 Type:8,False,False,False
 act:SetVariable
-MinionWave.cast(MinionWaves[getcurpl()]).mob4ஐ1ஐ2
+MinionWave.cast(MinionWaves[CP]).mob4ஐ1ஐ2
 ElementsCount:0
 END
 Type:8,False,False,False
@@ -13371,7 +13443,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Variable
-MinonWave.cast(MinionWaves[CP]).mob5ஐ1ஐ2
+MinionWave.cast(MinionWaves[CP]).mob5ஐ1ஐ2
 ElementsCount:0
 END
 END
@@ -15026,7 +15098,7 @@ ElementsCount:0
 END
 END
 END
-Type:10,False,True,False
+Type:10,False,False,False
 PlayerLoopஐ0,0,0,0,0,0,0,1,0,0,0,0ஐ10
 ElementsCount:1
 Type:14,False,False,False
@@ -15490,7 +15562,7 @@ Type:10,False,False,False
 Countingஐiஐ6
 ElementsCount:1
 Type:14,False,False,False
-ElementsCount:20
+ElementsCount:21
 Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
@@ -16041,6 +16113,83 @@ ElementsCount:1
 Type:19,False,False,False
 AddStatusFlagsEPDஐHeroPvE[i]ஐ262144
 ElementsCount:0
+END
+END
+END
+END
+END
+Type:21,False,False,False
+//Blindஐ//BlindஐFalse
+ElementsCount:1
+Type:22,False,False,False
+ElementsCount:2
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:CUnitDataEPD
+HeroPvE[i]ஐ180ஐ0ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+BlindTimerPvE[i]ஐ0ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetVariable
+BlindTimerPvE[i]ஐ120ஐ0
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:2
+Type:7,False,False,False
+con:CUnitDataEPD
+HeroPvE[i]ஐ180ஐ0ஐ1
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+BlindTimerPvE[i]ஐ1ஐ2
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:SetVariable
+BlindTimerPvE[i]ஐ1ஐ2
+ElementsCount:0
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Variable
+BlindTimerPvE[i]ஐ0ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetCUnitDataEPD
+BlindTimerPvE[i]ஐ180ஐ0
+ElementsCount:0
+END
+END
 END
 END
 END

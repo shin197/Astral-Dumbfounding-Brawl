@@ -128,352 +128,352 @@ def _LSH(l, r):
 
 # (Line 1) import TriggerEditor as TE;
 import TriggerEditor as TE
-# (Line 2) function Color(){
+# (Line 317) function Color(){
 @EUDFunc
 def Color():
-    # (Line 3) switch(dwread_epd(EPD(0x58A364 + 48 * 213 + 4 * 6))) {
+    # (Line 318) switch(dwread_epd(EPD(0x58A364 + 48 * 213 + 4 * 6))) {
     EUDSwitch(f_dwread_epd(EPD(0x58A364 + 48 * 213 + 4 * 6)))
-    # (Line 4) case 0:
+    # (Line 319) case 0:
     _t1 = EUDSwitchCase()
-    # (Line 5) TE.SetPColor(8,111,0);
+    # (Line 320) TE.SetPColor(8,111,0);
     if _t1(0):
         TE.SetPColor(8, 111, 0)
-        # (Line 6) break;
+        # (Line 321) break;
         EUDBreak()
-        # (Line 7) case 2:
+        # (Line 322) case 2:
     _t2 = EUDSwitchCase()
-    # (Line 8) TE.SetPColor(8,156,0);
+    # (Line 323) TE.SetPColor(8,156,0);
     if _t2(2):
         TE.SetPColor(8, 156, 0)
-        # (Line 9) break;
+        # (Line 324) break;
         EUDBreak()
-        # (Line 10) case 4:
+        # (Line 325) case 4:
     _t3 = EUDSwitchCase()
-    # (Line 11) TE.SetPColor(8,135,0);
+    # (Line 326) TE.SetPColor(8,135,0);
     if _t3(4):
         TE.SetPColor(8, 135, 0)
-        # (Line 12) break;
+        # (Line 327) break;
         EUDBreak()
-        # (Line 13) case 6:
+        # (Line 328) case 6:
     _t4 = EUDSwitchCase()
-    # (Line 14) TE.SetPColor(8,117,0);
+    # (Line 329) TE.SetPColor(8,117,0);
     if _t4(6):
         TE.SetPColor(8, 117, 0)
-        # (Line 15) break;
+        # (Line 330) break;
         EUDBreak()
-        # (Line 16) case 8:
+        # (Line 331) case 8:
     _t5 = EUDSwitchCase()
-    # (Line 17) TE.SetPColor(8,185,0);
+    # (Line 332) TE.SetPColor(8,185,0);
     if _t5(8):
         TE.SetPColor(8, 185, 0)
-        # (Line 18) break;
+        # (Line 333) break;
         EUDBreak()
-        # (Line 19) case 10:
+        # (Line 334) case 10:
     _t6 = EUDSwitchCase()
-    # (Line 20) TE.SetPColor(8,128,0);
+    # (Line 335) TE.SetPColor(8,128,0);
     if _t6(10):
         TE.SetPColor(8, 128, 0)
-        # (Line 21) break;
+        # (Line 336) break;
         EUDBreak()
-        # (Line 22) case 12:
+        # (Line 337) case 12:
     _t7 = EUDSwitchCase()
-    # (Line 23) TE.SetPColor(8,51,0);
+    # (Line 338) TE.SetPColor(8,51,0);
     if _t7(12):
         TE.SetPColor(8, 51, 0)
-        # (Line 24) break;
+        # (Line 339) break;
         EUDBreak()
-        # (Line 25) case 14:
+        # (Line 340) case 14:
     _t8 = EUDSwitchCase()
-    # (Line 26) TE.SetPColor(8,53,0);
+    # (Line 341) TE.SetPColor(8,53,0);
     if _t8(14):
         TE.SetPColor(8, 53, 0)
-        # (Line 27) break;
+        # (Line 342) break;
         EUDBreak()
-        # (Line 28) case 16:
+        # (Line 343) case 16:
     _t9 = EUDSwitchCase()
-    # (Line 29) TE.SetPColor(8,164,0);
+    # (Line 344) TE.SetPColor(8,164,0);
     if _t9(16):
         TE.SetPColor(8, 164, 0)
-        # (Line 30) break;
+        # (Line 345) break;
         EUDBreak()
-        # (Line 31) case 18:
+        # (Line 346) case 18:
     _t10 = EUDSwitchCase()
-    # (Line 32) TE.SetPColor(8,8,0);
+    # (Line 347) TE.SetPColor(8,8,0);
     if _t10(18):
         TE.SetPColor(8, 8, 0)
-        # (Line 33) break;
+        # (Line 348) break;
         EUDBreak()
-        # (Line 34) case 20:
+        # (Line 349) case 20:
     _t11 = EUDSwitchCase()
-    # (Line 35) TE.SetPColor(8,111,0);
+    # (Line 350) TE.SetPColor(8,111,0);
     if _t11(20):
         TE.SetPColor(8, 111, 0)
-        # (Line 36) SetDeaths((6), (7), 0, (213));
-        # (Line 37) break;
+        # (Line 351) SetDeaths((6), (7), 0, (213));
+        # (Line 352) break;
         DoActions(SetDeaths((6), (7), 0, (213)))
         EUDBreak()
-        # (Line 38) }
-    # (Line 39) SetDeaths((6), (8), 1, (213));
+        # (Line 353) }
+    # (Line 354) SetDeaths((6), (8), 1, (213));
     EUDEndSwitch()
-    # (Line 40) if(
+    # (Line 355) if(
     DoActions(SetDeaths((6), (8), 1, (213)))
     _t12 = EUDIf()
-    # (Line 41) Switch((19), (2))
-    # (Line 42) ){
+    # (Line 356) Switch((19), (2))
+    # (Line 357) ){
     if _t12(Switch((19), (2))):
-        # (Line 43) foreach(ptr, epd : EUDLoopPlayerUnit(11) ) {
+        # (Line 358) foreach(ptr, epd : EUDLoopPlayerUnit(11) ) {
         for ptr, epd in EUDLoopPlayerUnit(11):
-            # (Line 44) SetSwitch((19), (5));
-            # (Line 45) TE.SetUnitColor(ptr,11);
+            # (Line 359) SetSwitch((19), (5));
+            # (Line 360) TE.SetUnitColor(ptr,11);
             DoActions(SetSwitch((19), (5)))
             TE.SetUnitColor(ptr, 11)
-            # (Line 46) if(
+            # (Line 361) if(
             _t13 = EUDIf()
-            # (Line 47) Switch((26), (2)) &&
-            # (Line 48) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 198
-            # (Line 49) ){
+            # (Line 362) Switch((26), (2)) &&
+            # (Line 363) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 198
+            # (Line 364) ){
             if _t13(EUDSCAnd()(Switch((26), (2)))(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 198)()):
-                # (Line 50) TE.SetUnitColor(ptr,8);
+                # (Line 365) TE.SetUnitColor(ptr,8);
                 TE.SetUnitColor(ptr, 8)
-                # (Line 51) }
-                # (Line 52) }
+                # (Line 366) }
+                # (Line 367) }
             EUDEndIf()
-            # (Line 53) foreach(ptr, epd : EUDLoopPlayerUnit(9) ) {
+            # (Line 368) foreach(ptr, epd : EUDLoopPlayerUnit(9) ) {
 
         for ptr, epd in EUDLoopPlayerUnit(9):
-            # (Line 54) if(
+            # (Line 369) if(
             _t14 = EUDIf()
-            # (Line 55) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 87
-            # (Line 56) ){
+            # (Line 370) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 87
+            # (Line 371) ){
             if _t14(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 87):
-                # (Line 57) TE.SetUnitColor(ptr,8);
+                # (Line 372) TE.SetUnitColor(ptr,8);
                 TE.SetUnitColor(ptr, 8)
-                # (Line 58) }
-                # (Line 59) }
+                # (Line 373) }
+                # (Line 374) }
             EUDEndIf()
-            # (Line 60) }
+            # (Line 375) }
 
-        # (Line 61) if(
+        # (Line 376) if(
     EUDEndIf()
     _t15 = EUDIf()
-    # (Line 62) Deaths((6), (10), 0, (207))
-    # (Line 63) ){
+    # (Line 377) Deaths((6), (10), 0, (207))
+    # (Line 378) ){
     if _t15(Deaths((6), (10), 0, (207))):
-        # (Line 64) if(
+        # (Line 379) if(
         _t16 = EUDIf()
-        # (Line 65) Switch((17), (2)) ||
-        # (Line 66) Switch((18), (2))
-        # (Line 67) ){
+        # (Line 380) Switch((17), (2)) ||
+        # (Line 381) Switch((18), (2))
+        # (Line 382) ){
         if _t16(EUDSCOr()(Switch((17), (2)))(Switch((18), (2)))()):
-            # (Line 68) foreach(ptr, epd : EUDLoopPlayerUnit(11) ) {
+            # (Line 383) foreach(ptr, epd : EUDLoopPlayerUnit(11) ) {
             for ptr, epd in EUDLoopPlayerUnit(11):
-                # (Line 69) if(
+                # (Line 384) if(
                 _t17 = EUDIf()
-                # (Line 70) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 195 ||
-                # (Line 71) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 111 ||
-                # (Line 72) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 113
-                # (Line 73) ){
+                # (Line 385) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 195 ||
+                # (Line 386) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 111 ||
+                # (Line 387) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 113
+                # (Line 388) ){
                 if _t17(EUDSCOr()(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 195)(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 111)(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 113)()):
-                    # (Line 74) TE.SetUnitColor(ptr,11);
+                    # (Line 389) TE.SetUnitColor(ptr,11);
                     TE.SetUnitColor(ptr, 11)
-                    # (Line 75) }
-                    # (Line 76) }
+                    # (Line 390) }
+                    # (Line 391) }
                 EUDEndIf()
-                # (Line 77) }
+                # (Line 392) }
 
-            # (Line 78) foreach(ptr, epd : EUDLoopPlayerUnit(9) ) {
+            # (Line 393) foreach(ptr, epd : EUDLoopPlayerUnit(9) ) {
         EUDEndIf()
         for ptr, epd in EUDLoopPlayerUnit(9):
-            # (Line 79) if(
+            # (Line 394) if(
             _t18 = EUDIf()
-            # (Line 80) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 19 ||
-            # (Line 81) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 79 ||
-            # (Line 82) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 76 ||
-            # (Line 83) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 115
-            # (Line 84) ){
+            # (Line 395) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 19 ||
+            # (Line 396) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 79 ||
+            # (Line 397) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 76 ||
+            # (Line 398) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 115
+            # (Line 399) ){
             if _t18(EUDSCOr()(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 19)(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 79)(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 76)(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 115)()):
-                # (Line 85) TE.SetUnitColor(ptr,9);
+                # (Line 400) TE.SetUnitColor(ptr,9);
                 TE.SetUnitColor(ptr, 9)
-                # (Line 86) }
-                # (Line 87) }
+                # (Line 401) }
+                # (Line 402) }
             EUDEndIf()
-            # (Line 88) }
+            # (Line 403) }
 
-        # (Line 89) }
+        # (Line 404) }
     EUDEndIf()
-    # (Line 90) function Potential(){
+    # (Line 405) function Potential(){
 
 @EUDFunc
 def Potential():
-    # (Line 92) if(
+    # (Line 407) if(
     _t1 = EUDIf()
-    # (Line 93) Deaths((6), (10), 9, (212))
-    # (Line 94) ){
+    # (Line 408) Deaths((6), (10), 9, (212))
+    # (Line 409) ){
     if _t1(Deaths((6), (10), 9, (212))):
-        # (Line 95) SetDeaths((6), (7), 0, (212));
-        # (Line 96) bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (6) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
+        # (Line 410) SetDeaths((6), (7), 0, (212));
+        # (Line 411) bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (6) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
         DoActions(SetDeaths((6), (7), 0, (212)))
         f_bwrite(0x58D2B0 + 0x207C * ((9) // 46) + (6) * (46 - 31 * ((9) // 46)) + ((9) % 46), 5)
-        # (Line 97) bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (6) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
+        # (Line 412) bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (6) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((2) // 46) + (6) * (46 - 31 * ((2) // 46)) + ((2) % 46), 5)
-        # (Line 98) bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (6) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
+        # (Line 413) bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (6) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((13) // 46) + (6) * (46 - 31 * ((13) // 46)) + ((13) % 46), 5)
-        # (Line 99) bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (6) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
+        # (Line 414) bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (6) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((3) // 46) + (6) * (46 - 31 * ((3) // 46)) + ((3) % 46), 5)
-        # (Line 100) bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (7) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
+        # (Line 415) bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (7) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((9) // 46) + (7) * (46 - 31 * ((9) // 46)) + ((9) % 46), 5)
-        # (Line 101) bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (7) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
+        # (Line 416) bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (7) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((2) // 46) + (7) * (46 - 31 * ((2) // 46)) + ((2) % 46), 5)
-        # (Line 102) bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (7) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
+        # (Line 417) bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (7) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((13) // 46) + (7) * (46 - 31 * ((13) // 46)) + ((13) % 46), 5)
-        # (Line 103) bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (7) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
+        # (Line 418) bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (7) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((3) // 46) + (7) * (46 - 31 * ((3) // 46)) + ((3) % 46), 5)
-        # (Line 104) bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (9) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
+        # (Line 419) bwrite(0x58D2B0 + 0x207C * ((9) / 46) + (9) * (46 - 31 * ((9) / 46)) + ((9) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((9) // 46) + (9) * (46 - 31 * ((9) // 46)) + ((9) % 46), 5)
-        # (Line 105) bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (9) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
+        # (Line 420) bwrite(0x58D2B0 + 0x207C * ((2) / 46) + (9) * (46 - 31 * ((2) / 46)) + ((2) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((2) // 46) + (9) * (46 - 31 * ((2) // 46)) + ((2) % 46), 5)
-        # (Line 106) bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (9) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
+        # (Line 421) bwrite(0x58D2B0 + 0x207C * ((13) / 46) + (9) * (46 - 31 * ((13) / 46)) + ((13) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((13) // 46) + (9) * (46 - 31 * ((13) // 46)) + ((13) % 46), 5)
-        # (Line 107) bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (9) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
+        # (Line 422) bwrite(0x58D2B0 + 0x207C * ((3) / 46) + (9) * (46 - 31 * ((3) / 46)) + ((3) % 46), 5);
         f_bwrite(0x58D2B0 + 0x207C * ((3) // 46) + (9) * (46 - 31 * ((3) // 46)) + ((3) % 46), 5)
-        # (Line 108) }
-        # (Line 109) if(
+        # (Line 423) }
+        # (Line 424) if(
     EUDEndIf()
     _t2 = EUDIf()
-    # (Line 110) Deaths((6), (10), 12, (212))
-    # (Line 111) ){
+    # (Line 425) Deaths((6), (10), 12, (212))
+    # (Line 426) ){
     if _t2(Deaths((6), (10), 12, (212))):
-        # (Line 112) SetDeaths((6), (7), 0, (212));
-        # (Line 113) bwrite(0x65FD00 + 16592 + 87 * 1, 18);
+        # (Line 427) SetDeaths((6), (7), 0, (212));
+        # (Line 428) bwrite(0x65FD00 + 16592 + 87 * 1, 18);
         DoActions(SetDeaths((6), (7), 0, (212)))
         f_bwrite(0x65FD00 + 16592 + 87 * 1, 18)
-        # (Line 114) }
-        # (Line 115) if(
+        # (Line 429) }
+        # (Line 430) if(
     EUDEndIf()
     _t3 = EUDIf()
-    # (Line 116) Deaths((6), (10), 19, (212))
-    # (Line 117) ){
+    # (Line 431) Deaths((6), (10), 19, (212))
+    # (Line 432) ){
     if _t3(Deaths((6), (10), 19, (212))):
-        # (Line 118) SetDeaths((6), (7), 0, (212));
-        # (Line 119) SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) / 46) + (6) * (46 - 31 * ((32) / 46)) + ((32) % 46)), (8), bitlshift(1, 8 * (((6) * (46 - 31 * ((32) / 46)) + ((32) % 46)) % 4)));
+        # (Line 433) SetDeaths((6), (7), 0, (212));
+        # (Line 434) SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) / 46) + (6) * (46 - 31 * ((32) / 46)) + ((32) % 46)), (8), bitlshift(1, 8 * (((6) * (46 - 31 * ((32) / 46)) + ((32) % 46)) % 4)));
         DoActions(SetDeaths((6), (7), 0, (212)))
-        # (Line 120) SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) / 46) + (7) * (46 - 31 * ((32) / 46)) + ((32) % 46)), (8), bitlshift(1, 8 * (((7) * (46 - 31 * ((32) / 46)) + ((32) % 46)) % 4)));
+        # (Line 435) SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) / 46) + (7) * (46 - 31 * ((32) / 46)) + ((32) % 46)), (8), bitlshift(1, 8 * (((7) * (46 - 31 * ((32) / 46)) + ((32) % 46)) % 4)));
         DoActions(SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) // 46) + (6) * (46 - 31 * ((32) // 46)) + ((32) % 46)), (8), f_bitlshift(1, 8 * (((6) * (46 - 31 * ((32) // 46)) + ((32) % 46)) % 4))))
-        # (Line 121) dwwrite(0x65FD00 + 9808 + 76 * 4, dwread(0x65FD00 + 9808 + 76 * 4) + 51200);
+        # (Line 436) dwwrite(0x65FD00 + 9808 + 76 * 4, dwread(0x65FD00 + 9808 + 76 * 4) + 51200);
         DoActions(SetMemoryEPD(EPD(0x58D2B0 + 0x207C * ((32) // 46) + (7) * (46 - 31 * ((32) // 46)) + ((32) % 46)), (8), f_bitlshift(1, 8 * (((7) * (46 - 31 * ((32) // 46)) + ((32) % 46)) % 4))))
         f_dwwrite(0x65FD00 + 9808 + 76 * 4, f_dwread(0x65FD00 + 9808 + 76 * 4) + 51200)
-        # (Line 122) wwrite(0x65FD00 + 4352 + 76 * 2, wread(0x65FD00 + 4352 + 76 * 2) + 500);
+        # (Line 437) wwrite(0x65FD00 + 4352 + 76 * 2, wread(0x65FD00 + 4352 + 76 * 2) + 500);
         f_wwrite(0x65FD00 + 4352 + 76 * 2, f_wread(0x65FD00 + 4352 + 76 * 2) + 500)
-        # (Line 123) bwrite(0x65FD00 + 456 + 76 * 1, bread(0x65FD00 + 456 + 76 * 1) + 2);
+        # (Line 438) bwrite(0x65FD00 + 456 + 76 * 1, bread(0x65FD00 + 456 + 76 * 1) + 2);
         f_bwrite(0x65FD00 + 456 + 76 * 1, f_bread(0x65FD00 + 456 + 76 * 1) + 2)
-        # (Line 124) bwrite(0x65FD00 + 16592 + 76 * 1, bread(0x65FD00 + 16592 + 76 * 1) + 1);
+        # (Line 439) bwrite(0x65FD00 + 16592 + 76 * 1, bread(0x65FD00 + 16592 + 76 * 1) + 1);
         f_bwrite(0x65FD00 + 16592 + 76 * 1, f_bread(0x65FD00 + 16592 + 76 * 1) + 1)
-        # (Line 125) wwrite(0x6564E0 + 2512 + 71 * 2, wread(0x6564E0 + 2512 + 71 * 2) + 10);
+        # (Line 440) wwrite(0x6564E0 + 2512 + 71 * 2, wread(0x6564E0 + 2512 + 71 * 2) + 10);
         f_wwrite(0x6564E0 + 2512 + 71 * 2, f_wread(0x6564E0 + 2512 + 71 * 2) + 10)
-        # (Line 126) wwrite(0x6564E0 + 4504 + 71 * 2, wread(0x6564E0 + 4504 + 71 * 2) + 1);
+        # (Line 441) wwrite(0x6564E0 + 4504 + 71 * 2, wread(0x6564E0 + 4504 + 71 * 2) + 1);
         f_wwrite(0x6564E0 + 4504 + 71 * 2, f_wread(0x6564E0 + 4504 + 71 * 2) + 1)
-        # (Line 127) bwrite(0x6564E0 + 2776 + 52 * 1, bread(0x6564E0 + 2776 + 52 * 1) + -15);
+        # (Line 442) bwrite(0x6564E0 + 2776 + 52 * 1, bread(0x6564E0 + 2776 + 52 * 1) + -15);
         f_bwrite(0x6564E0 + 2776 + 52 * 1, f_bread(0x6564E0 + 2776 + 52 * 1) + -15)
-        # (Line 128) ModifyUnitHitPoints(0, (76), (9), (9), 100);
-        # (Line 129) wwrite(0x65FD00 + 4352 + 115 * 2, wread(0x65FD00 + 4352 + 115 * 2) + -100);
+        # (Line 443) ModifyUnitHitPoints(0, (76), (9), (9), 100);
+        # (Line 444) wwrite(0x65FD00 + 4352 + 115 * 2, wread(0x65FD00 + 4352 + 115 * 2) + -100);
         DoActions(ModifyUnitHitPoints(0, (76), (9), (9), 100))
         f_wwrite(0x65FD00 + 4352 + 115 * 2, f_wread(0x65FD00 + 4352 + 115 * 2) + -100)
-        # (Line 130) dwwrite(0x65FD00 + 9808 + 3 * 4, dwread(0x65FD00 + 9808 + 3 * 4) + 25600);
+        # (Line 445) dwwrite(0x65FD00 + 9808 + 3 * 4, dwread(0x65FD00 + 9808 + 3 * 4) + 25600);
         f_dwwrite(0x65FD00 + 9808 + 3 * 4, f_dwread(0x65FD00 + 9808 + 3 * 4) + 25600)
-        # (Line 131) }
-        # (Line 132) if(
+        # (Line 446) }
+        # (Line 447) if(
     EUDEndIf()
     _t4 = EUDIf()
-    # (Line 133) Deaths((6), (10), 20, (212))
-    # (Line 134) ){
+    # (Line 448) Deaths((6), (10), 20, (212))
+    # (Line 449) ){
     if _t4(Deaths((6), (10), 20, (212))):
-        # (Line 135) SetDeaths((6), (7), 0, (212));
-        # (Line 136) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (0) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        # (Line 450) SetDeaths((6), (7), 0, (212));
+        # (Line 451) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (0) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
         DoActions(SetDeaths((6), (7), 0, (212)))
         f_bwrite(0x58CF44 + 0x21FC * ((3) // 24) + (0) * (24 - 4 * ((3) // 24)) + ((3) % 24), 1)
-        # (Line 137) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (1) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        # (Line 452) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (1) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((3) // 24) + (1) * (24 - 4 * ((3) // 24)) + ((3) % 24), 1)
-        # (Line 138) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (2) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        # (Line 453) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (2) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((3) // 24) + (2) * (24 - 4 * ((3) // 24)) + ((3) % 24), 1)
-        # (Line 139) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (3) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        # (Line 454) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (3) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((3) // 24) + (3) * (24 - 4 * ((3) // 24)) + ((3) % 24), 1)
-        # (Line 140) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (4) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        # (Line 455) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (4) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((3) // 24) + (4) * (24 - 4 * ((3) // 24)) + ((3) % 24), 1)
-        # (Line 141) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (5) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
+        # (Line 456) bwrite(0x58CF44 + 0x21FC * ((3) / 24) + (5) * (24 - 4 * ((3) / 24)) + ((3) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((3) // 24) + (5) * (24 - 4 * ((3) // 24)) + ((3) % 24), 1)
-        # (Line 142) }
-        # (Line 143) if(
+        # (Line 457) }
+        # (Line 458) if(
     EUDEndIf()
     _t5 = EUDIf()
-    # (Line 144) Deaths((6), (10), 21, (212))
-    # (Line 145) ){
+    # (Line 459) Deaths((6), (10), 21, (212))
+    # (Line 460) ){
     if _t5(Deaths((6), (10), 21, (212))):
-        # (Line 146) SetDeaths((6), (7), 0, (212));
-        # (Line 147) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (0) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        # (Line 461) SetDeaths((6), (7), 0, (212));
+        # (Line 462) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (0) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
         DoActions(SetDeaths((6), (7), 0, (212)))
         f_bwrite(0x58CF44 + 0x21FC * ((16) // 24) + (0) * (24 - 4 * ((16) // 24)) + ((16) % 24), 1)
-        # (Line 148) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (1) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        # (Line 463) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (1) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((16) // 24) + (1) * (24 - 4 * ((16) // 24)) + ((16) % 24), 1)
-        # (Line 149) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (2) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        # (Line 464) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (2) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((16) // 24) + (2) * (24 - 4 * ((16) // 24)) + ((16) % 24), 1)
-        # (Line 150) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (3) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        # (Line 465) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (3) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((16) // 24) + (3) * (24 - 4 * ((16) // 24)) + ((16) % 24), 1)
-        # (Line 151) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (4) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        # (Line 466) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (4) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((16) // 24) + (4) * (24 - 4 * ((16) // 24)) + ((16) % 24), 1)
-        # (Line 152) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (5) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
+        # (Line 467) bwrite(0x58CF44 + 0x21FC * ((16) / 24) + (5) * (24 - 4 * ((16) / 24)) + ((16) % 24), 1);
         f_bwrite(0x58CF44 + 0x21FC * ((16) // 24) + (5) * (24 - 4 * ((16) // 24)) + ((16) % 24), 1)
-        # (Line 153) }
-        # (Line 155) }
+        # (Line 468) }
+        # (Line 470) }
     EUDEndIf()
-    # (Line 156) function Carrier(){
+    # (Line 471) function Carrier(){
 
 @EUDFunc
 def Carrier():
-    # (Line 158) if(
+    # (Line 473) if(
     _t1 = EUDIf()
-    # (Line 159) Command((6), (0), 1, (72)) ||
-    # (Line 160) Command((7), (0), 1, (72))
-    # (Line 161) ){
+    # (Line 474) Command((6), (0), 1, (72)) ||
+    # (Line 475) Command((7), (0), 1, (72))
+    # (Line 476) ){
     if _t1(EUDSCOr()(Command((6), (0), 1, (72)))(Command((7), (0), 1, (72)))()):
-        # (Line 162) if(
+        # (Line 477) if(
         _t2 = EUDIf()
-        # (Line 163) Deaths((6), (10), 0, (210))
-        # (Line 164) ){
+        # (Line 478) Deaths((6), (10), 0, (210))
+        # (Line 479) ){
         if _t2(Deaths((6), (10), 0, (210))):
-            # (Line 165) foreach(ptr, epd : EUDLoopPlayerUnit(6) ) {
+            # (Line 480) foreach(ptr, epd : EUDLoopPlayerUnit(6) ) {
             for ptr, epd in EUDLoopPlayerUnit(6):
-                # (Line 166) if(
+                # (Line 481) if(
                 _t3 = EUDIf()
-                # (Line 167) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 72 &&
-                # (Line 168) MemoryEPD(epd + 0x060 / 4, AtMost, 255) &&
-                # (Line 169) MemoryEPD(epd + 0x008 / 4, AtLeast, 2560) &&
-                # (Line 170) bread_epd(epd + 0x04D / 4,  0x04D % 4) != 0
-                # (Line 171) ){
+                # (Line 482) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 72 &&
+                # (Line 483) MemoryEPD(epd + 0x060 / 4, AtMost, 255) &&
+                # (Line 484) MemoryEPD(epd + 0x008 / 4, AtLeast, 2560) &&
+                # (Line 485) bread_epd(epd + 0x04D / 4,  0x04D % 4) != 0
+                # (Line 486) ){
                 if _t3(EUDSCAnd()(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 72)(MemoryEPD(epd + 0x060 // 4, AtMost, 255))(MemoryEPD(epd + 0x008 // 4, AtLeast, 2560))(f_bread_epd(epd + 0x04D // 4, 0x04D % 4) == 0, neg=True)()):
-                    # (Line 172) TE.COrderLocEPD(epd,158,10);
+                    # (Line 487) TE.COrderLocEPD(epd,158,10);
                     TE.COrderLocEPD(epd, 158, 10)
-                    # (Line 173) }
-                    # (Line 174) }
+                    # (Line 488) }
+                    # (Line 489) }
                 EUDEndIf()
-                # (Line 175) foreach(ptr, epd : EUDLoopPlayerUnit(7) ) {
+                # (Line 490) foreach(ptr, epd : EUDLoopPlayerUnit(7) ) {
 
             for ptr, epd in EUDLoopPlayerUnit(7):
-                # (Line 176) if(
+                # (Line 491) if(
                 _t4 = EUDIf()
-                # (Line 177) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 72 &&
-                # (Line 178) MemoryEPD(epd + 0x060 / 4, AtMost, 255) &&
-                # (Line 179) MemoryEPD(epd + 0x008 / 4, AtLeast, 2560) &&
-                # (Line 180) bread_epd(epd + 0x04D / 4,  0x04D % 4) != 0
-                # (Line 181) ){
+                # (Line 492) wread_epd(epd + 0x064 / 4,  0x064 % 4) == 72 &&
+                # (Line 493) MemoryEPD(epd + 0x060 / 4, AtMost, 255) &&
+                # (Line 494) MemoryEPD(epd + 0x008 / 4, AtLeast, 2560) &&
+                # (Line 495) bread_epd(epd + 0x04D / 4,  0x04D % 4) != 0
+                # (Line 496) ){
                 if _t4(EUDSCAnd()(f_wread_epd(epd + 0x064 // 4, 0x064 % 4) == 72)(MemoryEPD(epd + 0x060 // 4, AtMost, 255))(MemoryEPD(epd + 0x008 // 4, AtLeast, 2560))(f_bread_epd(epd + 0x04D // 4, 0x04D % 4) == 0, neg=True)()):
-                    # (Line 182) TE.COrderLocEPD(epd,158,11);
+                    # (Line 497) TE.COrderLocEPD(epd,158,11);
                     TE.COrderLocEPD(epd, 158, 11)
-                    # (Line 183) }
-                    # (Line 184) }
+                    # (Line 498) }
+                    # (Line 499) }
                 EUDEndIf()
-                # (Line 185) }
+                # (Line 500) }
 
-            # (Line 186) }
+            # (Line 501) }
         EUDEndIf()
-        # (Line 188) }
+        # (Line 503) }
     EUDEndIf()

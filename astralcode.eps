@@ -1,4 +1,319 @@
 import TriggerEditor as TE;
+/*function MissileGen(Hitbox){
+                    //MissileGen
+                if(
+                    Deaths((13), (0), 1, (47)) && 
+                    Deaths((13), (1), 9, (47))
+                ){
+                    var MissileType = dwread_epd(EPD(0x58A364 + 48 * 47 + 4 * CP));
+                    TE.QskillInit(MissileType);
+                    if(
+                        MissileType != 5
+                    ){
+                        CreateUnit(1, (47), (10), (13));
+                        SetInvincibility((4), (47), (13), (10));
+                        MoveUnit(0, (47), (13), (10), (Hitbox));
+                    }
+                    else{
+                        CreateUnit(1, (98), (10), (13));
+                        SetInvincibility((4), (98), (13), (10));
+                        MoveUnit(0, (98), (13), (10), (Hitbox));
+                    }
+                }
+                //MissileGen
+}
+function MissileAim(CP,EnemyCPU){
+                    //MissileAim
+                if(
+                    TE.Qskill.cast(TE.Qskills[CP]).expire >= 1
+                ){
+                    var LockOnStatus = dwread_epd(EPD(0x58A364 + 48 * 153 + 4 * CP));
+                    switch(LockOnStatus) {
+                        case 0:
+                            //FollowPlyr
+                            MoveLocation((Target), (HeroType), (13), (Range));
+                            Qskill.cast(Qskills[CP]).expire -= 1;
+                            if(
+                                Bring((14), (0), 1, (230), (Range))
+                            ){
+                                SetDeaths((13), (7), 6, (153));
+                            }
+                            //FollowPlyr
+                        break;
+                        case 1:
+                            //CPU
+                            if(
+                                Command((13), (0), 1, (10))
+                            ){
+                                MoveLocation((Target), (230), (EnemyCPU), (Target));
+                                if(
+                                    Bring((EnemyCPU), (10), 0, (230), (Target))
+                                ){
+                                    MoveLocation((Target), (231), (EnemyCPU), (Target));
+                                    if(
+                                        Bring((EnemyCPU), (10), 0, (231), (Target))
+                                    ){
+                                    }
+                                    SetDeaths((13), (7), 6, (153));
+                                }
+                            }
+                            else{
+                                MoveLocation((Target), (230), (EnemyCPU), (Target));
+                                if(
+                                    Bring((EnemyCPU), (10), 0, (230), (Target))
+                                ){
+                                    SetDeaths((13), (7), 6, (153));
+                                }
+                            }
+                            //CPU
+                        break;
+                        case 2:
+                            //EnemyUnit
+                            MoveLocation((Target), (230), (EnemyForce), (Target));
+                            if(
+                                Bring((EnemyForce), (10), 0, (230), (Target))
+                            ){
+                                SetDeaths((13), (7), 6, (153));
+                            }
+                            //EnemyUnit
+                        break;
+                        case 3:
+                            //RaidBoss
+                            MoveLocation((Target), (Qskill.cast(Qskills[CP]).target), (14), (Target));
+                            if(
+                                Bring((14), (10), 0, (Qskill.cast(Qskills[CP]).target), (Target))
+                            ){
+                                SetDeaths((13), (7), 6, (153));
+                            }
+                            //RaidBoss
+                        break;
+                        case 4:
+                            //Hero
+                            MoveLocation((Target), (Qskill.cast(Qskills[CP]).target), (14), (Target));
+                            if(
+                                Bring((14), (10), 0, (Qskill.cast(Qskills[CP]).target), (Target))
+                            ){
+                                SetDeaths((13), (7), 6, (153));
+                            }
+                            //Hero
+                        break;
+                        case 5:
+                            //Soul
+                            MoveLocation((Target), (74), (14), (Target));
+                            if(
+                                Bring((14), (10), 0, (74), (Target))
+                            ){
+                                SetDeaths((13), (7), 6, (153));
+                            }
+                            //Soul
+                        break;
+                        case 6:
+                            //LockOn
+                            MoveLocation((Target), (HeroType), (13), (Range));
+                            //Priority 5: Soul
+                            if(
+                                Bring((14), (0), 1, (74), (Range))
+                            ){
+                                SetDeaths((13), (7), 5, (153));
+                                MoveLocation((Target), (74), (14), (Range));
+                                break;
+                            }
+                            //Priority 5: Soul
+                            //Priority 4: Hero
+                            var MinDis = 720;
+                            if(
+                                Switch((37), (3))
+                            ){
+                                for(var i = 0 ; i < 3 ; i++){
+                                    var EnemyPlayer = (i * 2) + 1 - (CP % 2);
+                                    if(
+                                        Heroes[EnemyPlayer] != 0 && 
+                                        MemoryEPD(Heroes[EnemyPlayer] + 0x00C / 4, AtLeast, 1)
+                                    ){
+                                        var Dis = FastDistanceUnit(Hero,Heroes[EnemyPlayer]);
+                                        var EnemyType;
+                                        EnemyType = wread_epd(Heroes[EnemyPlayer] + 0x064 / 4,  0x064 % 4);
+                                        if(
+                                            Bring((EnemyPlayer), (0), 1, (EnemyType), (Range)) && 
+                                            Dis < MinDis
+                                        ){
+                                            MinDis = Dis;
+                                            Qskill.cast(Qskills[CP]).target = EnemyType;
+                                            MoveLocation((Target), (EnemyType), (EnemyPlayer), (Range));
+                                            SetDeaths((13), (7), 4, (153));
+                                        }
+                                    }
+                                }
+                            }
+                            else{
+                                for(var i = 0 ; i < 6 ; i++){
+                                    if(
+                                        HeroPvE[i] != 0 && 
+                                        MemoryEPD(HeroPvE[i] + 0x00C / 4, AtLeast, 1)
+                                    ){
+                                        var Dis = FastDistanceUnit(Heroes[CP],HeroPvE[i]);
+                                        var EnemyType;
+                                        EnemyType = wread_epd(HeroPvE[i] + 0x064 / 4,  0x064 % 4);
+                                        if(
+                                            Bring((7), (0), 1, (EnemyType), (Range)) && 
+                                            Dis < MinDis
+                                        ){
+                                            SetDeaths((13), (7), 4, (153));
+                                            MinDis = Dis;
+                                            Qskill.cast(Qskills[CP]).target = EnemyType;
+                                            MoveLocation((Target), (EnemyType), (7), (Range));
+                                        }
+                                    }
+                                }
+                            }
+                            if(
+                                Deaths((13), (10), 4, (153))
+                            ){
+                                break;
+                            }
+                            //Priority 4: Hero
+                            //Priority 3: RaidBoss
+                            SetDeaths((13), (7), 3, (153));
+                            if(
+                                Switch((37), (2))
+                            ){
+                                if(
+                                    Bring((7), (0), 1, (114), (Range))
+                                ){
+                                    MoveLocation((Target), (114), (7), (Range));
+                                    break;
+                                }
+                                if(
+                                    Bring((7), (0), 1, (132), (Range))
+                                ){
+                                    MoveLocation((Target), (132), (7), (Range));
+                                    break;
+                                }
+                            }
+                            if(
+                                Bring((EnemyCPU), (0), 1, (87), (Range))
+                            ){
+                                MoveLocation((Target), (87), (EnemyCPU), (Range));
+                                break;
+                            }
+                            if(
+                                Bring((EnemyCPU), (0), 1, (76), (Range))
+                            ){
+                                MoveLocation((Target), (76), (EnemyCPU), (Range));
+                                break;
+                            }
+                            if(
+                                Bring((EnemyCPU), (0), 1, (79), (Range))
+                            ){
+                                MoveLocation((Target), (79), (EnemyCPU), (Range));
+                                break;
+                            }
+                            if(
+                                Bring((EnemyCPU), (0), 1, (19), (Range))
+                            ){
+                                MoveLocation((Target), (19), (EnemyCPU), (Range));
+                                break;
+                            }
+                            //Priority 3: RaidBoss
+                            //Priority 2: EnemyUnit
+                            if(
+                                Switch((37), (3)) && 
+                                Bring((EnemyForce), (0), 1, (230), (Range))
+                            ){
+                                MoveLocation((Target), (230), (EnemyForce), (Range));
+                                SetDeaths((13), (7), 2, (153));
+                                break;
+                            }
+                            //Priority 2: EnemyUnit
+                            //Priority 1: CPU
+                            if(
+                                Bring((14), (0), 1, (230), (Range))
+                            ){
+                                MoveLocation((Target), (230), (EnemyCPU), (Range));
+                                SetDeaths((13), (7), 1, (153));
+                            }
+                            else{
+                                if(
+                                    Command((13), (0), 1, (10))
+                                ){
+                                    if(
+                                        Bring((EnemyCPU), (0), 1, (231), (Range))
+                                    ){
+                                        MoveLocation((Target), (231), (EnemyCPU), (Range));
+                                        SetDeaths((13), (7), 1, (153));
+                                    }
+                                    else{
+                                        SetDeaths((13), (7), 0, (153));
+                                    }
+                                }
+                                else{
+                                    SetDeaths((13), (7), 0, (153));
+                                }
+                            }
+                            //Priority 1: CPU
+                            //LockOn
+                        break;
+                    }
+                    if(
+                        Qskill.cast(Qskills[CP]).type == 5 && 
+                        LockOnStatus <= 3 && 
+                        Qskill.cast(Qskills[CP]).expire >= 1
+                    ){
+                        Qskill.cast(Qskills[CP]).expire -= 1;
+                    }
+                    if(
+                        Qskill.cast(Qskills[CP]).expire >= 1
+                    ){
+                        Order((47), (13), (9), (0), (Target));
+                        Order((98), (13), (9), (0), (Target));
+                    }
+                    else{
+                        KillUnitAt(0, (47), (9), (13));
+                        KillUnitAt(0, (98), (9), (13));
+                        if(
+                            Qskill.cast(Qskills[CP]).type == 5
+                        ){
+                            SetDeaths((13), (7), 13, (47));
+                        }
+                    }
+                }
+                //MissileAim
+}
+function MissileHit(){
+                //MissileHit
+                if(
+                    Bring((13), (0), 1, (47), (9)) && 
+                    TE.Qskill.cast(TE.Qskills[CP]).expire >= 1
+                ){
+                    MoveLocation((62), (47), (13), (9));
+                    if(
+                        Bring((14), (0), 1, (230), (62)) || 
+                        Bring((14), (0), 1, (114), (62)) || 
+                        Bring((14), (0), 1, (132), (62)) || 
+                        (Command((13), (0), 1, (10)) && Bring((14), (0), 1, (231), (62))) // 파이어뱃이면서 미사일이 건물에 닿았을때
+                    ){
+                        var MissileType = TE.Qskill.cast(TE.Qskills[CP]).type;
+                        switch(MissileType) {
+                            case 1:
+                                SetDeaths((13), (7), 10, (47));
+                            break;
+                            case 2:
+                                SetDeaths((13), (7), 11, (47));
+                            break;
+                            case 3:
+                                SetDeaths((13), (7), 12, (47));
+                            break;
+                            case 4:
+                                SetDeaths((13), (7), 10, (47));
+                            break;
+                            case 6:
+                                SetDeaths((13), (7), 10, (47));
+                            break;
+                        }
+                    }
+                }
+                //MissileHit
+}*/
 function Color(){
     switch(dwread_epd(EPD(0x58A364 + 48 * 213 + 4 * 6))) {
         case 0:
