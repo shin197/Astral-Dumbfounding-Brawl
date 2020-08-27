@@ -1,0 +1,45 @@
+Type:16,False,True,False
+FastDistanceUnitஐFalse
+ElementsCount:2
+Type:17,False,False,False
+ElementsCount:2
+Type:8,False,False,False
+act:CreateVariableWithNoini
+unit1ஐ35
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariableWithNoini
+unit2ஐ35
+ElementsCount:0
+END
+END
+Type:18,False,False,False
+ElementsCount:5
+Type:8,False,False,False
+act:CreateVariable
+x1ஐwread_epd(unit1 + 0x028 / 4,  0x028 % 4)
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariable
+y1ஐwread_epd(unit1 + 0x02A / 4,  0x02A % 4)
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariable
+x2ஐwread_epd(unit2 + 0x028 / 4,  0x028 % 4)
+ElementsCount:0
+END
+Type:8,False,False,False
+act:CreateVariable
+y2ஐwread_epd(unit2 + 0x02A / 4,  0x02A % 4)
+ElementsCount:0
+END
+Type:8,False,False,False
+act:RawCode
+return FastDistance(x1,y1,x2,y2);
+ElementsCount:0
+END
+END
+END
