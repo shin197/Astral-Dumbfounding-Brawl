@@ -1,7 +1,7 @@
 S_ProjectSET
 Version : 0.17.9.7
 InputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전원본.scx
-OutputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전1.49.scx
+OutputMap : C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\아스트랄 병맛대전1.52.scx
 euddraftuse : True
 loadfromCHK : True
 UsedSetting0 : True
@@ -802,7 +802,7 @@ S_DatEditSET
 1,14,51,5
 1,14,68,65
 1,14,117,2994
-1,14,118,4
+1,14,118,5
 1,14,120,18
 1,14,121,14
 1,14,122,39
@@ -928,7 +928,7 @@ BtnData17 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,23
 BtnUse19 : True
 BtnData19 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,7,247,4363488,4341616,6,6,340,350,5,255,4358864,4338544,0,0,668,0,
 BtnUse20 : True
-BtnData20 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,6,237,4363488,4338896,0,0,334,346,7,47,4361824,4338864,70,70,583,735,8,310,4361824,4338864,72,72,376,736,9,34,4361824,4338864,71,71,636,737,
+BtnData20 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,6,237,4363488,4338896,0,0,334,346,7,47,4361824,4338864,70,70,584,735,8,310,4361824,4338864,72,72,376,736,9,34,4361824,4338864,71,71,636,737,
 BtnUse22 : True
 BtnData22 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
 BtnUse23 : True
@@ -956,9 +956,9 @@ BtnData51 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,23
 BtnUse52 : True
 BtnData52 : 
 BtnUse53 : True
-BtnData53 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4359104,4338544,0,0,668,0,6,259,4362480,4338352,11,11,372,384,6,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,38,4361824,4338864,71,71,637,737,
+BtnData53 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4359104,4338544,0,0,668,0,6,259,4362480,4338352,11,11,372,384,6,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,266,4361824,4338864,71,71,637,737,
 BtnUse54 : True
-BtnData54 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4359104,4338544,0,0,668,0,6,259,4362480,4338352,11,11,372,384,6,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,294,4361824,4338864,71,71,640,737,
+BtnData54 : 1,228,4359104,4342848,0,0,664,0,2,229,4359104,4338672,0,0,665,0,3,230,4362144,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4359104,4338544,0,0,668,0,6,259,4362480,4338352,11,11,371,384,6,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,294,4361824,4338864,71,71,640,737,
 BtnUse60 : True
 BtnData60 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
 BtnUse61 : True
@@ -966,7 +966,7 @@ BtnData61 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,23
 BtnUse63 : True
 BtnData63 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,372,4363488,4341616,29,29,1267,1273,8,371,4363488,4341616,27,27,1266,1274,9,381,4363488,4341616,31,31,1268,1273,
 BtnUse64 : True
-BtnData64 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,379,4361824,4338864,71,71,653,737,
+BtnData64 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,383,736,9,308,4361824,4338864,71,71,653,737,
 BtnUse67 : True
 BtnData67 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,5,255,4358864,4338544,0,0,668,0,4,365,4361824,4338864,86,86,651,736,6,275,4363488,4341616,19,19,400,405,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,318,4361824,4338864,71,71,656,737,
 BtnUse69 : True
@@ -978,7 +978,7 @@ BtnData74 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,23
 BtnUse76 : True
 BtnData76 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,312,4361824,4338864,71,71,645,737,
 BtnUse77 : True
-BtnData77 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,307,4361824,4338864,71,71,638,737,
+BtnData77 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,384,736,9,307,4361824,4338864,71,71,638,737,
 BtnUse78 : True
 BtnData78 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,69,4361824,4338864,71,71,641,737,
 BtnUse79 : True
@@ -994,7 +994,7 @@ BtnData99 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,23
 BtnUse100 : True
 BtnData100 : 2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,
 BtnUse102 : True
-BtnData102 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,6,247,4363488,4341616,6,6,340,350,7,350,4361824,4338864,70,70,584,735,8,383,4361824,4338864,72,72,383,736,9,281,4361824,4338864,71,71,657,737,
+BtnData102 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4358864,4338544,0,0,668,0,
 BtnUse103 : True
 BtnData103 : 1,228,4359104,4342848,0,0,664,0,2,229,4359008,4338672,0,0,665,0,3,230,4362352,4342656,11,0,666,0,4,365,4361824,4338864,86,86,651,736,5,255,4359104,4338544,0,0,668,0,5,255,4362352,4338544,11,0,649,0,6,259,4362480,4338352,11,11,372,384,6,260,4362352,4338320,11,0,373,0,7,47,4361824,4338864,70,70,582,735,8,310,4361824,4338864,72,72,376,736,9,265,4361824,4338864,71,71,643,737,
 BtnUse104 : True
@@ -1010,7 +1010,7 @@ BtnData162 : 2,229,4361936,4338672,0,0,665,0,3,230,4361936,4342464,0,0,666,0,
 BtnUse163 : True
 BtnData163 : 1,365,4361824,4338864,64,64,585,0,2,310,4361824,4338864,64,64,587,0,3,0,4361824,4338864,64,64,586,0,4,250,4361824,4338864,64,64,587,0,5,350,4361824,4338864,64,64,588,0,6,61,4361824,4338864,64,64,1293,0,9,236,4359472,4338832,0,254,693,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse164 : True
-BtnData164 : 1,306,4363344,4338448,14,14,470,538,2,292,4363344,4338448,6,6,462,544,4,43,4363344,4338448,12,12,468,528,5,384,4363344,4338448,4,4,460,531,7,277,4363344,4338448,39,39,495,0,3,282,4363344,4338448,8,8,464,1274,9,236,4360448,4338416,0,0,691,0,
+BtnData164 : 1,306,4363344,4338448,14,14,470,538,2,292,4363344,4338448,6,6,462,544,4,43,4363344,4338448,12,12,468,528,5,384,4363344,4338448,4,4,460,531,7,277,4363344,4338448,39,39,495,0,8,385,4363344,4338448,44,44,488,0,3,282,4363344,4338448,8,8,464,1274,9,236,4360448,4338416,0,0,691,0,
 BtnUse165 : True
 BtnData165 : 
 BtnUse167 : True
@@ -1269,6 +1269,12 @@ ReqData1,39,0 : 65282
 ReqData1,39,1 : 164
 ReqData1,39,2 : 65287
 ReqData1,39,3 : 167
+ReqUse1,44 : 3
+ReqPos1,44 : 350
+ReqCount1,44 : 3
+ReqData1,44,0 : 65282
+ReqData1,44,1 : 164
+ReqData1,44,2 : 65287
 ReqUse1,47 : 3
 ReqPos1,47 : 355
 ReqCount1,47 : 4
@@ -1416,8 +1422,8 @@ SCDBMapName : 0
 SCDBDataSize : 4
 E_SCDBSet
 S_FileManagerSET
-statlang : 0
-stattextdicCount : 280
+statlang : 1
+stattextdicCount : 283
 stattextdickey0 : 411
 stattextdicvalue0 : 유닛 방어력
 stattextdickey1 : 416
@@ -1451,7 +1457,7 @@ stattextdicvalue14 : 프로토스 쉴드
 stattextdickey15 : 649
 stattextdicvalue15 : e<0>관통똥침(패시브)<10> 다음에 공격한 영웅은 3초동안 움직이지 못합니다.<10> 쿨다운 12초.
 stattextdickey16 : 637
-stattextdicvalue16 : e<0>칼빵러쉬 [<3>E<2>]<10> 6초동안 적들이 느려지고 일반공격마다<10> 보호막을 회복하고 추가공격을 합니다.<10> 쿨다운 18초.
+stattextdicvalue16 : e<0>칼빵러쉬 [<3>E<2>]<10> 3초동안 적들이 느려지고 일반공격마다<10> 보호막을 회복하고 추가공격을 합니다.<10> 쿨다운 9초.
 stattextdickey17 : 638
 stattextdicvalue17 : e<1>폭파광 [<3>E<2>]<10> 5초동안 무적이 되면서 지뢰를 깝니다. <10> 쿨다운 25초.
 stattextdickey18 : 636
@@ -1579,7 +1585,7 @@ stattextdicvalue78 : t<0>스팀팩 [<3>T<2>]
 stattextdickey79 : 335
 stattextdicvalue79 : i<0>지뢰 심기[<3>I<2>]
 stattextdickey80 : 371
-stattextdicvalue80 : u<0>버로우 타기[<3>U<2>]
+stattextdicvalue80 : u<0>버로우 타기[<3>U<2>]<10>잠깐 무적이 되고 체력을 빠르게 회복합니다. 무적 쿨다운 5초.
 stattextdickey81 : 372
 stattextdicvalue81 : u<0>버로우 해제[<3>U<2>]
 stattextdickey82 : 376
@@ -1677,7 +1683,7 @@ stattextdicvalue127 : 장풍 <17>(스플래시)<2>
 stattextdickey128 : 645
 stattextdicvalue128 : e<0>한강낚시 [<3>E<2>]<10> 적 하나를 끌어옵니다. <10> 쿨다운 15초. <3>W에 막힙니다.
 stattextdickey129 : 382
-stattextdicvalue129 : w<0>충격제압방패 [<3>W<2>] <10> 적의 Q를 막고 주변의 적을 3초 기절, 8초 침묵시킵니다. 약간의 데미지를 줍니다.<10>쿨다운 15초.
+stattextdicvalue129 : w<0>충격 방패 [<3>W<2>] <10> 적의 Q를 막고 주변의 적에게 1.5초간 침묵시키고 데미지를 줍니다.<10> 쿨다운 15초.
 stattextdickey130 : 401
 stattextdicvalue130 : r<3>리콜[<3>R<2>]
 stattextdickey131 : 402
@@ -1777,7 +1783,7 @@ stattextdicvalue177 : 편성중
 stattextdickey178 : 533
 stattextdicvalue178 : a<0>프로브 버프<10><28>프로브<2>는 두 버프 전부 받습니다. (회복, 공속)
 stattextdickey179 : 1267
-stattextdicvalue179 : e<3>마엘스트롬 [<3>E<2>]<10>범위 안 생체유닛들을 기절시킵니다.<10><3>영웅은 무적이 됩니다.
+stattextdicvalue179 : e<3>마엘스트롬 [<3>E<2>]
 stattextdickey180 : 1273
 stattextdicvalue180 : 쓸 수 없다 ㅠ
 stattextdickey181 : 239
@@ -1915,7 +1921,7 @@ stattextdicvalue246 : 멧돼지엄니
 stattextdickey247 : 261
 stattextdicvalue247 : 붉은채찍
 stattextdickey248 : 494
-stattextdicvalue248 : g<2>스캔 부스터 [<3>G<2>]<10>컴샛의 마나회복속도가 증가합니다.
+stattextdicvalue248 : s<2>스캔 부스터 [<3>S<2>]<10>컴샛의 마나회복속도가 증가합니다.
 stattextdickey249 : 377
 stattextdicvalue249 : g<3>피나무라 [<3>G<2>]
 stattextdickey250 : 429
@@ -1959,7 +1965,7 @@ stattextdicvalue268 : 청포도대공포
 stattextdickey269 : 1322
 stattextdicvalue269 : <3>이딴 <15>맵 <29>만든 <8>미친<17>작자
 stattextdickey270 : 583
-stattextdicvalue270 : q<1>100단콤보 미사일 [<3>Q<2>]<10> 스커지가 날아가 공격합니다.<10> <7>영혼(다크)을 잡을 수 있습니다.<2><10> 쿨다운 5초, <3>데미지 8.3배<2>
+stattextdicvalue270 : q<1>빠른 미사일 스킬 [<3>Q<2>] <10> 스커지가 날아가 공격합니다.<10> <7>영혼(다크)을 잡을 수 있습니다.<2><10> 쿨다운 4초, <3>진동형 추가타 있음<2>
 stattextdickey271 : 815
 stattextdicvalue271 : 제공 인구수:
 stattextdickey272 : 818
@@ -1978,6 +1984,12 @@ stattextdickey278 : 336
 stattextdicvalue278 : s<3>방플하기[<3>S<2>]
 stattextdickey279 : 1298
 stattextdicvalue279 : <4>으앜 내눈!!!
+stattextdickey280 : 370
+stattextdicvalue280 : u<0>버로우 타기[<3>U<2>]<10>잠깐 무적이 되고 체력을 빠르게 회복합니다. 무적 쿨다운 3초.
+stattextdickey281 : 383
+stattextdicvalue281 : w<0>고출력 미사일 방어 [<3>W<2>] <10> 적의 Q를 막고 주변의 적을 3초간 침묵시킵니다.<10> 범위 5.5, 쿨다운 15초.
+stattextdickey282 : 487
+stattextdicvalue282 : r<2>프리즘 결계 [<3>R<1>]<13><10>영혼의 W쿨다운이 줄어듭니다.
 wireuse : True
 wireframData22 : 69
 grpwireData22 : 69
@@ -2037,7 +2049,7 @@ END
 &functions&
 Type:15,False,True,False
 ElementsCount:38
-Type:16,False,True,False
+Type:16,False,False,False
 COrderLocEPDஐFalse
 ElementsCount:2
 Type:17,False,False,False
@@ -5922,7 +5934,7 @@ END
 
 &RawTriggers&
 Type:25,False,True,False
-ElementsCount:5
+ElementsCount:6
 Type:24,False,True,False
 63
 ElementsCount:2
@@ -6097,6 +6109,27 @@ ElementsCount:1
 Type:8,False,False,False
 act:DisplayText
 "\n\x13\x17[!] \x1E스캐너 \x1F업그레이드 \x07완료 \x17[!]\n"ஐ0
+ElementsCount:0
+END
+END
+END
+Type:24,False,True,False
+63
+ElementsCount:2
+Type:26,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Upgrade
+13ஐ44ஐ0ஐ1ஐ0
+ElementsCount:0
+END
+END
+Type:27,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:DisplayText
+"\n\x13\x17[!] \x1C프리즘 \x1F업그레이드 \x07완료 \x17[!]\n"ஐ0
 ElementsCount:0
 END
 END
@@ -6283,7 +6316,7 @@ END
 END
 
 &onPluginStart&
-Type:0,False,False,False
+Type:0,False,True,False
 ElementsCount:14
 Type:8,False,False,False
 act:SetMemory
@@ -6491,6 +6524,11 @@ END
 
 &beforeTriggerExec&
 Type:0,False,False,False
+ElementsCount:1
+Type:21,False,False,False
+//AllCodeஐ//AllCodeஐFalse
+ElementsCount:1
+Type:22,False,False,False
 ElementsCount:13
 Type:8,False,False,False
 act:RawCode
@@ -7239,7 +7277,7 @@ END
 END
 END
 END
-Type:21,False,True,False
+Type:21,False,False,False
 //HeroSettingஐ//HeroSettingஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -9196,7 +9234,7 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:8
+ElementsCount:9
 Type:8,False,False,False
 act:SetDeaths
 13ஐ0ஐ0ஐ82
@@ -9234,7 +9272,7 @@ ElementsCount:0
 END
 Type:7,False,False,False
 con:Command
-13ஐ0ஐ1ஐ78
+13ஐ0ஐ1ஐ77
 ElementsCount:0
 END
 END
@@ -9250,11 +9288,51 @@ END
 Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
+Or
+ElementsCount:2
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ1ஐ74ஐ9
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Bring
+13ஐ2ஐ1ஐ61ஐ9
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Upgrade
+13ஐ44ஐ0ஐ1ஐ0
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+13ஐ2ஐ60ஐ126
+ElementsCount:0
+END
+END
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
 And
 ElementsCount:1
 Type:7,False,False,False
 con:Command
-13ஐ0ஐ1ஐ78
+13ஐ0ஐ1ஐ77
 ElementsCount:0
 END
 END
@@ -9339,7 +9417,7 @@ END
 Type:5,False,False,False
 ElementsCount:1
 Type:19,False,False,False
-DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐEnemyPlayerஐ3ஐ25600 + 2560 * Upgrade.cast(Upgrades[CP]).atk
+DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐEnemyPlayerஐ3ஐ20480 + 2048 * Upgrade.cast(Upgrades[CP]).atk
 ElementsCount:0
 END
 END
@@ -9448,7 +9526,7 @@ END
 Type:5,False,False,False
 ElementsCount:1
 Type:19,False,False,False
-DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐ7ஐ3ஐ25600 + 2560 * Upgrade.cast(Upgrades[CP]).atk
+DamageCircleUnitஐ13ஐHeroஐSilenceRangeஐ7ஐ3ஐ20480 + 2048 * Upgrade.cast(Upgrades[CP]).atk
 ElementsCount:0
 END
 END
@@ -9810,7 +9888,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -9822,7 +9900,7 @@ ElementsCount:0
 END
 Type:7,False,False,False
 con:Deaths
-13ஐ0ஐ144ஐ200
+13ஐ0ஐ72ஐ200
 ElementsCount:0
 END
 Type:7,False,False,False
@@ -9855,7 +9933,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -9867,7 +9945,7 @@ ElementsCount:0
 END
 Type:7,False,False,False
 con:Deaths
-13ஐ2ஐ216ஐ200
+13ஐ2ஐ108ஐ200
 ElementsCount:0
 END
 END
@@ -9913,7 +9991,7 @@ ElementsCount:0
 END
 Type:7,False,False,False
 con:RawCode
-FastDistanceUnit(Hero,Heroes[EnemyPlayer]) < 272
+FastDistanceUnit(Hero,Heroes[EnemyPlayer]) < 176
 ElementsCount:0
 END
 END
@@ -9926,7 +10004,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Deaths
-EnemyPlayerஐ1ஐ72ஐ208
+EnemyPlayerஐ1ஐ36ஐ208
 ElementsCount:0
 END
 END
@@ -9934,7 +10012,7 @@ Type:5,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:SetDeaths
-EnemyPlayerஐ0ஐ72ஐ208
+EnemyPlayerஐ0ஐ36ஐ208
 ElementsCount:0
 END
 END
@@ -9993,7 +10071,7 @@ ElementsCount:0
 END
 Type:7,False,False,False
 con:RawCode
-FastDistanceUnit(Hero,HeroPvE[i]) < 272
+FastDistanceUnit(Hero,HeroPvE[i]) < 176
 ElementsCount:0
 END
 END
@@ -10006,7 +10084,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Deaths
-iஐ1ஐ72ஐ208
+iஐ1ஐ36ஐ208
 ElementsCount:0
 END
 END
@@ -10014,7 +10092,7 @@ Type:5,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:SetDeaths
-iஐ0ஐ72ஐ208
+iஐ0ஐ36ஐ208
 ElementsCount:0
 END
 END
@@ -10047,7 +10125,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10071,7 +10149,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10151,7 +10229,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10197,7 +10275,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10238,7 +10316,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10296,7 +10374,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10321,7 +10399,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 Or
@@ -10369,18 +10447,26 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:1
+ElementsCount:2
 Type:8,False,False,False
 act:AddCUnitDataEPD
 Heroஐ75ஐ18
 ElementsCount:0
 END
+Type:19,False,False,False
+RemoveStatusFlagsEPDஐHeroஐ268435456
+ElementsCount:0
+END
 END
 Type:6,False,False,False
-ElementsCount:1
+ElementsCount:2
 Type:8,False,False,False
 act:AddCUnitDataEPD
 Heroஐ75ஐ-9
+ElementsCount:0
+END
+Type:19,False,False,False
+AddStatusFlagsEPDஐHeroஐ268435456
 ElementsCount:0
 END
 END
@@ -10409,7 +10495,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10444,7 +10530,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10592,7 +10678,7 @@ END
 END
 END
 END
-Type:2,False,True,False
+Type:2,False,False,False
 ElementsCount:3
 Type:3,False,False,False
 And
@@ -10630,7 +10716,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -10826,7 +10912,7 @@ END
 END
 END
 END
-Type:1,False,True,False
+Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -11078,7 +11164,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //RegenBuffஐ//RegenBuffஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -11185,7 +11271,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //ItemGetஐ//ItemGetஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -11769,7 +11855,7 @@ And
 ElementsCount:2
 Type:7,False,False,False
 con:Deaths
-13ஐ2ஐ3ஐ121
+13ஐ2ஐ6ஐ121
 ElementsCount:0
 END
 Type:7,False,False,False
@@ -11909,7 +11995,7 @@ Type:21,False,True,False
 ElementsCount:1
 Type:22,False,False,False
 ElementsCount:11
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -11934,7 +12020,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -11959,7 +12045,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -11984,7 +12070,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12009,7 +12095,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12049,7 +12135,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12074,7 +12160,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12123,7 +12209,7 @@ END
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12148,7 +12234,7 @@ ElementsCount:0
 END
 END
 END
-Type:2,False,False,False
+Type:2,False,True,False
 ElementsCount:3
 Type:3,False,False,False
 And
@@ -12254,7 +12340,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12279,7 +12365,7 @@ ElementsCount:0
 END
 END
 END
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -12321,7 +12407,7 @@ END
 END
 END
 END
-Type:21,False,True,False
+Type:21,False,False,False
 //Infoஐ//InfoஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -12421,7 +12507,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x04칼빵 찔럿\n강화 보호막 \x02(패시브): 쉴드 방어력이 3 붙습니다.\n"
+"\x04칼빵 찔럿\n전투의 함성 \x02(패시브): W의 침묵시간과 범위가 증가합니다.\n"
 ElementsCount:0
 END
 END
@@ -12448,7 +12534,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x04드라군맛 아이스크림\n고출력 펄스 \x02(패시브): W의 침묵 범위와 지속시간이 향상됩니다.\n"
+"\x04드라군맛 아이스크림\n강화 보호막 \x02(패시브): 쉴드 방어력이 3 붙습니다.\n"
 ElementsCount:0
 END
 END
@@ -12466,7 +12552,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x04스나 고스트\n고속충전기 \x02(패시브): 에너지 회복속도가 빠릅니다.\n"
+"\x04스나 고스트\n고성능 축전기 \x02(패시브): 에너지 회복 속도가 빠릅니다.\n"
 ElementsCount:0
 END
 END
@@ -12475,7 +12561,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x04똥침 럴커\n필살 똥침 \x02(패시브): 버로우한 뒤 첫번째 공격이 발악데미지를 줍니다.\n"
+"\x04똥침 럴커\n필살 똥침 \x02(패시브): 버로우한 뒤 첫번째 공격이 발악피해를 줍니다.\n"
 ElementsCount:0
 END
 END
@@ -12511,7 +12597,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x04알파 골리앗\n목표물 고정 \x02(패시브): 이 유닛은 움직이면서 공격할 수 있습니다."
+"\x04알파 골리앗\n목표물 고정 \x02(패시브): 움직이면서 공격할 수 있습니다."
 ElementsCount:0
 END
 END
@@ -12607,7 +12693,7 @@ And
 ElementsCount:1
 Type:7,False,False,False
 con:Deaths
-13ஐ2ஐ6ஐ121
+13ஐ2ஐ3ஐ121
 ElementsCount:0
 END
 END
@@ -12621,10 +12707,33 @@ END
 END
 Type:6,False,False,False
 ElementsCount:1
+Type:2,False,False,False
+ElementsCount:3
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Deaths
+13ஐ2ஐ10ஐ121
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:AddCText
+"\x0E방어스킬 \x03[W]\x02: 적의 스커지를 방어하고 주변의 적을 1.5초간 침묵시키고 80 + 공업당 8의 데미지를 준다. 쿨다운 15초.\n"
+ElementsCount:0
+END
+END
+Type:6,False,False,False
+ElementsCount:1
 Type:8,False,False,False
 act:AddCText
 "\x0E방어스킬 \x03[W]\x02: 적의 스커지를 방어하고 주변의 적을 1.5초간 침묵시킨다. 쿨다운 15초.\n"
 ElementsCount:0
+END
+END
 END
 END
 END
@@ -12694,7 +12803,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x0F칼빵러쉬 \x03[E]\x02: 주변의 적 영웅들이 느려집니다. 일반공격마다 추가공격을 하며\n보호막을 조금 회복합니다. 6초 지속.쿨다운 18초.\n"
+"\x0F칼빵러쉬 \x03[E]\x02: 주변의 적 영웅들이 느려집니다. 일반공격마다 추가공격을 하며\n보호막을 조금 회복합니다. 3초 지속.쿨다운 9초.\n"
 ElementsCount:0
 END
 END
@@ -12739,7 +12848,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x0F레이저 샷 \x03[E]\x02: 대상에게 레이저를 쏩니다. 일반형 데미지 100 + 공업당 10.\n\x1E클로킹 \x03[C]\x02: 은신상태가 됩니다. 도중에 스킬을 쓰면 해제됩니다.\n"
+"\x0F레이저 샷 \x03[E]\x02: 대상에게 레이저를 쏩니다. 일반형 데미지 100 + 공업당 10.\n\x1E클로킹 \x03[C]\x02: 은신상태가 되고 이동속도가 빨라집니다. 도중에 스킬을 쓰면 해제됩니다.\n"
 ElementsCount:0
 END
 END
@@ -12808,7 +12917,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x0F괴수돌진 \x03[E]\x02: 3초동안 이동속도가 증가하고 다음 공격시 데미지 80 + 공업당 8의 데미지와\n 애시드 스포어 5중첩을 줍니다. 쿨다운 15초.\n"
+"\x0F괴수돌진 \x03[E]\x02: 3초동안 이동속도가 증가하고 다음 공격시 80 + 공업당 8의 데미지와\n 애시드 스포어 5중첩을 줍니다. 쿨다운 15초.\n"
 ElementsCount:0
 END
 END
@@ -12817,7 +12926,7 @@ Type:29,False,False,False
 ElementsCount:1
 Type:8,False,False,False
 act:AddCText
-"\x0F초대박강화 \x03[E]\x02: 일반스킬 쿨다운이 초기화되고 다음에 쓰는 스킬이 강화됩니다. 쿨다운 15초.\n\x07100단콤보 미사일 \x03[E-Q]\x02: 기존 Q보다 데미지가 약 8.3배 증가합니다.\n\x07제압 방패 \x03[E-W]\x02: 주위 적들이 8초 침묵하고 3초동안 기절합니다.\n\x1F스톰 지지기 \x03[T]\x02: 방어력을 무시하는 지속적인 피해를 입힙니다. 데미지 112 + 공업당 8.\n"
+"\x0F초대박강화 \x03[E]\x02: 다음에 쓰는 스킬이 강화됩니다. 쿨다운 15초.\n\x07100단콤보 미사일 \x03[E-Q]\x02: Q의 데미지가 8배 증가합니다.\n\x07제압 방패 \x03[E-W]\x02: 주위 적들이 8초 침묵하고 3초동안 기절합니다.\n\x1F스톰 지지기 \x03[T]\x02: 방어력을 무시하는 지속적인 피해를 입힙니다. 데미지 112 + 공업당 8.\n"
 ElementsCount:0
 END
 END
@@ -15599,7 +15708,7 @@ Countingஐiஐ6
 ElementsCount:1
 Type:14,False,False,False
 ElementsCount:21
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 Or
@@ -16154,7 +16263,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //Blindஐ//BlindஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -16695,7 +16804,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //Eskillஐ//EskillஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -16743,15 +16852,28 @@ Type:1,False,False,False
 ElementsCount:2
 Type:3,False,False,False
 And
-ElementsCount:2
+ElementsCount:1
 Type:7,False,False,False
 con:Variable
 EskillCooldownPvE[i]ஐ0ஐ0
 ElementsCount:0
 END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+Or
+ElementsCount:2
 Type:7,False,False,False
 con:Bring
 14ஐ0ஐ1ஐ231ஐRange
+ElementsCount:0
+END
+Type:7,False,False,False
+con:Variable
+PlyrsInRangeஐ1ஐ2
 ElementsCount:0
 END
 END
@@ -16786,6 +16908,8 @@ Type:8,False,False,False
 act:SetVariable
 EskillCooldownPvE[i]ஐ240ஐ0
 ElementsCount:0
+END
+END
 END
 END
 END
@@ -16994,7 +17118,7 @@ ElementsCount:1
 Type:14,False,False,False
 ElementsCount:1
 Type:19,False,False,False
-DamageCircleUnitஐ7ஐHeroPvE[i]ஐ112ஐjஐ3ஐ5120 + Upgrade.cast(Upgrades[7]).atk * 512
+DamageCircleUnitஐ7ஐHeroPvE[i]ஐ112ஐjஐ3ஐ7680 + Upgrade.cast(Upgrades[7]).atk * 768
 ElementsCount:0
 END
 END
@@ -17534,7 +17658,7 @@ END
 Type:5,False,False,False
 ElementsCount:6
 Type:19,False,False,False
-DamageUnitEPDஐ7ஐDronePoisonTargetஐ4ஐ3840 + Upgrade.cast(Upgrades[7]).atk * 512
+DamageUnitEPDஐ7ஐDronePoisonTargetஐ4ஐ10240 + Upgrade.cast(Upgrades[7]).atk * 1024
 ElementsCount:0
 END
 Type:8,False,False,False
@@ -17887,7 +18011,7 @@ END
 Type:28,False,False,False
 BehaviourNum
 ElementsCount:20
-Type:29,False,False,False
+Type:29,False,True,False
 0ஐTrue
 ElementsCount:1
 Type:21,False,False,False
@@ -18039,7 +18163,7 @@ END
 END
 END
 END
-Type:29,False,False,False
+Type:29,False,True,False
 1ஐTrue
 ElementsCount:1
 Type:21,False,False,False
@@ -18203,7 +18327,7 @@ END
 END
 END
 END
-Type:29,False,False,False
+Type:29,False,True,False
 2ஐTrue
 ElementsCount:1
 Type:21,False,False,False
@@ -18895,7 +19019,7 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:2
+ElementsCount:3
 Type:8,False,False,False
 act:Order
 HeroTypeஐ13ஐ9ஐ2ஐ127
@@ -18931,6 +19055,26 @@ ElementsCount:0
 END
 END
 END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+17ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+iஐ0ஐ13ஐ150
+ElementsCount:0
+END
+END
+END
 END
 END
 Type:19,False,False,False
@@ -18960,7 +19104,7 @@ ElementsCount:0
 END
 END
 Type:5,False,False,False
-ElementsCount:2
+ElementsCount:3
 Type:8,False,False,False
 act:Order
 HeroTypeஐ13ஐ9ஐ2ஐ126
@@ -18992,6 +19136,26 @@ END
 Type:8,False,False,False
 act:Order
 HeroTypeஐ13ஐ9ஐ2ஐ97
+ElementsCount:0
+END
+END
+END
+Type:1,False,False,False
+ElementsCount:2
+Type:3,False,False,False
+And
+ElementsCount:1
+Type:7,False,False,False
+con:Switch
+18ஐ1
+ElementsCount:0
+END
+END
+Type:5,False,False,False
+ElementsCount:1
+Type:8,False,False,False
+act:SetDeaths
+iஐ0ஐ13ஐ150
 ElementsCount:0
 END
 END
@@ -20170,12 +20334,12 @@ END
 END
 END
 END
-Type:21,False,True,False
+Type:21,False,False,False
 //RaidBossStarcraportஐ//RaidBossStarcraportஐFalse
 ElementsCount:1
 Type:22,False,False,False
 ElementsCount:2
-Type:1,False,False,False
+Type:1,False,True,False
 ElementsCount:2
 Type:3,False,False,False
 And
@@ -20860,7 +21024,7 @@ Type:2,False,False,False
 ElementsCount:3
 Type:3,False,False,False
 And
-ElementsCount:2
+ElementsCount:3
 Type:7,False,False,False
 con:Variable
 TargetPlayerஐ5ஐ3
@@ -20869,6 +21033,11 @@ END
 Type:7,False,False,False
 con:Deaths
 TargetPlayerஐ2ஐ7ஐ92
+ElementsCount:0
+END
+Type:7,False,False,False
+con:CUnitDataEPD
+Heroes[TargetPlayer]ஐ31ஐ1ஐ0
 ElementsCount:0
 END
 END
@@ -20937,7 +21106,7 @@ END
 END
 END
 END
-Type:21,False,False,False
+Type:21,False,True,False
 //RaidBossSuperlairஐ//RaidBossSuperlairஐFalse
 ElementsCount:1
 Type:22,False,False,False
@@ -22356,6 +22525,8 @@ END
 END
 END
 END
+END
+END
 
 &afterTriggerExec&
 Type:0,False,False,False
@@ -23224,6 +23395,5 @@ dataDumper_cmdicons_f : 0
 dataDumper_stat_txt_f : 0
 dataDumper_AIscript_f : 0
 dataDumper_iscript_f : 0
-extraedssetting : [C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\astralcode.eps]
-[C:\Program Files (x86)\StarCraft\Maps\Astral_Dumbfounding_Brawl\astralraidboss.eps]
+extraedssetting : 
 E_PluginSET
